@@ -10,6 +10,9 @@ require_relative "virus_ti/dumps/multi"
 require_relative "virus_ti/dumps/arrangement"
 require_relative "virus_ti/midi/reader"
 require_relative "virus_ti/file_reader"
+require_relative "virus_ti/parameters/registry"
+require_relative "virus_ti/output/formatter"
+require_relative "virus_ti/show"
 
 module VirusTi
   module Scan

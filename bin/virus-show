@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative "../lib/virus_ti/cli"
+
+options = VirusTi::CLI.parse!(ARGV, "virus-show")
+
+begin
+  selection = VirusTi::Show.build(options.path, slot: options.slot)
+rescue ArgumentError => e
+  VirusTi::CLI.abort_with_help("virus-show", e.message)
+end
+
+groups = VirusTi::Show.parameter_groups(selection)
+format = options.output_format || :text
+content = VirusTi::Output::Formatter.render(selection, groups, format: format)
+VirusTi::CLI.emit(content, options, binary: format == :pdf)

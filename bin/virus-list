@@ -1,0 +1,63 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative "../lib/virus_ti/cli"
+
+options = VirusTi::CLI.parse!(ARGV, "virus-list")
+path = options.path
+arrangement = VirusTi::List.arrangement(path)
+
+lines = []
+
+if arrangement
+  lines << "Arrangement: #{arrangement.name || "(unnamed)"}"
+  lines << "Parts (#{arrangement.parts.size}):"
+  arrangement.parts.each do |part|
+    checksum = part.single.checksum_valid? ? "ok" : "INVALID"
+    lines << format(
+      "  %3d  %-8s  %-20s  checksum: %s",
+      part.number,
+      part.label,
+      part.name || "(unnamed)",
+      checksum
+    )
+  end
+else
+  singles = VirusTi::List.singles(path)
+  multis = VirusTi::List.multis(path)
+
+  if singles.empty? && multis.empty?
+    VirusTi::CLI.abort_with_help("virus-list", "no Single, Multi, or Arrangement dumps found in #{path}")
+  end
+
+  unless singles.empty?
+    lines << "Programs (#{singles.size}):"
+    singles.each_with_index do |single, index|
+      checksum = single.checksum_valid? ? "ok" : "INVALID"
+      lines << format(
+        "  %3d  %-12s  %-18s  %-20s  checksum: %s",
+        index + 1,
+        single.bank_label,
+        single.slot_label,
+        single.name || "(unnamed)",
+        checksum
+      )
+    end
+  end
+
+  unless multis.empty?
+    lines << "" unless lines.empty?
+    lines << "Multis (#{multis.size}):"
+    multis.each_with_index do |multi, index|
+      lines << format(
+        "  %3d  bank 0x%02X  slot 0x%02X  %-20s",
+        index + 1,
+        multi.bank_byte,
+        multi.slot_byte,
+        multi.name || "(unnamed)"
+      )
+    end
+  end
+end
+
+VirusTi::CLI.emit(lines.join("\n"), options)

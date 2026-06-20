@@ -1,0 +1,42 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative "../lib/virus_ti/cli"
+
+options = VirusTi::CLI.parse!(ARGV, "virus-scan")
+summary = VirusTi::Scan.summarize(options.path)
+
+lines = []
+lines << "File: #{summary[:path]}"
+lines << "Messages: #{summary[:message_count]}"
+lines << "Virus TI: #{summary[:virus_ti]}"
+
+if summary[:arrangement]
+  lines << "Type: Arrangement"
+  lines << "Parts: #{summary[:singles]}"
+elsif summary[:singles] > 1
+  lines << "Type: Bank"
+  lines << "Programs: #{summary[:singles]}"
+elsif summary[:singles] == 1
+  lines << "Type: Single"
+else
+  lines << "Type: Multi/other"
+end
+
+lines << "Single dumps: #{summary[:singles]}"
+lines << "Multi dumps: #{summary[:multis]}"
+
+unless summary[:commands].empty?
+  lines << ""
+  lines << "Commands:"
+  summary[:commands].sort.each do |command, count|
+    label = case command
+            when VirusTi::Sysex::CMD_SINGLE_DUMP then "Single Dump (0x10)"
+            when VirusTi::Sysex::CMD_MULTI_DUMP then "Multi Dump (0x11)"
+            else format("0x%02X", command)
+            end
+    lines << "  #{label}: #{count}"
+  end
+end
+
+VirusTi::CLI.emit(lines.join("\n"), options)

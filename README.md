@@ -19,11 +19,16 @@ documentation.
 bundle install
 bundle exec rspec
 
-# Scan a SysEx file for message types
-ruby bin/virus-syx-scan spec/fixtures/ostirus/programs/organ-stab.syx
+# Brief file summary (type, message counts)
+ruby bin/virus-scan spec/fixtures/ostirus/arrangements/arcadia-arrangement.syx
 
-# List an arrangement (multi + 16 parts)
-ruby bin/virus-syx-list spec/fixtures/ostirus/arrangements/arcadia-arrangement.syx
+# List programs or arrangement parts
+ruby bin/virus-list spec/fixtures/ostirus/banks/redconfetti.syx
+
+# Show all parameters for one program or part
+ruby bin/virus-show --slot 1 spec/fixtures/ostirus/programs/organ-stab.syx
+ruby bin/virus-show --slot 3 spec/fixtures/ostirus/arrangements/arcadia-arrangement.syx
+ruby bin/virus-show --slot 1 --output csv params.csv spec/fixtures/ostirus/programs/organ-stab.syx
 ```
 
 Or via Rake:
@@ -36,8 +41,22 @@ bundle exec rake spec
 
 | Command | Description |
 | ------- | ----------- |
-| `bin/virus-syx-scan` | Summarize SysEx/MIDI messages in a file |
-| `bin/virus-syx-list` | List Single/Multi dumps, or Arrangement parts with names |
+| `bin/virus-scan` | Brief summary: file type, message counts, SysEx commands |
+| `bin/virus-list` | List programs (bank) or parts (arrangement) with names |
+| `bin/virus-show` | Full parameter dump for one `--slot` (program or part) |
+
+All commands support `--help`.
+
+`virus-show` additionally supports:
+
+- `--output csv FILE` — write parameters as CSV
+- `--output pdf FILE` — write parameters as PDF (requires `prawn` gem)
+
+### Typical workflow
+
+1. **`virus-scan`** — identify file type (single, bank, arrangement)
+2. **`virus-list`** — see numbered programs/parts
+3. **`virus-show --slot N`** — inspect all parameters for that entry
 
 Supported file types:
 
@@ -51,6 +70,7 @@ bin/                  User-facing executables
 lib/virus_ti/         Library code
   sysex/              Generic SysEx parsing (split, headers, message types)
   dumps/              Single Dump (524 B) and Multi Dump (267 B) interpreters
+  parameters/         Single Dump parameter map (from access-virus-ti-sysex)
   midi/               MIDI file SysEx extraction
   banks.rb            Bank byte → RAM/ROM label mapping
   file_reader.rb      Route .syx vs .mid to the appropriate reader
