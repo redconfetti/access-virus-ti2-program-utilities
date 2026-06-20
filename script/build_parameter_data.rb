@@ -29,6 +29,7 @@ module BuildParameterData
     current = nil
     current_sub = nil
     in_table = false
+    index_option_table = false
 
     lines.each do |line|
       if (match = line.match(/^## (.+)\s*$/))
@@ -40,6 +41,7 @@ module BuildParameterData
           "subsections" => {}
         }
         in_table = false
+        index_option_table = false
         next
       end
 
@@ -47,6 +49,7 @@ module BuildParameterData
         current_sub = slugify(match[1])
         sections[current]["subsections"][current_sub] = { "values" => {} }
         in_table = false
+        index_option_table = false
         next
       end
 
@@ -59,8 +62,9 @@ module BuildParameterData
           sections[current]
         end
 
-      if line.strip.start_with?("|") && line.include?("`<value>`")
+      if line.strip.start_with?("|") && (line.include?("`<value>`") || line.match?(/\|\s*Index\s*\|\s*Option/i))
         in_table = true
+        index_option_table = line.match?(/\|\s*Index\s*\|\s*Option/i)
         next
       end
 
@@ -72,6 +76,9 @@ module BuildParameterData
 
       if cells[0].match?(/^Index$/i)
         next
+      elsif index_option_table && cells[0].match?(/^\d+$/)
+        wire = format("%02X", cells[0].to_i)
+        target["values"][wire] = cells[1].delete("*").strip
       elsif cells[0].match?(/^`([0-9A-Fa-f]{2})`$/)
         value = cells[0].delete("`").upcase
         label = cells[1].delete("*").strip
@@ -127,6 +134,8 @@ module BuildParameterData
       return VirusTi::Parameters::EncodingRefs.for_ref("filter-1-mode")
     when "Filter 2 Mode"
       return VirusTi::Parameters::EncodingRefs.for_ref("filter-2-mode")
+    when "Oscillator 1 Wavetable / Waveform", "Oscillator 2 Wavetable / Waveform"
+      return VirusTi::Parameters::EncodingRefs.for_ref("wavetable-names")
     end
 
     if control.match?(/^Mod Matrix Slot \d+ Destination/)

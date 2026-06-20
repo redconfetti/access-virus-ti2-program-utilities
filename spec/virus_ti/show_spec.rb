@@ -74,6 +74,12 @@ RSpec.describe VirusTi::Output::Formatter do
       expect(text).to match(/Filter 2 Mode\s+Low Pass/)
     end
 
+    it "renders wavetable names for oscillator waveform parameters" do
+      text = described_class.render(selection, groups, format: :text)
+
+      expect(text).to match(/Oscillator 1 Wavetable \/ Waveform\s+Sundial 3/)
+    end
+
     it "renders csv output" do
       csv = described_class.render(selection, groups, format: :csv)
 

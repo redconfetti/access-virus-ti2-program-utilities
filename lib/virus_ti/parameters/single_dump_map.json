@@ -136,7 +136,8 @@
     "offset": 27,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -181,7 +182,8 @@
     "offset": 27,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -217,7 +219,8 @@
     "offset": 27,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -271,7 +274,8 @@
     "offset": 27,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -307,7 +311,8 @@
     "offset": 27,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -460,7 +465,8 @@
     "offset": 32,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -487,7 +493,8 @@
     "offset": 32,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -532,7 +539,8 @@
     "offset": 32,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -568,7 +576,8 @@
     "offset": 32,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -622,7 +631,8 @@
     "offset": 32,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {
@@ -658,7 +668,8 @@
     "offset": 32,
     "category": "Osc/Mixer",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "ref": "wavetable-names"
     }
   },
   {

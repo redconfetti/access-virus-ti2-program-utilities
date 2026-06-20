@@ -33,6 +33,15 @@ RSpec.describe VirusTi::Parameters::ValueDecoder do
       expect(described_class.decode(0x01, encoding)).to eq("Triangle")
     end
 
+    it "decodes wavetable names from parameter options" do
+      encoding = { "type" => "enum", "ref" => "wavetable-names" }
+
+      expect(described_class.decode(0x00, encoding)).to eq("Sine")
+      expect(described_class.decode(0x42, encoding)).to eq("Sundial 3")
+      expect(described_class.decode(0x63, encoding)).to eq("Domina7rix")
+      expect(described_class.decode(0x74, encoding)).to eq("Unknown (74)")
+    end
+
     it "decodes option references" do
       encoding = { "type" => "enum", "ref" => "arpeggiator-mode" }
 
