@@ -1297,8 +1297,7 @@
     "offset": 203,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "lfo-rate"
+      "type": "direct"
     }
   },
   {
@@ -1317,8 +1316,7 @@
     "offset": 208,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "key-follow-0x48"
+      "type": "key_follow"
     }
   },
   {
@@ -1327,8 +1325,7 @@
     "offset": 209,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "trigger-phase"
+      "type": "trigger_phase"
     }
   },
   {
@@ -1337,8 +1334,7 @@
     "offset": 204,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "lfo-shape"
+      "type": "lfo_shape"
     }
   },
   {
@@ -1347,8 +1343,7 @@
     "offset": 207,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "contour"
+      "type": "bipolar"
     }
   },
   {
@@ -1357,8 +1352,18 @@
     "offset": 206,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "mode-0x46"
+      "type": "shared_dump",
+      "primary": {
+        "type": "enum",
+        "ref": "lfo-settings",
+        "subsection": "mode-0x46-lfo-3-0x09"
+      },
+      "fallback": {
+        "type": "enum",
+        "ref": "lfo-1-destination",
+        "subsection": "assign-target"
+      },
+      "fallback_label": "Mod Matrix destination"
     }
   },
   {
@@ -1368,7 +1373,8 @@
     "category": "Modulators",
     "encoding": {
       "type": "enum",
-      "ref": "envelope-mode"
+      "ref": "lfo-settings",
+      "subsection": "envelope-mode"
     }
   },
   {
@@ -1444,8 +1450,7 @@
     "offset": 87,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "lfo-rate"
+      "type": "direct"
     }
   },
   {
@@ -1464,8 +1469,7 @@
     "offset": 92,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "key-follow-0x48"
+      "type": "key_follow"
     }
   },
   {
@@ -1474,8 +1478,7 @@
     "offset": 93,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "trigger-phase"
+      "type": "trigger_phase"
     }
   },
   {
@@ -1484,8 +1487,7 @@
     "offset": 88,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "lfo-shape"
+      "type": "lfo_shape"
     }
   },
   {
@@ -1494,8 +1496,7 @@
     "offset": 91,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "contour"
+      "type": "bipolar"
     }
   },
   {
@@ -1504,8 +1505,18 @@
     "offset": 90,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "mode-0x46"
+      "type": "shared_dump",
+      "primary": {
+        "type": "enum",
+        "ref": "lfo-settings",
+        "subsection": "mode-0x46-lfo-3-0x09"
+      },
+      "fallback": {
+        "type": "enum",
+        "ref": "lfo-1-destination",
+        "subsection": "assign-target"
+      },
+      "fallback_label": "Mod Matrix destination"
     }
   },
   {
@@ -1515,7 +1526,8 @@
     "category": "Modulators",
     "encoding": {
       "type": "enum",
-      "ref": "envelope-mode"
+      "ref": "lfo-settings",
+      "subsection": "envelope-mode"
     }
   },
   {
@@ -1591,8 +1603,7 @@
     "offset": 143,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "lfo-rate"
+      "type": "direct"
     }
   },
   {
@@ -1611,8 +1622,7 @@
     "offset": 146,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "key-follow-0x48"
+      "type": "key_follow"
     }
   },
   {
@@ -1621,8 +1631,7 @@
     "offset": 144,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "lfo-shape"
+      "type": "lfo_shape"
     }
   },
   {
@@ -1631,8 +1640,18 @@
     "offset": 145,
     "category": "Modulators",
     "encoding": {
-      "type": "enum",
-      "ref": "mode-0x46"
+      "type": "shared_dump",
+      "primary": {
+        "type": "enum",
+        "ref": "lfo-settings",
+        "subsection": "mode-0x46-lfo-3-0x09"
+      },
+      "fallback": {
+        "type": "enum",
+        "ref": "lfo-1-destination",
+        "subsection": "assign-target"
+      },
+      "fallback_label": "Mod Matrix destination"
     }
   },
   {
@@ -1673,7 +1692,7 @@
     "offset": 200,
     "category": "Matrix",
     "encoding": {
-      "type": "enum",
+      "type": "mod_matrix_source",
       "ref": "mod-matrix-sources"
     }
   },
@@ -1743,8 +1762,14 @@
     "offset": 203,
     "category": "Matrix",
     "encoding": {
-      "type": "enum",
-      "ref": "mod-matrix-sources"
+      "type": "mod_matrix_source",
+      "ref": "mod-matrix-sources",
+      "overlap": {
+        "label": "LFO 1 Rate",
+        "encoding": {
+          "type": "direct"
+        }
+      }
     }
   },
   {
@@ -1813,8 +1838,14 @@
     "offset": 208,
     "category": "Matrix",
     "encoding": {
-      "type": "enum",
-      "ref": "mod-matrix-sources"
+      "type": "mod_matrix_source",
+      "ref": "mod-matrix-sources",
+      "overlap": {
+        "label": "LFO 1 Keyfollow",
+        "encoding": {
+          "type": "key_follow"
+        }
+      }
     }
   },
   {
@@ -1883,7 +1914,7 @@
     "offset": 239,
     "category": "Matrix",
     "encoding": {
-      "type": "enum",
+      "type": "mod_matrix_source",
       "ref": "mod-matrix-sources"
     }
   },
@@ -1953,7 +1984,7 @@
     "offset": 242,
     "category": "Matrix",
     "encoding": {
-      "type": "enum",
+      "type": "mod_matrix_source",
       "ref": "mod-matrix-sources"
     }
   },
@@ -2023,7 +2054,7 @@
     "offset": 245,
     "category": "Matrix",
     "encoding": {
-      "type": "enum",
+      "type": "mod_matrix_source",
       "ref": "mod-matrix-sources"
     }
   },
@@ -2123,8 +2154,11 @@
     "offset": 153,
     "category": "Arpeggiator",
     "encoding": {
-      "type": "enum",
-      "ref": "arpeggiator-resolution"
+      "type": "sparse_enum",
+      "ref": "arpeggiator-resolution",
+      "fallback": {
+        "type": "direct"
+      }
     }
   },
   {
@@ -2133,8 +2167,7 @@
     "offset": 141,
     "category": "Arpeggiator",
     "encoding": {
-      "type": "enum",
-      "ref": "arpeggiator-note-length-lcd"
+      "type": "percent_bipolar"
     }
   },
   {
@@ -2143,8 +2176,7 @@
     "offset": 142,
     "category": "Arpeggiator",
     "encoding": {
-      "type": "enum",
-      "ref": "arpeggiator-swing-factor-lcd"
+      "type": "percent_bipolar"
     }
   },
   {
@@ -2381,8 +2413,7 @@
     "offset": 117,
     "category": "Effects",
     "encoding": {
-      "type": "enum",
-      "ref": "chorus-rotary-lowhigh-balance-lcd"
+      "type": "percent_bipolar"
     }
   },
   {
@@ -2391,7 +2422,7 @@
     "offset": 116,
     "category": "Effects",
     "encoding": {
-      "type": "enum",
+      "type": "lcd_anchors",
       "ref": "chorus-rotary-mic-angle-lcd"
     }
   },
@@ -2401,7 +2432,7 @@
     "offset": 115,
     "category": "Effects",
     "encoding": {
-      "type": "enum",
+      "type": "lcd_anchors",
       "ref": "chorus-rotary-distance-lcd"
     }
   },
@@ -2476,8 +2507,7 @@
     "offset": 221,
     "category": "Effects",
     "encoding": {
-      "type": "enum",
-      "ref": "phaser-mix-lcd"
+      "type": "level_off"
     }
   },
   {
@@ -2605,8 +2635,7 @@
     "offset": 290,
     "category": "Effects",
     "encoding": {
-      "type": "enum",
-      "ref": "filter-bank-resonance-lcd"
+      "type": "percent_bipolar"
     }
   },
   {
@@ -2624,8 +2653,7 @@
     "offset": 286,
     "category": "Effects",
     "encoding": {
-      "type": "enum",
-      "ref": "filter-bank-comb-frequency"
+      "type": "comb_frequency"
     }
   },
   {
@@ -2634,8 +2662,7 @@
     "offset": 290,
     "category": "Effects",
     "encoding": {
-      "type": "enum",
-      "ref": "filter-bank-resonance-lcd"
+      "type": "percent_bipolar"
     }
   },
   {
@@ -3397,7 +3424,7 @@
     "offset": 164,
     "category": "Single",
     "encoding": {
-      "type": "enum",
+      "type": "strict_enum",
       "ref": "bender-scale"
     }
   },

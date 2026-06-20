@@ -1109,11 +1109,23 @@
       "7F": "127"
     },
     "subsections": {},
-    "encoding": "enum"
+    "encoding": "direct"
   },
   "lfo-shape": {
     "title": "LFO Shape",
-    "values": {},
+    "values": {
+      "00": "Sine",
+      "01": "Triangle",
+      "02": "Sawtooth",
+      "03": "Square",
+      "04": "S&H",
+      "05": "S&G",
+      "06": "Wave 3",
+      "0E": "Wave 11",
+      "16": "Wave 19",
+      "23": "Wave 32",
+      "43": "Wave 64"
+    },
     "subsections": {
       "basic-shapes-0005": {
         "values": {
@@ -1134,7 +1146,8 @@
           "43": "Wave 64"
         }
       }
-    }
+    },
+    "encoding": "enum"
   },
   "lfo-settings": {
     "title": "LFO settings",
@@ -1161,6 +1174,13 @@
         }
       },
       "key-follow-0x48-lfo-3-0x0a": {
+        "values": {
+          "00": "Off",
+          "01": "0.8 %",
+          "7F": "100.0 %"
+        }
+      },
+      "key-follow-0x48": {
         "values": {
           "00": "Off",
           "01": "0.8 %",
@@ -1867,6 +1887,7 @@
   "chorus-type": {
     "title": "Chorus Type",
     "values": {
+      "00": "Off",
       "01": "Classic",
       "02": "Vintage",
       "03": "Hyper Chorus",
@@ -1921,7 +1942,7 @@
       "7F": "30.0 cm"
     },
     "subsections": {},
-    "encoding": "enum"
+    "encoding": "lcd_anchors"
   },
   "chorus-rotary-mic-angle-lcd": {
     "title": "Chorus Rotary Mic Angle (LCD)",
@@ -1931,7 +1952,7 @@
       "7F": "+180°"
     },
     "subsections": {},
-    "encoding": "enum"
+    "encoding": "lcd_anchors"
   },
   "chorus-rotary-lowhigh-balance-lcd": {
     "title": "Chorus Rotary Low/High Balance (LCD)",
@@ -1980,7 +2001,7 @@
       "7F": "127"
     },
     "subsections": {},
-    "encoding": "enum"
+    "encoding": "level_off"
   },
   "phaser-stages": {
     "title": "Phaser Stages",

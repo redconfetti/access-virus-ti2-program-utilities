@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "json"
+require_relative "encoding_refs"
 require_relative "value_decoder"
 
 module VirusTi

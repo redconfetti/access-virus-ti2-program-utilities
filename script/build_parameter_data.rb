@@ -4,6 +4,8 @@
 require "json"
 require "fileutils"
 
+require_relative "../lib/virus_ti/parameters/encoding_refs"
+
 ROOT = File.expand_path("..", __dir__)
 PARAM_DIR = File.join(ROOT, "lib/virus_ti/parameters")
 OPTIONS_MD = File.join(PARAM_DIR, "parameter-options.md")
@@ -123,13 +125,13 @@ module BuildParameterData
       return { "type" => "bipolar" }
     end
 
-    if control.match?(/^Mod Matrix Slot \d+ Source/)
-      return { "type" => "enum", "ref" => "mod-matrix-sources" }
+    if (match = control.match(/^Mod Matrix Slot (\d+) Source/))
+      return mod_matrix_source_encoding(match[1].to_i)
     end
 
     if (ref = live[/parameter-options\.md#([^\)]+)/, 1])
-      slug = slugify(ref.tr("-", " "))
-      slug = ref if slug.empty?
+      mapped = VirusTi::Parameters::EncodingRefs.for_ref(ref)
+      return mapped.dup if mapped
 
       if control.match?(/Assign Target|User Destination/i)
         return assign_target_encoding
@@ -140,7 +142,8 @@ module BuildParameterData
       end
 
       if control.match?(/Mod Matrix|Matrix Slot/i) && control.match?(/Source/i)
-        return { "type" => "enum", "ref" => "mod-matrix-sources" }
+        slot = control[/Slot (\d+)/, 1]&.to_i
+        return mod_matrix_source_encoding(slot) if slot
       end
 
       if control.match?(/Mod Matrix|Matrix Slot/i) && control.match?(/Amount/i)
@@ -152,7 +155,7 @@ module BuildParameterData
       end
 
       if ref == "wavetable-names" || live.match?(/#wavetable-names/)
-        return { "type" => "enum", "ref" => "wavetable-names" }
+        return VirusTi::Parameters::EncodingRefs.for_ref("wavetable-names")
       end
 
       return { "type" => "enum", "ref" => ref }
@@ -213,6 +216,24 @@ module BuildParameterData
     { "type" => "direct" }
   end
 
+  def mod_matrix_source_encoding(slot)
+    encoding = {
+      "type" => "mod_matrix_source",
+      "ref" => "mod-matrix-sources"
+    }
+
+    overlap =
+      case slot
+      when 2
+        { "label" => "LFO 1 Rate", "encoding" => { "type" => "direct" } }
+      when 3
+        { "label" => "LFO 1 Keyfollow", "encoding" => { "type" => "key_follow" } }
+      end
+
+    encoding["overlap"] = overlap if overlap
+    encoding
+  end
+
   def assign_target_encoding
     {
       "type" => "enum",
@@ -223,17 +244,44 @@ module BuildParameterData
 
   def finalize_options!(sections)
     assign_target = sections.dig("lfo-1-destination", "subsections", "assign-target", "values")
-    return unless assign_target&.any?
-
-    if (destinations = sections["mod-matrix-destinations"])
-      destinations["values"] = assign_target.dup
-      destinations["encoding"] = "wire_enum"
-      destinations["wire_map_ref"] = "lfo-1-destination/assign-target"
+    if assign_target&.any?
+      if (destinations = sections["mod-matrix-destinations"])
+        destinations["values"] = assign_target.dup
+        destinations["encoding"] = "wire_enum"
+        destinations["wire_map_ref"] = "lfo-1-destination/assign-target"
+      end
     end
 
     if (amount = sections["mod-matrix-amount"])
       amount["encoding"] = "bipolar"
     end
+
+    if (chorus = sections["chorus-type"])
+      chorus["values"] = { "00" => "Off" }.merge(chorus["values"]) unless chorus["values"]["00"]
+    end
+
+    if (shape = sections["lfo-shape"])
+      merged = {}
+      shape["subsections"].each_value { |sub| merged.merge!(sub["values"]) }
+      shape["values"] = merged if merged.any?
+      shape["encoding"] = "enum"
+    end
+
+    if (rate = sections["lfo-rate"])
+      rate["encoding"] = "direct"
+    end
+
+    if (settings = sections["lfo-settings"])
+      if (key_follow = settings["subsections"]["key-follow-0x48-lfo-3-0x0a"])
+        settings["subsections"]["key-follow-0x48"] = key_follow.dup
+      end
+    end
+
+    %w[chorus-rotary-mic-angle-lcd chorus-rotary-distance-lcd].each do |key|
+      sections[key]["encoding"] = "lcd_anchors" if sections[key]
+    end
+
+    sections["phaser-mix-lcd"]["encoding"] = "level_off" if sections["phaser-mix-lcd"]
   end
 
   def parse_single_map(path)

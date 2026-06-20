@@ -114,13 +114,6 @@ end
 Use WSL and follow the Linux instructions above. Files on the Windows side are
 available under `/mnt/c/Users/...`.
 
-## Status
-
-This project is early boilerplate. Behavior and output formats will evolve as
-specifications are refined. See
-[access-virus-ti-sysex](https://github.com/redconfetti/access-virus-ti-sysex/)
-for the underlying SysEx documentation.
-
 ## License
 
 MIT License
