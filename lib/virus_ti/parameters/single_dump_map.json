@@ -2242,7 +2242,7 @@
     "offset": 117,
     "category": "Effects",
     "encoding": {
-      "type": "direct"
+      "type": "percent_bipolar_64"
     }
   },
   {
@@ -2413,7 +2413,7 @@
     "offset": 117,
     "category": "Effects",
     "encoding": {
-      "type": "percent_bipolar"
+      "type": "percent_bipolar_64"
     }
   },
   {
@@ -2534,7 +2534,7 @@
     "offset": 225,
     "category": "Effects",
     "encoding": {
-      "type": "direct"
+      "type": "percent_bipolar_64"
     }
   },
   {

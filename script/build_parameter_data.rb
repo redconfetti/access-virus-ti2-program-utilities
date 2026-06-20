@@ -129,6 +129,11 @@ module BuildParameterData
       return mod_matrix_source_encoding(match[1].to_i)
     end
 
+    if (ref = live[/effects\.md#([^\)\s]+)/, 1])
+      mapped = VirusTi::Parameters::EncodingRefs.for_effects_ref(ref)
+      return mapped.dup if mapped
+    end
+
     if (ref = live[/parameter-options\.md#([^\)]+)/, 1])
       mapped = VirusTi::Parameters::EncodingRefs.for_ref(ref)
       return mapped.dup if mapped

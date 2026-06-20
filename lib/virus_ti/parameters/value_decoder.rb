@@ -53,6 +53,7 @@ module VirusTi
         when "bipolar_narrow" then format_signed(stored - 64)
         when "key_follow" then key_follow(stored)
         when "percent_bipolar" then format_percent((stored - 64) * 100.0 / 64.0)
+        when "percent_bipolar_64" then percent_bipolar_64(stored)
         when "classic_pulse_width" then format_percent(50.0 + (stored * 50.0 / 127.0))
         when "hypersaw_density" then format("%.1f", 1.0 + (stored * 8.0 / 127.0))
         when "enum" then enum_lookup(stored, encoding)
@@ -103,6 +104,15 @@ module VirusTi
 
       def format_percent(value)
         format("%+.1f%%", value)
+      end
+
+      def percent_bipolar_64(stored)
+        case stored
+        when 0x00 then "-100.0%"
+        when 0x40 then "+0.0%"
+        when 0x7F then "+100.0%"
+        else format_percent((stored - 64) * 100.0 / 64.0)
+        end
       end
 
       def decode_lcd_anchors(stored, encoding)

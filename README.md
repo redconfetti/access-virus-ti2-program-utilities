@@ -29,6 +29,7 @@ ruby bin/virus-list spec/fixtures/virus-ti2/banks/full-bank.syx
 ruby bin/virus-show --slot 1 spec/fixtures/virus-ti2/programs/DulcimerJM.syx
 ruby bin/virus-show --slot 3 spec/fixtures/virus-ti2/arrangements/multi-arrangement.syx
 ruby bin/virus-show --slot 1 --output csv params.csv spec/fixtures/virus-ti2/programs/DulcimerJM.syx
+ruby bin/virus-show --slot 1 --output pdf params.pdf spec/fixtures/virus-ti2/programs/DulcimerJM.syx
 ```
 
 Or via Rake:

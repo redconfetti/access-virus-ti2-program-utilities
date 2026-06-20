@@ -148,6 +148,14 @@ RSpec.describe VirusTi::Parameters::ValueDecoder do
       expect(described_class.decode(0x3E, encoding)).to eq("Invalid (3E)")
     end
 
+    it "decodes chorus feedback as bipolar percent" do
+      encoding = { "type" => "percent_bipolar_64" }
+
+      expect(described_class.decode(0x00, encoding)).to eq("-100.0%")
+      expect(described_class.decode(0x40, encoding)).to eq("+0.0%")
+      expect(described_class.decode(0x7F, encoding)).to eq("+100.0%")
+    end
+
     it "labels invalid mod matrix source wire bytes" do
       encoding = { "type" => "mod_matrix_source", "ref" => "mod-matrix-sources" }
 

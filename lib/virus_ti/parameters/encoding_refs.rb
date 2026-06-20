@@ -54,10 +54,21 @@ module VirusTi
         "wavetable-names" => { "type" => "enum", "ref" => "wavetable-names" }
       }.freeze
 
+      # Live-edit anchors from effects.md (not parameter-options.md).
+      EFFECTS_REFS = {
+        "chorus-feedback" => { "type" => "percent_bipolar_64" },
+        "phaser-feedback" => { "type" => "percent_bipolar_64" },
+        "chorus-lowhigh-balance--rotary-speaker" => { "type" => "percent_bipolar_64" }
+      }.freeze
+
       module_function
 
       def for_ref(ref)
         REFS[ref]
+      end
+
+      def for_effects_ref(ref)
+        EFFECTS_REFS[ref]
       end
     end
   end
