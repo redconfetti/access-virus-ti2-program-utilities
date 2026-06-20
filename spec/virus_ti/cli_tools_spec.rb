@@ -43,7 +43,7 @@ RSpec.describe "CLI tools" do
     status = system("ruby", "bin/virus-show", "--slot", "1", "--output", "csv", csv_path, path)
 
     expect(status).to be(true)
-    expect(File.read(csv_path)).to include("category,panel,parameter")
+    expect(File.read(csv_path)).to include("category,panel,parameter,value")
   ensure
     File.delete(csv_path) if csv_path && File.exist?(csv_path)
   end

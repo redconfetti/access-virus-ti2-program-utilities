@@ -3,2274 +3,3488 @@
     "name": "Sub Oscillator Waveform Shape",
     "panel": "Sub-Osc",
     "offset": 43,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "enum",
+      "values": {
+        "00": "Square",
+        "01": "Triangle"
+      }
+    }
   },
   {
     "name": "Oscillator 1 Model / Mode",
     "panel": "Oscillator 1",
     "offset": 295,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Detune in Semitone",
     "panel": "Oscillator 1",
     "offset": 28,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar_narrow"
+    }
   },
   {
     "name": "Oscillator 1 Keyfollow",
     "panel": "Oscillator 1",
     "offset": 29,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "key_follow"
+    }
   },
   {
     "name": "Velocity --> Osc1 Waveform Shape",
     "panel": "Oscillator 1",
     "offset": 183,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Oscillator 1 Waveform Shape",
     "panel": "Oscillator 1 Classic",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wave Select",
     "panel": "Oscillator 1 Classic",
     "offset": 27,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Pulsewidth",
     "panel": "Oscillator 1 Classic",
     "offset": 26,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "classic_pulse_width"
+    }
   },
   {
     "name": "Oscillator 1 Density",
     "panel": "Oscillator 1 Hypersaw",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "hypersaw_density"
+    }
   },
   {
     "name": "Oscillator 1 Local Detune",
     "panel": "Oscillator 1 Hypersaw",
     "offset": 26,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1+2 X-Sync Frequency",
     "panel": "Oscillator 1 Hypersaw",
     "offset": 35,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable / Waveform",
     "panel": "Oscillator 1 Wavetable",
     "offset": 27,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "enum",
+      "ref": "wavetable-names"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable Index",
     "panel": "Oscillator 1 Wavetable",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Interpolation",
     "panel": "Oscillator 1 Wavetable",
     "offset": 309,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable / Waveform",
     "panel": "Oscillator 1 Wavetable PWM",
     "offset": 27,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable Index",
     "panel": "Oscillator 1 Wavetable PWM",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Pulsewidth",
     "panel": "Oscillator 1 Wavetable PWM",
     "offset": 26,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Local Detune",
     "panel": "Oscillator 1 Wavetable PWM",
     "offset": 308,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Interpolation",
     "panel": "Oscillator 1 Wavetable PWM",
     "offset": 309,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable / Waveform",
     "panel": "Oscillator 1 Grain Simple",
     "offset": 27,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable Index",
     "panel": "Oscillator 1 Grain Simple",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Formant Shift",
     "panel": "Oscillator 1 Grain Simple",
     "offset": 307,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 1 Interpolation",
     "panel": "Oscillator 1 Grain Simple",
     "offset": 309,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable / Waveform",
     "panel": "Oscillator 1 Grain Complex",
     "offset": 27,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable Index",
     "panel": "Oscillator 1 Grain Complex",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Formant Shift",
     "panel": "Oscillator 1 Grain Complex",
     "offset": 307,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 1 Formant Spread",
     "panel": "Oscillator 1 Grain Complex",
     "offset": 302,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Local Detune",
     "panel": "Oscillator 1 Grain Complex",
     "offset": 308,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Interpolation",
     "panel": "Oscillator 1 Grain Complex",
     "offset": 309,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable / Waveform",
     "panel": "Oscillator 1 Formant Simple",
     "offset": 27,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable Index",
     "panel": "Oscillator 1 Formant Simple",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Formant Shift",
     "panel": "Oscillator 1 Formant Simple",
     "offset": 307,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 1 Interpolation",
     "panel": "Oscillator 1 Formant Simple",
     "offset": 309,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable / Waveform",
     "panel": "Oscillator 1 Formant Complex",
     "offset": 27,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Wavetable Index",
     "panel": "Oscillator 1 Formant Complex",
     "offset": 25,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Formant Shift",
     "panel": "Oscillator 1 Formant Complex",
     "offset": 307,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 1 Formant Spread",
     "panel": "Oscillator 1 Formant Complex",
     "offset": 302,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Local Detune",
     "panel": "Oscillator 1 Formant Complex",
     "offset": 308,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1 Interpolation",
     "panel": "Oscillator 1 Formant Complex",
     "offset": 309,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Model / Mode",
     "panel": "Oscillator 2",
     "offset": 300,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "enum_index"
+    }
   },
   {
     "name": "Oscillator 2 Detune in Semitone",
     "panel": "Oscillator 2",
     "offset": 33,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar_narrow"
+    }
   },
   {
     "name": "Oscillator 2 Fine Detune",
     "panel": "Oscillator 2",
     "offset": 34,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Keyfollow",
     "panel": "Oscillator 2",
     "offset": 39,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "key_follow"
+    }
   },
   {
     "name": "Velocity --> Osc2 Waveform Shape",
     "panel": "Oscillator 2",
     "offset": 184,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Oscillator 2 Waveform Shape",
     "panel": "Oscillator 2 Classic",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wave Select",
     "panel": "Oscillator 2 Classic",
     "offset": 32,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Pulsewidth",
     "panel": "Oscillator 2 Classic",
     "offset": 31,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "classic_pulse_width"
+    }
   },
   {
     "name": "Oscillator 2 Density",
     "panel": "Oscillator 2 Hypersaw",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "hypersaw_density"
+    }
   },
   {
     "name": "Oscillator 2 Local Detune",
     "panel": "Oscillator 2 Hypersaw",
     "offset": 31,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1+2 X-Sync Frequency",
     "panel": "Oscillator 2 Hypersaw",
     "offset": 35,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable / Waveform",
     "panel": "Oscillator 2 Wavetable",
     "offset": 32,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable Index",
     "panel": "Oscillator 2 Wavetable",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Interpolation",
     "panel": "Oscillator 2 Wavetable",
     "offset": 329,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable / Waveform",
     "panel": "Oscillator 2 Wavetable PWM",
     "offset": 32,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable Index",
     "panel": "Oscillator 2 Wavetable PWM",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Pulsewidth",
     "panel": "Oscillator 2 Wavetable PWM",
     "offset": 31,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Local Detune",
     "panel": "Oscillator 2 Wavetable PWM",
     "offset": 328,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Interpolation",
     "panel": "Oscillator 2 Wavetable PWM",
     "offset": 329,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable / Waveform",
     "panel": "Oscillator 2 Grain Simple",
     "offset": 32,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable Index",
     "panel": "Oscillator 2 Grain Simple",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Formant Shift",
     "panel": "Oscillator 2 Grain Simple",
     "offset": 327,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 2 Interpolation",
     "panel": "Oscillator 2 Grain Simple",
     "offset": 329,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable / Waveform",
     "panel": "Oscillator 2 Grain Complex",
     "offset": 32,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable Index",
     "panel": "Oscillator 2 Grain Complex",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Formant Shift",
     "panel": "Oscillator 2 Grain Complex",
     "offset": 327,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 2 Formant Spread",
     "panel": "Oscillator 2 Grain Complex",
     "offset": 322,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Local Detune",
     "panel": "Oscillator 2 Grain Complex",
     "offset": 328,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Interpolation",
     "panel": "Oscillator 2 Grain Complex",
     "offset": 329,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable / Waveform",
     "panel": "Oscillator 2 Formant Simple",
     "offset": 32,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable Index",
     "panel": "Oscillator 2 Formant Simple",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Formant Shift",
     "panel": "Oscillator 2 Formant Simple",
     "offset": 327,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 2 Interpolation",
     "panel": "Oscillator 2 Formant Simple",
     "offset": 329,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable / Waveform",
     "panel": "Oscillator 2 Formant Complex",
     "offset": 32,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Wavetable Index",
     "panel": "Oscillator 2 Formant Complex",
     "offset": 30,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Formant Shift",
     "panel": "Oscillator 2 Formant Complex",
     "offset": 327,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator 2 Formant Spread",
     "panel": "Oscillator 2 Formant Complex",
     "offset": 322,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Local Detune",
     "panel": "Oscillator 2 Formant Complex",
     "offset": 328,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 2 Interpolation",
     "panel": "Oscillator 2 Formant Complex",
     "offset": 329,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 3 Model",
     "panel": "Oscillator 3",
     "offset": 177,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 3 Detune in Semitone",
     "panel": "Oscillator 3",
     "offset": 179,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "enum_index"
+    }
   },
   {
     "name": "Oscillator 3 Fine Detune",
     "panel": "Oscillator 3",
     "offset": 180,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "enum_index"
+    }
   },
   {
     "name": "Oscillator 1 Sync (2>1)",
     "panel": "Osc 1 / Osc 2 sub-menus",
     "offset": 36,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Envelope --> Oscillator 2 Pitch",
     "panel": "Oscillator 2 Classic",
     "offset": 37,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator Section Initial Phase",
     "panel": "EDIT OSC → Common",
     "offset": 171,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct_off"
+    }
   },
   {
     "name": "Velocity --> Pulsewidth",
     "panel": "Velocity Map",
     "offset": 185,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Patch Common Portamento",
     "panel": "EDIT OSC → Common",
     "offset": 13,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct_off"
+    }
   },
   {
     "name": "Oscillator 2 FM Amount",
     "panel": "Oscillator 2 Classic",
     "offset": 35,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Envelope --> FM / X-Sync",
     "panel": "Osc 2 Classic / EDIT OSC Common",
     "offset": 38,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Velocity --> FM Amount",
     "panel": "Velocity Map",
     "offset": 186,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Oscillator 2 FM Mode",
     "panel": "Oscillator 2 Classic",
     "offset": 170,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Noise Oscillator Volume",
     "panel": "Noise",
     "offset": 45,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct_off"
+    }
   },
   {
     "name": "Noise Color",
     "panel": "Noise",
     "offset": 47,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator Punch Intensity",
     "panel": "Oscillators → Punch",
     "offset": 172,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 1/2 Balance",
     "panel": "Mixer",
     "offset": 41,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator 3 Volume",
     "panel": "Mixer",
     "offset": 178,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "enum_index"
+    }
   },
   {
     "name": "Sub Oscillator Volume",
     "panel": "Sub-Osc",
     "offset": 42,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Oscillator Section Volume / Saturation",
     "panel": "Mixer",
     "offset": 44,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Ring Modulator Volume",
     "panel": "Mixer",
     "offset": 58,
-    "category": "Osc/Mixer"
+    "category": "Osc/Mixer",
+    "encoding": {
+      "type": "direct_off"
+    }
   },
   {
     "name": "Filter 1 Mode",
     "panel": "Filter 1",
     "offset": 59,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 1 Envelope Amount",
     "panel": "Filter 1",
     "offset": 52,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 1 Envelope Polarity",
     "panel": "Filter 1",
     "offset": 166,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 1 Cutoff",
     "panel": "Filter 1",
     "offset": 48,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 1 Resonance",
     "panel": "Filter 1",
     "offset": 50,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 1 Keyfollow",
     "panel": "Filter 1",
     "offset": 54,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 2 Mode",
     "panel": "Filter 2",
     "offset": 60,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 2 Envelope Amount",
     "panel": "Filter 2",
     "offset": 53,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 2 Envelope Polarity",
     "panel": "Filter 2",
     "offset": 167,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 2 Offset",
     "panel": "Filter 2",
     "offset": 49,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Filter 2 Resonance",
     "panel": "Filter 2",
     "offset": 51,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter 2 Keyfollow",
     "panel": "Filter 2",
     "offset": 55,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Oscillator Section Volume",
     "panel": "Filter Common",
     "offset": 44,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Filter Routing",
     "panel": "Filter Common",
     "offset": 61,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter knob target (Res / Env Amt)",
     "panel": "Filter Common",
     "offset": 258,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Keyfollow Base",
     "panel": "Filter Common",
     "offset": 169,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Cutoff Link toggle",
     "panel": "Filter Common",
     "offset": 168,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Balance",
     "panel": "Filter Common",
     "offset": 56,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Pan Spread",
     "panel": "Filter Common",
     "offset": 387,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Envelope Attack",
     "panel": "Filter / Aux Envelopes",
     "offset": 62,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Envelope Decay",
     "panel": "Filter / Aux Envelopes",
     "offset": 63,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Envelope Sustain",
     "panel": "Filter / Aux Envelopes",
     "offset": 64,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Envelope Sustain Slope",
     "panel": "Filter / Aux Envelopes",
     "offset": 65,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Filter Envelope Release",
     "panel": "Filter / Aux Envelopes",
     "offset": 66,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 3 Attack",
     "panel": "Filter / Aux Envelopes",
     "offset": 345,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 3 Decay",
     "panel": "Filter / Aux Envelopes",
     "offset": 346,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 3 Sustain",
     "panel": "Filter / Aux Envelopes",
     "offset": 347,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 3 Sustain Slope",
     "panel": "Filter / Aux Envelopes",
     "offset": 348,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Envelope 3 Release",
     "panel": "Filter / Aux Envelopes",
     "offset": 349,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 4 Attack",
     "panel": "Filter / Aux Envelopes",
     "offset": 350,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 4 Decay",
     "panel": "Filter / Aux Envelopes",
     "offset": 351,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 4 Sustain",
     "panel": "Filter / Aux Envelopes",
     "offset": 352,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Envelope 4 Sustain Slope",
     "panel": "Filter / Aux Envelopes",
     "offset": 353,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Envelope 4 Release",
     "panel": "Filter / Aux Envelopes",
     "offset": 354,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Amplifier Envelope Attack",
     "panel": "Amplifier Envelope",
     "offset": 67,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Amplifier Envelope Decay",
     "panel": "Amplifier Envelope",
     "offset": 68,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Amplifier Envelope Sustain",
     "panel": "Amplifier Envelope",
     "offset": 69,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Amplifier Envelope Sustain Slope",
     "panel": "Amplifier Envelope",
     "offset": 70,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Amplifier Envelope Release",
     "panel": "Amplifier Envelope",
     "offset": 71,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Velocity --> Filter 1 Envelope Amount",
     "panel": "Velocity / Filter Envelope",
     "offset": 190,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Velocity --> Filter 1 Resonance",
     "panel": "Velocity / Filter Envelope",
     "offset": 192,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Velocity --> Filter 2 Envelope Amount",
     "panel": "Velocity / Filter Envelope",
     "offset": 191,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Velocity --> Filter 2 Resonance",
     "panel": "Velocity / Filter Envelope",
     "offset": 193,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Velocity --> Volume",
     "panel": "Velocity / Amplifier",
     "offset": 196,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Velocity --> Panorama",
     "panel": "Velocity / Amplifier",
     "offset": 197,
-    "category": "Filters"
+    "category": "Filters",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 1 Rate",
     "panel": "LFO 1",
     "offset": 203,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-rate"
+    }
   },
   {
     "name": "LFO 1 Clock Divider",
     "panel": "LFO 1",
     "offset": 154,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-clock"
+    }
   },
   {
     "name": "LFO 1 Keyfollow",
     "panel": "LFO 1",
     "offset": 208,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "key-follow-0x48"
+    }
   },
   {
     "name": "LFO 1 Trigger Phase",
     "panel": "LFO 1",
     "offset": 209,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "trigger-phase"
+    }
   },
   {
     "name": "LFO 1 Waveform Shape",
     "panel": "LFO 1",
     "offset": 204,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-shape"
+    }
   },
   {
     "name": "LFO 1 Waveform Contour",
     "panel": "LFO 1",
     "offset": 207,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "contour"
+    }
   },
   {
     "name": "LFO 1 Mode",
     "panel": "LFO 1",
     "offset": 206,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "mode-0x46"
+    }
   },
   {
     "name": "LFO 1 Envelope Mode toggle",
     "panel": "LFO 1",
     "offset": 205,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "envelope-mode"
+    }
   },
   {
     "name": "LFO 1 --> Osc 1",
     "panel": "LFO 1 Destination",
     "offset": 82,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 1 --> Osc 2",
     "panel": "LFO 1 Destination",
     "offset": 83,
-    "category": "Modulators"
-  },
-  {
-    "name": "LFO 1 to Oscillator 1&2 lock",
-    "panel": "LFO 1 Destination",
-    "offset": 82,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 1 --> Pulsewidth",
     "panel": "LFO 1 Destination",
     "offset": 84,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 1 --> Filter Resonance 1+2",
     "panel": "LFO 1 Destination",
     "offset": 85,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 1 --> Filter Envelope Gain / Filter Gain Depth",
     "panel": "LFO 1 Destination",
     "offset": 86,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 1 User Destination",
     "panel": "LFO 1 Destination",
     "offset": 215,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "LFO 1 User Destination Amount",
     "panel": "LFO 1 Destination",
     "offset": 216,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "LFO 2 Rate",
     "panel": "LFO 2",
     "offset": 87,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-rate"
+    }
   },
   {
     "name": "LFO 2 Clock Divider",
     "panel": "LFO 2",
     "offset": 155,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-clock"
+    }
   },
   {
     "name": "LFO 2 Keyfollow",
     "panel": "LFO 2",
     "offset": 92,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "key-follow-0x48"
+    }
   },
   {
     "name": "LFO 2 Trigger Phase",
     "panel": "LFO 2",
     "offset": 93,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "trigger-phase"
+    }
   },
   {
     "name": "LFO 2 Waveform Shape",
     "panel": "LFO 2",
     "offset": 88,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-shape"
+    }
   },
   {
     "name": "LFO 2 Waveform Contour",
     "panel": "LFO 2",
     "offset": 91,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "contour"
+    }
   },
   {
     "name": "LFO 2 Mode",
     "panel": "LFO 2",
     "offset": 90,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "mode-0x46"
+    }
   },
   {
     "name": "LFO 2 Envelope Mode toggle",
     "panel": "LFO 2",
     "offset": 89,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "envelope-mode"
+    }
   },
   {
     "name": "LFO 2 --> Filter Cutoff 1",
     "panel": "LFO 2 Destination",
     "offset": 96,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 2 --> Filter Cutoff 2",
     "panel": "LFO 2 Destination",
     "offset": 97,
-    "category": "Modulators"
-  },
-  {
-    "name": "LFO 2 to Filter 1&2 lock",
-    "panel": "LFO 2 Destination",
-    "offset": 96,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 2 --> Shape 1+2 Depth",
     "panel": "LFO 2 Destination",
     "offset": 94,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 2 --> Panorama",
     "panel": "LFO 2 Destination",
     "offset": 98,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 2 --> FM Amount",
     "panel": "LFO 2 Destination",
     "offset": 95,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "LFO 2 User Destination",
     "panel": "LFO 2 Destination",
     "offset": 217,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "LFO 2 User Destination Amount",
     "panel": "LFO 2 Destination",
     "offset": 218,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "LFO 3 Rate",
     "panel": "LFO 3",
     "offset": 143,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-rate"
+    }
   },
   {
     "name": "LFO 3 Clock Divider",
     "panel": "LFO 3",
     "offset": 157,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-clock"
+    }
   },
   {
     "name": "LFO 3 Keyfollow",
     "panel": "LFO 3",
     "offset": 146,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "key-follow-0x48"
+    }
   },
   {
     "name": "LFO 3 Waveform Shape",
     "panel": "LFO 3",
     "offset": 144,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-shape"
+    }
   },
   {
     "name": "LFO 3 Mode",
     "panel": "LFO 3",
     "offset": 145,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "mode-0x46"
+    }
   },
   {
     "name": "LFO 3 Fade In Time",
     "panel": "LFO 3 Destination",
     "offset": 149,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "fade-in"
+    }
   },
   {
     "name": "LFO 3 User Destination",
     "panel": "LFO 3 Destination",
     "offset": 147,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "LFO 3 User Destination Amount",
     "panel": "LFO 3 Destination",
     "offset": 148,
-    "category": "Modulators"
+    "category": "Modulators",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 1 Source",
     "panel": "Slot 1",
     "offset": 200,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "mod-matrix-sources"
+    }
   },
   {
     "name": "Mod Matrix Slot 1 Destination 1",
     "panel": "Slot 1",
     "offset": 201,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 1 Amount 1",
     "panel": "Slot 1",
     "offset": 202,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 1 Destination 2",
     "panel": "Slot 1",
     "offset": 355,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 1 Amount 2",
     "panel": "Slot 1",
     "offset": 356,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 1 Destination 3",
     "panel": "Slot 1",
     "offset": 357,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 1 Amount 3",
     "panel": "Slot 1",
     "offset": 358,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 2 Source",
     "panel": "Slot 2",
     "offset": 203,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "mod-matrix-sources"
+    }
   },
   {
     "name": "Mod Matrix Slot 2 Destination 1",
     "panel": "Slot 2",
     "offset": 204,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 2 Amount 1",
     "panel": "Slot 2",
     "offset": 205,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 2 Destination 2",
     "panel": "Slot 2",
     "offset": 206,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 2 Amount 2",
     "panel": "Slot 2",
     "offset": 207,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 2 Destination 3",
     "panel": "Slot 2",
     "offset": 359,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 2 Amount 3",
     "panel": "Slot 2",
     "offset": 360,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 3 Source",
     "panel": "Slot 3",
     "offset": 208,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "mod-matrix-sources"
+    }
   },
   {
     "name": "Mod Matrix Slot 3 Destination 1",
     "panel": "Slot 3",
     "offset": 209,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 3 Amount 1",
     "panel": "Slot 3",
     "offset": 210,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 3 Destination 2",
     "panel": "Slot 3",
     "offset": 211,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 3 Amount 2",
     "panel": "Slot 3",
     "offset": 212,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 3 Destination 3",
     "panel": "Slot 3",
     "offset": 213,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 3 Amount 3",
     "panel": "Slot 3",
     "offset": 214,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 4 Source",
     "panel": "Slot 4",
     "offset": 239,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "mod-matrix-sources"
+    }
   },
   {
     "name": "Mod Matrix Slot 4 Destination 1",
     "panel": "Slot 4",
     "offset": 240,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 4 Amount 1",
     "panel": "Slot 4",
     "offset": 241,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 4 Destination 2",
     "panel": "Slot 4",
     "offset": 361,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 4 Amount 2",
     "panel": "Slot 4",
     "offset": 362,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 4 Destination 3",
     "panel": "Slot 4",
     "offset": 363,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 4 Amount 3",
     "panel": "Slot 4",
     "offset": 364,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 5 Source",
     "panel": "Slot 5",
     "offset": 242,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "mod-matrix-sources"
+    }
   },
   {
     "name": "Mod Matrix Slot 5 Destination 1",
     "panel": "Slot 5",
     "offset": 243,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 5 Amount 1",
     "panel": "Slot 5",
     "offset": 244,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 5 Destination 2",
     "panel": "Slot 5",
     "offset": 365,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 5 Amount 2",
     "panel": "Slot 5",
     "offset": 366,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 5 Destination 3",
     "panel": "Slot 5",
     "offset": 367,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 5 Amount 3",
     "panel": "Slot 5",
     "offset": 368,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 6 Source",
     "panel": "Slot 6",
     "offset": 245,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "mod-matrix-sources"
+    }
   },
   {
     "name": "Mod Matrix Slot 6 Destination 1",
     "panel": "Slot 6",
     "offset": 246,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 6 Amount 1",
     "panel": "Slot 6",
     "offset": 247,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 6 Destination 2",
     "panel": "Slot 6",
     "offset": 369,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 6 Amount 2",
     "panel": "Slot 6",
     "offset": 370,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Mod Matrix Slot 6 Destination 3",
     "panel": "Slot 6",
     "offset": 371,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "enum",
+      "ref": "lfo-1-destination",
+      "subsection": "assign-target"
+    }
   },
   {
     "name": "Mod Matrix Slot 6 Amount 3",
     "panel": "Slot 6",
     "offset": 372,
-    "category": "Matrix"
+    "category": "Matrix",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Arpeggiator Mode",
     "panel": "Settings",
     "offset": 151,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-mode"
+    }
   },
   {
     "name": "Arpeggiator Pattern",
     "panel": "Settings",
     "offset": 138,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-pattern"
+    }
   },
   {
     "name": "Arpeggiator Range In Octaves",
     "panel": "Settings",
     "offset": 139,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-octaves"
+    }
   },
   {
     "name": "Arpeggiator Clock / Resolution",
     "panel": "Settings",
     "offset": 153,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-resolution"
+    }
   },
   {
     "name": "Arpeggiator Note Length",
     "panel": "Settings",
     "offset": 141,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-note-length-lcd"
+    }
   },
   {
     "name": "Arpeggiator Swing Factor",
     "panel": "Settings",
     "offset": 142,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-swing-factor-lcd"
+    }
   },
   {
     "name": "Arpeggiator Hold Mode",
     "panel": "Settings",
     "offset": 140,
-    "category": "Arpeggiator"
-  },
-  {
-    "name": "Arpeggiator User Pattern Step",
-    "panel": "Pattern Editor",
-    "offset": 394,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-hold"
+    }
   },
   {
     "name": "Arpeggiator Loop Length",
     "panel": "Pattern Editor",
     "offset": 393,
-    "category": "Arpeggiator"
+    "category": "Arpeggiator",
+    "encoding": {
+      "type": "enum",
+      "ref": "arpeggiator-loop-length"
+    }
   },
   {
     "name": "Character Type",
     "panel": "Characters",
     "offset": 291,
-    "category": "Effects"
-  },
-  {
-    "name": "Character Intensity",
-    "panel": "Characters",
-    "offset": 29,
-    "category": "Effects"
-  },
-  {
-    "name": "Character Tune / Frequency",
-    "panel": "Characters",
-    "offset": 41,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Type",
     "panel": "Chorus",
     "offset": 111,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "chorus-type"
+    }
   },
   {
     "name": "Chorus Mix",
     "panel": "Chorus Classic",
     "offset": 113,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Delay",
     "panel": "Chorus Classic",
     "offset": 116,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Feedback",
     "panel": "Chorus Classic",
     "offset": 117,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Rate",
     "panel": "Chorus Classic",
     "offset": 114,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Depth",
     "panel": "Chorus Classic",
     "offset": 115,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Shape",
     "panel": "Chorus Classic",
     "offset": 118,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Mix",
     "panel": "Chorus Vintage",
     "offset": 112,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus X Over",
     "panel": "Chorus Vintage",
     "offset": 119,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Rate",
     "panel": "Chorus Vintage",
     "offset": 114,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Depth",
     "panel": "Chorus Vintage",
     "offset": 115,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Mix",
     "panel": "Chorus Hyper",
     "offset": 112,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus X Over",
     "panel": "Chorus Hyper",
     "offset": 119,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Amount",
     "panel": "Chorus Hyper",
     "offset": 116,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Chorus LFO Depth",
     "panel": "Chorus Hyper",
     "offset": 115,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus X Over",
     "panel": "Chorus Air",
     "offset": 119,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Depth",
     "panel": "Chorus Air",
     "offset": 115,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus X Over",
     "panel": "Chorus Vibrato",
     "offset": 119,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Rate",
     "panel": "Chorus Vibrato",
     "offset": 114,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus LFO Depth",
     "panel": "Chorus Vibrato",
     "offset": 115,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Mix",
     "panel": "Chorus Rotary Speaker",
     "offset": 112,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Speed",
     "panel": "Chorus Rotary Speaker",
     "offset": 114,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Chorus Low/High Balance",
     "panel": "Chorus Rotary Speaker",
     "offset": 117,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "chorus-rotary-lowhigh-balance-lcd"
+    }
   },
   {
     "name": "Chorus Mic Angle",
     "panel": "Chorus Rotary Speaker",
     "offset": 116,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "chorus-rotary-mic-angle-lcd"
+    }
   },
   {
     "name": "Chorus Distance",
     "panel": "Chorus Rotary Speaker",
     "offset": 115,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "chorus-rotary-distance-lcd"
+    }
   },
   {
     "name": "Distortion Type",
     "panel": "Distortion",
     "offset": 236,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "distortion-type"
+    }
   },
   {
     "name": "Distortion Mix",
     "panel": "Distortion",
     "offset": 337,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "distortion-panel-visibility"
+    }
   },
   {
     "name": "Distortion Intensity",
     "panel": "Distortion",
     "offset": 237,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Distortion Treble Booster",
     "panel": "Distortion",
     "offset": 335,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Distortion High Cut",
     "panel": "Distortion",
     "offset": 336,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Distortion Quality",
     "panel": "Distortion",
     "offset": 338,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Distortion Tone",
     "panel": "Distortion Overdrives",
     "offset": 339,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Phaser Mix",
     "panel": "Phaser",
     "offset": 221,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "phaser-mix-lcd"
+    }
   },
   {
     "name": "Phaser Stages",
     "panel": "Phaser",
     "offset": 220,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Phaser Frequency",
     "panel": "Phaser",
     "offset": 224,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Phaser Feedback (FB)",
     "panel": "Phaser",
     "offset": 225,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Phaser Spread",
     "panel": "Phaser",
     "offset": 226,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Phaser LFO Rate",
     "panel": "Phaser",
     "offset": 222,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Phaser LFO Depth",
     "panel": "Phaser",
     "offset": 223,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Type",
     "panel": "Filter Bank",
     "offset": 284,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-type"
+    }
   },
   {
     "name": "Filter Bank Mix / Amount",
     "panel": "Filter Bank",
     "offset": 285,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Filter Bank Frequency",
     "panel": "Filter Bank",
     "offset": 286,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Stereo Phase",
     "panel": "Filter Bank",
     "offset": 287,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Frequency Shifter Left Shape",
     "panel": "Filter Bank Frequency Shifter",
     "offset": 288,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Frequency Shifter Right Shape",
     "panel": "Filter Bank Frequency Shifter",
     "offset": 289,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Frequency / Vowel",
     "panel": "Filter Bank Vowel Filter",
     "offset": 286,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-vowel-frequency"
+    }
   },
   {
     "name": "Filter Bank Resonance",
     "panel": "Filter Bank Vowel Filter",
     "offset": 290,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-resonance-lcd"
+    }
   },
   {
     "name": "Filter Bank Stereo Phase",
     "panel": "Filter Bank Vowel Filter",
     "offset": 287,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Frequency",
     "panel": "Filter Bank Comb Filter",
     "offset": 286,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-comb-frequency"
+    }
   },
   {
     "name": "Filter Bank Resonance",
     "panel": "Filter Bank Comb Filter",
     "offset": 290,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-resonance-lcd"
+    }
   },
   {
     "name": "Filter Bank Stereo Phase",
     "panel": "Filter Bank Comb Filter",
     "offset": 287,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Frequency",
     "panel": "Filter Bank 1-6 Pole XFade",
     "offset": 286,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Resonance",
     "panel": "Filter Bank 1-6 Pole XFade",
     "offset": 290,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Type",
     "panel": "Filter Bank 1-6 Pole XFade",
     "offset": 288,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-xfade-filter-type"
+    }
   },
   {
     "name": "Filter Bank Frequency",
     "panel": "Filter Bank VariSlopes",
     "offset": 286,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Resonance",
     "panel": "Filter Bank VariSlopes",
     "offset": 290,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Filter Bank Filter Poles",
     "panel": "Filter Bank VariSlopes",
     "offset": 288,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-varislope-poles-lcd"
+    }
   },
   {
     "name": "Filter Bank Filter Slope",
     "panel": "Filter Bank VariSlopes",
     "offset": 289,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "filter-bank-varislope-slope"
+    }
   },
   {
     "name": "EQ Low Gain (db)",
     "panel": "Equalizer",
     "offset": 231,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "EQ Low Frequency (Hz)",
     "panel": "Equalizer",
     "offset": 181,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "EQ Mid Gain (db)",
     "panel": "Equalizer",
     "offset": 228,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "eq-low-gain"
+    }
   },
   {
     "name": "EQ Mid Frequency (Hz)",
     "panel": "Equalizer",
     "offset": 229,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "EQ Mid Q-Factor",
     "panel": "Equalizer",
     "offset": 230,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "EQ High Gain (db)",
     "panel": "Equalizer",
     "offset": 232,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "eq-low-gain"
+    }
   },
   {
     "name": "EQ High Frequency (Hz)",
     "panel": "Equalizer",
     "offset": 182,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Input Follower Select",
     "panel": "Envelope Follower",
     "offset": 174,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "input-follower-input-select"
+    }
   },
   {
     "name": "Input Follower Sensitivity",
     "panel": "Envelope Follower",
     "offset": 64,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Input Follower Envelope Attack",
     "panel": "Envelope Follower",
     "offset": 62,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Input Follower Envelope Release",
     "panel": "Envelope Follower",
     "offset": 66,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Input Mode",
     "panel": "Input",
     "offset": 517,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Input Select",
     "panel": "Input",
     "offset": 518,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Input Atomizer",
     "panel": "Input",
     "offset": 519,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Send",
     "panel": "Delay",
     "offset": 121,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-send-lcd"
+    }
   },
   {
     "name": "Delay Type",
     "panel": "Delay",
     "offset": 275,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-type"
+    }
   },
   {
     "name": "Delay Mode",
     "panel": "Delay",
     "offset": 120,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-mode"
+    }
   },
   {
     "name": "Delay Clock",
     "panel": "Delay",
     "offset": 156,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-clock"
+    }
   },
   {
     "name": "Delay Time (ms)",
     "panel": "Delay",
     "offset": 122,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Feedback",
     "panel": "Delay",
     "offset": 123,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Coloration",
     "panel": "Delay",
     "offset": 127,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-coloration"
+    }
   },
   {
     "name": "Delay LFO Rate",
     "panel": "Delay",
     "offset": 124,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay LFO Depth",
     "panel": "Delay",
     "offset": 125,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay LFO Shape",
     "panel": "Delay",
     "offset": 126,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Clock Left",
     "panel": "Delay Tape Clocked",
     "offset": 278,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-tape-left-clock"
+    }
   },
   {
     "name": "Delay Tape Delay Clock Right",
     "panel": "Delay Tape Clocked",
     "offset": 279,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-tape-right-clock"
+    }
   },
   {
     "name": "Delay Tape Delay Feedback",
     "panel": "Delay Tape Clocked",
     "offset": 123,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Center Frequency",
     "panel": "Delay Tape Clocked",
     "offset": 127,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Bandwidth",
     "panel": "Delay Tape Clocked",
     "offset": 282,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Modulation",
     "panel": "Delay Tape Clocked",
     "offset": 125,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Ratio",
     "panel": "Delay Tape Free",
     "offset": 277,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-tape-ratio"
+    }
   },
   {
     "name": "Delay Tape Delay Time (ms)",
     "panel": "Delay Tape Free",
     "offset": 122,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-time-ms"
+    }
   },
   {
     "name": "Delay Tape Delay Feedback",
     "panel": "Delay Tape Free",
     "offset": 123,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Center Frequency",
     "panel": "Delay Tape Free",
     "offset": 127,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Bandwidth",
     "panel": "Delay Tape Free",
     "offset": 282,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Modulation",
     "panel": "Delay Tape Free",
     "offset": 125,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Ratio",
     "panel": "Delay Tape Doppler",
     "offset": 277,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Time (ms)",
     "panel": "Delay Tape Doppler",
     "offset": 122,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-time-ms"
+    }
   },
   {
     "name": "Delay Tape Delay Feedback",
     "panel": "Delay Tape Doppler",
     "offset": 123,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Delay Tape Delay Center Frequency",
     "panel": "Delay Tape Doppler",
     "offset": 127,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-tape-frequency"
+    }
   },
   {
     "name": "Delay Tape Delay Bandwidth",
     "panel": "Delay Tape Doppler",
     "offset": 282,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-tape-bandwidth"
+    }
   },
   {
     "name": "Delay Tape Delay Modulation",
     "panel": "Delay Tape Doppler",
     "offset": 125,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-tape-modulation"
+    }
   },
   {
     "name": "Reverb Send",
     "panel": "Reverb",
     "offset": 267,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "reverb-send-lcd"
+    }
   },
   {
     "name": "Reverb Mode",
     "panel": "Reverb",
     "offset": 266,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Reverb Type",
     "panel": "Reverb",
     "offset": 268,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Reverb Time",
     "panel": "Reverb",
     "offset": 269,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Reverb Damping",
     "panel": "Reverb",
     "offset": 270,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Reverb Coloration",
     "panel": "Reverb",
     "offset": 271,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Reverb Predelay",
     "panel": "Reverb",
     "offset": 272,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Reverb Feedback",
     "panel": "Reverb",
     "offset": 274,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Reverb Clock",
     "panel": "Reverb",
     "offset": 273,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "delay-clock"
+    }
   },
   {
     "name": "Vocoder Mode",
     "panel": "Vocoder",
     "offset": 175,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "vocoder-mode"
+    }
   },
   {
     "name": "Vocoder Amount of Synthesis Bands",
     "panel": "Vocoder",
     "offset": 66,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "percent_bipolar"
+    }
   },
   {
     "name": "Vocoder Balance (Dry-Wet)",
     "panel": "Vocoder",
     "offset": 56,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Spectral Balance",
     "panel": "Vocoder",
     "offset": 65,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Envelope Attack",
     "panel": "Vocoder",
     "offset": 62,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Envelope Release",
     "panel": "Vocoder",
     "offset": 63,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Carrier Center Frequency",
     "panel": "Vocoder",
     "offset": 48,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Carrier Frequency Spread",
     "panel": "Vocoder",
     "offset": 55,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Carrier Q-Factor",
     "panel": "Vocoder",
     "offset": 51,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Modulator Frequency Offset",
     "panel": "Vocoder",
     "offset": 49,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Vocoder Modulator Input",
     "panel": "Vocoder",
     "offset": 175,
-    "category": "Effects"
+    "category": "Effects",
+    "encoding": {
+      "type": "enum",
+      "ref": "vocoder-mode"
+    }
   },
   {
     "name": "Unison Voices",
     "panel": "Edit Single → Unison",
     "offset": 513,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Unison Detune",
     "panel": "Edit Single → Unison",
     "offset": 514,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Unison Pan Spread",
     "panel": "Edit Single → Unison",
     "offset": 515,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Unison LFO Phase Offset",
     "panel": "Edit Single → Unison",
     "offset": 516,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Transpose / Patch Transpose",
     "panel": "Common Parameters",
     "offset": 101,
-    "category": "Single"
-  },
-  {
-    "name": "Multi Tempo / Master Clock",
-    "panel": "Common Parameters",
-    "offset": 24,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Parameter Smooth Mode",
     "panel": "Common Parameters",
     "offset": 161,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "enum",
+      "ref": "control-smooth-mode--clock-quantize"
+    }
   },
   {
     "name": "Oscillator Section Keyboard Mode",
     "panel": "Common Parameters",
     "offset": 102,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Patch Volume",
     "panel": "Common Parameters",
     "offset": 99,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Panorama",
     "panel": "Common Parameters",
     "offset": 18,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Bend Down",
     "panel": "Pitch Bender",
     "offset": 163,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Bend Up",
     "panel": "Pitch Bender",
     "offset": 162,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Bender Scale",
     "panel": "Pitch Bender",
     "offset": 164,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "enum",
+      "ref": "bender-scale"
+    }
   },
   {
     "name": "Patch Category 1",
     "panel": "Category",
     "offset": 259,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "enum",
+      "ref": "patch-name-categories"
+    }
   },
   {
     "name": "Patch Category 2",
     "panel": "Category",
     "offset": 260,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Surround Channel Balance",
     "panel": "Output",
     "offset": 194,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "bipolar"
+    }
   },
   {
     "name": "Soft Knob 1 Function As…",
     "panel": "Soft Knobs",
     "offset": 198,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "enum",
+      "ref": "soft-knob-destinations"
+    }
   },
   {
     "name": "Soft Knob 1 Name",
     "panel": "Soft Knobs",
     "offset": 187,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "enum",
+      "ref": "soft-knob-names"
+    }
   },
   {
     "name": "Soft Knob 2 Function As…",
     "panel": "Soft Knobs",
     "offset": 199,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Soft Knob 2 Name",
     "panel": "Soft Knobs",
     "offset": 188,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "enum",
+      "ref": "soft-knob-names"
+    }
   },
   {
     "name": "Soft Knob 3 Function As…",
     "panel": "Soft Knobs",
     "offset": 200,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "direct"
+    }
   },
   {
     "name": "Soft Knob 3 Name",
     "panel": "Soft Knobs",
     "offset": 189,
-    "category": "Single"
+    "category": "Single",
+    "encoding": {
+      "type": "enum",
+      "ref": "soft-knob-names"
+    }
   }
 ]

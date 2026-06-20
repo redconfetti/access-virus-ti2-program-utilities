@@ -47,6 +47,17 @@ bundle exec rake spec
 
 All commands support `--help`.
 
+`virus-show` prints decoded **LCD panel values** (enums, bipolar amounts, percents,
+and direct 0–127 values) derived from
+[parameter-options.md](https://github.com/redconfetti/access-virus-ti-sysex/blob/main/docs/reference/parameter-options.md).
+CSV output includes `value`, `hex`, and `decimal` columns.
+
+Regenerate parameter data after updating the reference docs:
+
+```bash
+ruby script/build_parameter_data.rb
+```
+
 `virus-show` additionally supports:
 
 - `--output csv FILE` — write parameters as CSV
@@ -71,6 +82,9 @@ lib/virus_ti/         Library code
   sysex/              Generic SysEx parsing (split, headers, message types)
   dumps/              Single Dump (524 B) and Multi Dump (267 B) interpreters
   parameters/         Single Dump parameter map (from access-virus-ti-sysex)
+    parameter-options.md   Reference value tables (source for LCD decoding)
+    parameter_options.json Parsed option/enums (generated)
+    single_dump_map.json   Parameter offsets + encodings (generated)
   midi/               MIDI file SysEx extraction
   banks.rb            Bank byte → RAM/ROM label mapping
   file_reader.rb      Route .syx vs .mid to the appropriate reader

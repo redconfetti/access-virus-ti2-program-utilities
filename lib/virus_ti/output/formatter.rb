@@ -28,10 +28,9 @@ module VirusTi
           lines << "-" * category.length
           params.each do |param|
             lines << format(
-              "  %-40s  %6s  %3d  (%s)",
+              "  %-40s  %-24s  (%s)",
               param[:name],
-              param[:hex],
-              param[:raw],
+              param[:value],
               param[:panel]
             )
           end
@@ -43,10 +42,10 @@ module VirusTi
 
       def render_csv(_selection, groups)
         CSV.generate do |csv|
-          csv << %w[category panel parameter offset hex decimal]
+          csv << %w[category panel parameter value hex decimal]
           groups.each do |category, params|
             params.each do |param|
-              csv << [category, param[:panel], param[:name], param[:offset], param[:hex], param[:raw]]
+              csv << [category, param[:panel], param[:name], param[:value], param[:hex], param[:raw]]
             end
           end
         end
@@ -71,11 +70,11 @@ module VirusTi
             pdf.move_down 6
 
             rows = params.map do |param|
-              [pdf_safe(param[:name]), pdf_safe(param[:panel]), param[:hex], param[:raw].to_s]
+              [pdf_safe(param[:name]), pdf_safe(param[:panel]), pdf_safe(param[:value]), param[:hex], param[:raw].to_s]
             end
 
             pdf.table(
-              [["Parameter", "Panel", "Hex", "Dec"], *rows],
+              [["Parameter", "Panel", "Value", "Hex", "Dec"], *rows],
               width: pdf.bounds.width,
               header: true,
               cell_style: { size: 7, padding: [2, 3, 2, 3] }

@@ -1,0 +1,2914 @@
+{
+  "contents": {
+    "title": "Contents",
+    "values": {},
+    "subsections": {}
+  },
+  "notation-cmd-param-dump-offset": {
+    "title": "Notation (cmd, param, dump offset)",
+    "values": {},
+    "subsections": {}
+  },
+  "value-encodings": {
+    "title": "Value encodings",
+    "values": {},
+    "subsections": {
+      "bipolar-centered-64-0x40": {
+        "values": {
+          "00": "−64",
+          "01": "−63",
+          "02": "−62",
+          "03": "−61",
+          "04": "−60",
+          "05": "−59",
+          "06": "−58",
+          "07": "−57",
+          "08": "−56",
+          "09": "−55",
+          "0A": "−54",
+          "0B": "−53",
+          "0C": "−52",
+          "0D": "−51",
+          "0E": "−50",
+          "0F": "−49",
+          "10": "−48",
+          "11": "−47",
+          "12": "−46",
+          "13": "−45",
+          "14": "−44",
+          "15": "−43",
+          "16": "−42",
+          "17": "−41",
+          "18": "−40",
+          "19": "−39",
+          "1A": "−38",
+          "1B": "−37",
+          "1C": "−36",
+          "1D": "−35",
+          "1E": "−34",
+          "1F": "−33",
+          "20": "−32",
+          "21": "−31",
+          "22": "−30",
+          "23": "−29",
+          "24": "−28",
+          "25": "−27",
+          "26": "−26",
+          "27": "−25",
+          "28": "−24",
+          "29": "−23",
+          "2A": "−22",
+          "2B": "−21",
+          "2C": "−20",
+          "2D": "−19",
+          "2E": "−18",
+          "2F": "−17",
+          "30": "−16",
+          "31": "−15",
+          "32": "−14",
+          "33": "−13",
+          "34": "−12",
+          "35": "−11",
+          "36": "−10",
+          "37": "−9",
+          "38": "−8",
+          "39": "−7",
+          "3A": "−6",
+          "3B": "−5",
+          "3C": "−4",
+          "3D": "−3",
+          "3E": "−2",
+          "3F": "−1",
+          "40": "+0",
+          "41": "+1",
+          "42": "+2",
+          "43": "+3",
+          "44": "+4",
+          "45": "+5",
+          "46": "+6",
+          "47": "+7",
+          "48": "+8",
+          "49": "+9",
+          "4A": "+10",
+          "4B": "+11",
+          "4C": "+12",
+          "4D": "+13",
+          "4E": "+14",
+          "4F": "+15",
+          "50": "+16",
+          "51": "+17",
+          "52": "+18",
+          "53": "+19",
+          "54": "+20",
+          "55": "+21",
+          "56": "+22",
+          "57": "+23",
+          "58": "+24",
+          "59": "+25",
+          "5A": "+26",
+          "5B": "+27",
+          "5C": "+28",
+          "5D": "+29",
+          "5E": "+30",
+          "5F": "+31",
+          "60": "+32",
+          "61": "+33",
+          "62": "+34",
+          "63": "+35",
+          "64": "+36",
+          "65": "+37",
+          "66": "+38",
+          "67": "+39",
+          "68": "+40",
+          "69": "+41",
+          "6A": "+42",
+          "6B": "+43",
+          "6C": "+44",
+          "6D": "+45",
+          "6E": "+46",
+          "6F": "+47",
+          "70": "+48",
+          "71": "+49",
+          "72": "+50",
+          "73": "+51",
+          "74": "+52",
+          "75": "+53",
+          "76": "+54",
+          "77": "+55",
+          "78": "+56",
+          "79": "+57",
+          "7A": "+58",
+          "7B": "+59",
+          "7C": "+60",
+          "7D": "+61",
+          "7E": "+62",
+          "7F": "+63"
+        }
+      },
+      "edit-multi-live-balance-6364-0x40": {
+        "values": {
+          "00": "−63",
+          "01": "−62",
+          "02": "−61",
+          "03": "−60",
+          "04": "−59",
+          "05": "−58",
+          "06": "−57",
+          "07": "−56",
+          "08": "−55",
+          "09": "−54",
+          "0A": "−53",
+          "0B": "−52",
+          "0C": "−51",
+          "0D": "−50",
+          "0E": "−49",
+          "0F": "−48",
+          "10": "−47",
+          "11": "−46",
+          "12": "−45",
+          "13": "−44",
+          "14": "−43",
+          "15": "−42",
+          "16": "−41",
+          "17": "−40",
+          "18": "−39",
+          "19": "−38",
+          "1A": "−37",
+          "1B": "−36",
+          "1C": "−35",
+          "1D": "−34",
+          "1E": "−33",
+          "1F": "−32",
+          "20": "−31",
+          "21": "−30",
+          "22": "−29",
+          "23": "−28",
+          "24": "−27",
+          "25": "−26",
+          "26": "−25",
+          "27": "−24",
+          "28": "−23",
+          "29": "−22",
+          "2A": "−21",
+          "2B": "−20",
+          "2C": "−19",
+          "2D": "−18",
+          "2E": "−17",
+          "2F": "−16",
+          "30": "−15",
+          "31": "−14",
+          "32": "−13",
+          "33": "−12",
+          "34": "−11",
+          "35": "−10",
+          "36": "−9",
+          "37": "−8",
+          "38": "−7",
+          "39": "−6",
+          "3A": "−5",
+          "3B": "−4",
+          "3C": "−3",
+          "3D": "−2",
+          "3E": "−1",
+          "3F": "+0",
+          "40": "+1",
+          "41": "+2",
+          "42": "+3",
+          "43": "+4",
+          "44": "+5",
+          "45": "+6",
+          "46": "+7",
+          "47": "+8",
+          "48": "+9",
+          "49": "+10",
+          "4A": "+11",
+          "4B": "+12",
+          "4C": "+13",
+          "4D": "+14",
+          "4E": "+15",
+          "4F": "+16",
+          "50": "+17",
+          "51": "+18",
+          "52": "+19",
+          "53": "+20",
+          "54": "+21",
+          "55": "+22",
+          "56": "+23",
+          "57": "+24",
+          "58": "+25",
+          "59": "+26",
+          "5A": "+27",
+          "5B": "+28",
+          "5C": "+29",
+          "5D": "+30",
+          "5E": "+31",
+          "5F": "+32",
+          "60": "+33",
+          "61": "+34",
+          "62": "+35",
+          "63": "+36",
+          "64": "+37",
+          "65": "+38",
+          "66": "+39",
+          "67": "+40",
+          "68": "+41",
+          "69": "+42",
+          "6A": "+43",
+          "6B": "+44",
+          "6C": "+45",
+          "6D": "+46",
+          "6E": "+47",
+          "6F": "+48",
+          "70": "+49",
+          "71": "+50",
+          "72": "+51",
+          "73": "+52",
+          "74": "+53",
+          "75": "+54",
+          "76": "+55",
+          "77": "+56",
+          "78": "+57",
+          "79": "+58",
+          "7A": "+59",
+          "7B": "+60",
+          "7C": "+61",
+          "7D": "+62",
+          "7E": "+63",
+          "7F": "+64"
+        }
+      },
+      "bipolar-centered-narrow-4848-0x40": {
+        "values": {
+          "10": "−48",
+          "11": "−47",
+          "12": "−46",
+          "13": "−45",
+          "14": "−44",
+          "15": "−43",
+          "16": "−42",
+          "17": "−41",
+          "18": "−40",
+          "19": "−39",
+          "1A": "−38",
+          "1B": "−37",
+          "1C": "−36",
+          "1D": "−35",
+          "1E": "−34",
+          "1F": "−33",
+          "20": "−32",
+          "21": "−31",
+          "22": "−30",
+          "23": "−29",
+          "24": "−28",
+          "25": "−27",
+          "26": "−26",
+          "27": "−25",
+          "28": "−24",
+          "29": "−23",
+          "2A": "−22",
+          "2B": "−21",
+          "2C": "−20",
+          "2D": "−19",
+          "2E": "−18",
+          "2F": "−17",
+          "30": "−16",
+          "31": "−15",
+          "32": "−14",
+          "33": "−13",
+          "34": "−12",
+          "35": "−11",
+          "36": "−10",
+          "37": "−9",
+          "38": "−8",
+          "39": "−7",
+          "3A": "−6",
+          "3B": "−5",
+          "3C": "−4",
+          "3D": "−3",
+          "3E": "−2",
+          "3F": "−1",
+          "40": "+0",
+          "41": "+1",
+          "42": "+2",
+          "43": "+3",
+          "44": "+4",
+          "45": "+5",
+          "46": "+6",
+          "47": "+7",
+          "48": "+8",
+          "49": "+9",
+          "4A": "+10",
+          "4B": "+11",
+          "4C": "+12",
+          "4D": "+13",
+          "4E": "+14",
+          "4F": "+15",
+          "50": "+16",
+          "51": "+17",
+          "52": "+18",
+          "53": "+19",
+          "54": "+20",
+          "55": "+21",
+          "56": "+22",
+          "57": "+23",
+          "58": "+24",
+          "59": "+25",
+          "5A": "+26",
+          "5B": "+27",
+          "5C": "+28",
+          "5D": "+29",
+          "5E": "+30",
+          "5F": "+31",
+          "60": "+32",
+          "61": "+33",
+          "62": "+34",
+          "63": "+35",
+          "64": "+36",
+          "65": "+37",
+          "66": "+38",
+          "67": "+39",
+          "68": "+40",
+          "69": "+41",
+          "6A": "+42",
+          "6B": "+43",
+          "6C": "+44",
+          "6D": "+45",
+          "6E": "+46",
+          "6F": "+47",
+          "70": "+48"
+        }
+      },
+      "key-follow-with-norm-label": {
+        "values": {}
+      },
+      "note-index-c1g9": {
+        "values": {
+          "00": "C1",
+          "01": "C#1",
+          "02": "D1",
+          "03": "D#1",
+          "04": "E1",
+          "05": "F1",
+          "06": "F#1",
+          "07": "G1",
+          "08": "G#1",
+          "09": "A1",
+          "0A": "A#1",
+          "0B": "B1",
+          "0C": "C2",
+          "0D": "C#2",
+          "0E": "D2",
+          "0F": "D#2",
+          "10": "E2",
+          "11": "F2",
+          "12": "F#2",
+          "13": "G2",
+          "14": "G#2",
+          "15": "A2",
+          "16": "A#2",
+          "17": "B2",
+          "18": "C3",
+          "19": "C#3",
+          "1A": "D3",
+          "1B": "D#3",
+          "1C": "E3",
+          "1D": "F3",
+          "1E": "F#3",
+          "1F": "G3",
+          "20": "G#3",
+          "21": "A3",
+          "22": "A#3",
+          "23": "B3",
+          "24": "C4",
+          "25": "C#4",
+          "26": "D4",
+          "27": "D#4",
+          "28": "E4",
+          "29": "F4",
+          "2A": "F#4",
+          "2B": "G4",
+          "2C": "G#4",
+          "2D": "A4",
+          "2E": "A#4",
+          "2F": "B4",
+          "30": "C5",
+          "31": "C#5",
+          "32": "D5",
+          "33": "D#5",
+          "34": "E5",
+          "35": "F5",
+          "36": "F#5",
+          "37": "G5",
+          "38": "G#5",
+          "39": "A5",
+          "3A": "A#5",
+          "3B": "B5",
+          "3C": "C6",
+          "3D": "C#6",
+          "3E": "D6",
+          "3F": "D#6",
+          "40": "E6",
+          "41": "F6",
+          "42": "F#6",
+          "43": "G6",
+          "44": "G#6",
+          "45": "A6",
+          "46": "A#6",
+          "47": "B6",
+          "48": "C7",
+          "49": "C#7",
+          "4A": "D7",
+          "4B": "D#7",
+          "4C": "E7",
+          "4D": "F7",
+          "4E": "F#7",
+          "4F": "G7",
+          "50": "G#7",
+          "51": "A7",
+          "52": "A#7",
+          "53": "B7",
+          "54": "C8",
+          "55": "C#8",
+          "56": "D8",
+          "57": "D#8",
+          "58": "E8",
+          "59": "F8",
+          "5A": "F#8",
+          "5B": "G8",
+          "5C": "G#8",
+          "5D": "A8",
+          "5E": "A#8",
+          "5F": "B8",
+          "60": "C9",
+          "61": "C#9",
+          "62": "D9",
+          "63": "D#9",
+          "64": "E9",
+          "65": "F9",
+          "66": "F#9",
+          "67": "G9",
+          "68": "G#9",
+          "69": "A9",
+          "6A": "A#9",
+          "6B": "B9",
+          "6C": "C10",
+          "6D": "C#10",
+          "6E": "D10",
+          "6F": "D#10",
+          "70": "E10",
+          "71": "F10",
+          "72": "F#10",
+          "73": "G10",
+          "74": "G#10",
+          "75": "A10",
+          "76": "A#10",
+          "77": "B10",
+          "78": "C11",
+          "79": "C#11",
+          "7A": "D11",
+          "7B": "D#11",
+          "7C": "E11",
+          "7D": "F11",
+          "7E": "F#11",
+          "7F": "G11"
+        }
+      },
+      "note-index-c-1g9": {
+        "values": {
+          "00": "C-1",
+          "01": "C#-1",
+          "02": "D-1",
+          "03": "D#-1",
+          "04": "E-1",
+          "05": "F-1",
+          "06": "F#-1",
+          "07": "G-1",
+          "08": "G#-1",
+          "09": "A-1",
+          "0A": "A#-1",
+          "0B": "B-1",
+          "0C": "C0",
+          "0D": "C#0",
+          "0E": "D0",
+          "0F": "D#0",
+          "10": "E0",
+          "11": "F0",
+          "12": "F#0",
+          "13": "G0",
+          "14": "G#0",
+          "15": "A0",
+          "16": "A#0",
+          "17": "B0",
+          "18": "C1",
+          "19": "C#1",
+          "1A": "D1",
+          "1B": "D#1",
+          "1C": "E1",
+          "1D": "F1",
+          "1E": "F#1",
+          "1F": "G1",
+          "20": "G#1",
+          "21": "A1",
+          "22": "A#1",
+          "23": "B1",
+          "24": "C2",
+          "25": "C#2",
+          "26": "D2",
+          "27": "D#2",
+          "28": "E2",
+          "29": "F2",
+          "2A": "F#2",
+          "2B": "G2",
+          "2C": "G#2",
+          "2D": "A2",
+          "2E": "A#2",
+          "2F": "B2",
+          "30": "C3",
+          "31": "C#3",
+          "32": "D3",
+          "33": "D#3",
+          "34": "E3",
+          "35": "F3",
+          "36": "F#3",
+          "37": "G3",
+          "38": "G#3",
+          "39": "A3",
+          "3A": "A#3",
+          "3B": "B3",
+          "3C": "C4",
+          "3D": "C#4",
+          "3E": "D4",
+          "3F": "D#4",
+          "40": "E4",
+          "41": "F4",
+          "42": "F#4",
+          "43": "G4",
+          "44": "G#4",
+          "45": "A4",
+          "46": "A#4",
+          "47": "B4",
+          "48": "C5",
+          "49": "C#5",
+          "4A": "D5",
+          "4B": "D#5",
+          "4C": "E5",
+          "4D": "F5",
+          "4E": "F#5",
+          "4F": "G5",
+          "50": "G#5",
+          "51": "A5",
+          "52": "A#5",
+          "53": "B5",
+          "54": "C6",
+          "55": "C#6",
+          "56": "D6",
+          "57": "D#6",
+          "58": "E6",
+          "59": "F6",
+          "5A": "F#6",
+          "5B": "G6",
+          "5C": "G#6",
+          "5D": "A6",
+          "5E": "A#6",
+          "5F": "B6",
+          "60": "C7",
+          "61": "C#7",
+          "62": "D7",
+          "63": "D#7",
+          "64": "E7",
+          "65": "F7",
+          "66": "F#7",
+          "67": "G7",
+          "68": "G#7",
+          "69": "A7",
+          "6A": "A#7",
+          "6B": "B7",
+          "6C": "C8",
+          "6D": "C#8",
+          "6E": "D8",
+          "6F": "D#8",
+          "70": "E8",
+          "71": "F8",
+          "72": "F#8",
+          "73": "G8",
+          "74": "G#8",
+          "75": "A8",
+          "76": "A#8",
+          "77": "B8",
+          "78": "C9",
+          "79": "C#9",
+          "7A": "D9",
+          "7B": "D#9",
+          "7C": "E9",
+          "7D": "F9",
+          "7E": "F#9",
+          "7F": "G9"
+        }
+      }
+    }
+  },
+  "secondary-output-routing": {
+    "title": "Secondary output routing",
+    "values": {
+      "00": "Off",
+      "01": "Out 1 L",
+      "02": "Out 1 L+R",
+      "03": "Out 1 R",
+      "04": "Out 2 L",
+      "05": "Out 2 L+R",
+      "06": "Out 2 R",
+      "07": "Out 3 L",
+      "08": "Out 3 L+R",
+      "09": "Out 3 R",
+      "0A": "USB 1 L",
+      "0B": "USB 1 L+R",
+      "0C": "USB 1 R",
+      "0D": "USB 2 L",
+      "0E": "USB 2 L+R",
+      "0F": "USB 2 R",
+      "10": "USB 3 L",
+      "11": "USB 3 L+R",
+      "12": "USB 3 R"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "input-mode": {
+    "title": "Input Mode",
+    "values": {
+      "00": "Off",
+      "01": "Dynamic",
+      "02": "Static"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "input-select": {
+    "title": "Input Select",
+    "values": {
+      "00": "Left",
+      "01": "L + R",
+      "02": "Right"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "atomizer-preset": {
+    "title": "Atomizer preset",
+    "values": {
+      "00": "Off",
+      "01": "On",
+      "02": "2",
+      "03": "3",
+      "04": "4",
+      "05": "5",
+      "06": "6",
+      "07": "7",
+      "08": "8",
+      "09": "9",
+      "0A": "10",
+      "0B": "11",
+      "0C": "12",
+      "0D": "13",
+      "0E": "14",
+      "0F": "15",
+      "10": "16"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "bender-scale": {
+    "title": "Bender Scale",
+    "values": {
+      "00": "Linear",
+      "01": "Exponential"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-mode": {
+    "title": "Arpeggiator Mode",
+    "values": {
+      "00": "Off",
+      "01": "Up",
+      "02": "Down",
+      "03": "Up&Down",
+      "04": "As Played",
+      "05": "Random",
+      "06": "Chord",
+      "07": "Arp>Matrix"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-panel-visibility": {
+    "title": "Arpeggiator panel visibility",
+    "values": {},
+    "subsections": {
+      "mode-off-00": {
+        "values": {}
+      },
+      "mode-down-02": {
+        "values": {}
+      },
+      "full-settings-up-01-updown-03-as-played-04": {
+        "values": {}
+      },
+      "mode-arpmatrix-07": {
+        "values": {}
+      }
+    }
+  },
+  "arpeggiator-pattern": {
+    "title": "Arpeggiator Pattern",
+    "values": {
+      "00": "User",
+      "01": "2",
+      "02": "3",
+      "3F": "64"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-octaves": {
+    "title": "Arpeggiator Octaves",
+    "values": {
+      "00": "1",
+      "01": "2",
+      "02": "3",
+      "03": "4"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-resolution": {
+    "title": "Arpeggiator Resolution",
+    "values": {
+      "01": "1/128",
+      "02": "1/64",
+      "0B": "1/48",
+      "07": "3/128",
+      "03": "1/32",
+      "0C": "1/24",
+      "08": "3/64",
+      "04": "1/16",
+      "0D": "1/12",
+      "09": "3/32",
+      "05": "1/8",
+      "0E": "1/6",
+      "0A": "3/16",
+      "06": "1/4",
+      "0F": "1/3",
+      "10": "3/8",
+      "11": "1/2"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-note-length-lcd": {
+    "title": "Arpeggiator Note Length (LCD)",
+    "values": {
+      "00": "−100.0 %",
+      "40": "+0.0 %",
+      "7F": "+100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-swing-factor-lcd": {
+    "title": "Arpeggiator Swing Factor (LCD)",
+    "values": {},
+    "subsections": {
+      "percent-anchors": {
+        "values": {
+          "01": "50.2 %",
+          "41": "62.8 %",
+          "43": "63.2 %",
+          "7E": "74.8 %",
+          "7F": "75.0 %"
+        }
+      },
+      "16-note-swing-shorthand-not": {
+        "values": {
+          "15": "16B",
+          "29": "16C",
+          "42": "16D",
+          "57": "16E",
+          "6B": "16F"
+        }
+      }
+    }
+  },
+  "arpeggiator-hold": {
+    "title": "Arpeggiator Hold",
+    "values": {
+      "00": "Off",
+      "01": "On"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-loop-length": {
+    "title": "Arpeggiator Loop Length",
+    "values": {
+      "00": "1",
+      "01": "2",
+      "0F": "16",
+      "1F": "32"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-step-triplet": {
+    "title": "Arpeggiator step triplet",
+    "values": {},
+    "subsections": {}
+  },
+  "arpeggiator-step-length": {
+    "title": "Arpeggiator Step Length",
+    "values": {
+      "00": "−100.0 %",
+      "40": "+0.0 %",
+      "7F": "+100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "arpeggiator-step-velocity": {
+    "title": "Arpeggiator Step Velocity",
+    "values": {},
+    "subsections": {}
+  },
+  "arpeggiator-step-enable": {
+    "title": "Arpeggiator Step Enable",
+    "values": {},
+    "subsections": {}
+  },
+  "delay-type": {
+    "title": "Delay Type",
+    "values": {
+      "00": "Classic",
+      "01": "Tape Clocked",
+      "02": "Tape Free",
+      "03": "Tape Doppler"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-panel-visibility": {
+    "title": "Delay panel visibility",
+    "values": {},
+    "subsections": {
+      "send-off-00": {
+        "values": {}
+      },
+      "type-classic-00-send-not-off": {
+        "values": {}
+      },
+      "type-tape-clocked-01-send-not-off": {
+        "values": {}
+      },
+      "type-tape-free-02-or-tape-doppler-03-send-not-off": {
+        "values": {}
+      }
+    }
+  },
+  "delay-tape-left-clock": {
+    "title": "Delay Tape Left Clock",
+    "values": {
+      "00": "1/32",
+      "01": "1/16",
+      "02": "2/16",
+      "03": "3/16",
+      "04": "4/16",
+      "05": "5/16"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-tape-right-clock": {
+    "title": "Delay Tape Right Clock",
+    "values": {
+      "00": "1/32",
+      "01": "1/16",
+      "02": "2/16",
+      "03": "3/16",
+      "04": "4/16",
+      "05": "5/16"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-tape-frequency": {
+    "title": "Delay Tape Frequency",
+    "values": {},
+    "subsections": {}
+  },
+  "delay-tape-bandwidth": {
+    "title": "Delay Tape Bandwidth",
+    "values": {},
+    "subsections": {}
+  },
+  "delay-tape-modulation": {
+    "title": "Delay Tape Modulation",
+    "values": {},
+    "subsections": {}
+  },
+  "delay-time-ms": {
+    "title": "Delay Time (ms)",
+    "values": {
+      "00": "0",
+      "20": "32",
+      "28": "40",
+      "40": "64",
+      "50": "80",
+      "60": "96",
+      "64": "100",
+      "70": "112",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-tape-ratio": {
+    "title": "Delay Tape Ratio",
+    "values": {
+      "00": "1/4",
+      "01": "2/4",
+      "02": "3/4",
+      "03": "4/4",
+      "04": "4/3",
+      "05": "4/2",
+      "06": "4/1"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-feedback": {
+    "title": "Delay Feedback",
+    "values": {},
+    "subsections": {
+      "classic-00": {
+        "values": {
+          "00": "0.0 %",
+          "7F": "100.0 %"
+        }
+      },
+      "tape-0103": {
+        "values": {
+          "00": "0 %",
+          "40": "100.0 %",
+          "7F": "200.0 %"
+        }
+      }
+    }
+  },
+  "delay-mode": {
+    "title": "Delay Mode",
+    "values": {},
+    "subsections": {
+      "simple-delay-and-ping-pong-0105": {
+        "values": {
+          "01": "Simple Delay",
+          "02": "Ping Pong 2:1",
+          "03": "Ping Pong 4:3",
+          "04": "Ping Pong 4:1",
+          "05": "Ping Pong 8:7"
+        }
+      },
+      "pattern-0616": {
+        "values": {
+          "06": "Pattern 1+1",
+          "07": "Pattern 2+1",
+          "08": "Pattern 3+1",
+          "09": "Pattern 4+1",
+          "0A": "Pattern 5+1",
+          "0B": "Pattern 2+3",
+          "0C": "Pattern 2+5",
+          "0D": "Pattern 3+2",
+          "0E": "Pattern 3+3",
+          "0F": "Pattern 3+4",
+          "10": "Pattern 3+5",
+          "11": "Pattern 4+3",
+          "12": "Pattern 4+5",
+          "13": "Pattern 5+2",
+          "14": "Pattern 5+3",
+          "15": "Pattern 5+4",
+          "16": "Pattern 5+5"
+        }
+      }
+    }
+  },
+  "delay-coloration": {
+    "title": "Delay Coloration",
+    "values": {},
+    "subsections": {}
+  },
+  "delay-clock": {
+    "title": "Delay Clock",
+    "values": {
+      "00": "Off",
+      "01": "1/64",
+      "02": "1/32",
+      "0B": "1/24",
+      "07": "3/64",
+      "03": "1/16",
+      "0C": "1/12",
+      "08": "3/32",
+      "04": "1/8",
+      "0D": "1/6",
+      "09": "3/16",
+      "05": "1/4",
+      "0E": "1/3",
+      "0A": "3/8",
+      "06": "1/2",
+      "0F": "2/3",
+      "10": "3/4"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "lfo-clock": {
+    "title": "LFO Clock",
+    "values": {
+      "00": "Off",
+      "01": "1/64",
+      "02": "1/32",
+      "0B": "1/24",
+      "07": "3/64",
+      "03": "1/16",
+      "0C": "1/12",
+      "08": "3/32",
+      "04": "1/8",
+      "0D": "1/6",
+      "09": "3/16",
+      "05": "1/4",
+      "0E": "1/3",
+      "0A": "3/8",
+      "06": "1/2",
+      "0F": "2/3",
+      "10": "3/4",
+      "11": "1/1",
+      "12": "2/1",
+      "13": "4/1",
+      "14": "8/1",
+      "15": "16/1"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "lfo-live-edit-routing": {
+    "title": "LFO live edit routing",
+    "values": {},
+    "subsections": {}
+  },
+  "lfo-rate": {
+    "title": "LFO Rate",
+    "values": {
+      "00": "0",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "lfo-shape": {
+    "title": "LFO Shape",
+    "values": {},
+    "subsections": {
+      "basic-shapes-0005": {
+        "values": {
+          "00": "Sine",
+          "01": "Triangle",
+          "02": "Sawtooth",
+          "03": "Square",
+          "04": "S&H",
+          "05": "S&G"
+        }
+      },
+      "spectral-waves-0643": {
+        "values": {
+          "06": "Wave 3",
+          "0E": "Wave 11",
+          "16": "Wave 19",
+          "23": "Wave 32",
+          "43": "Wave 64"
+        }
+      }
+    }
+  },
+  "lfo-settings": {
+    "title": "LFO settings",
+    "values": {},
+    "subsections": {
+      "contour": {
+        "values": {}
+      },
+      "mode-0x46-lfo-3-0x09": {
+        "values": {
+          "00": "Poly",
+          "01": "Mono"
+        }
+      },
+      "envelope-mode": {
+        "values": {
+          "00": "Off",
+          "01": "On"
+        }
+      },
+      "trigger-phase": {
+        "values": {
+          "00": "Off"
+        }
+      },
+      "key-follow-0x48-lfo-3-0x0a": {
+        "values": {
+          "00": "Off",
+          "01": "0.8 %",
+          "7F": "100.0 %"
+        }
+      }
+    }
+  },
+  "lfo-1-destination": {
+    "title": "LFO 1 Destination",
+    "values": {},
+    "subsections": {
+      "modulation-depth": {
+        "values": {}
+      },
+      "assign-target": {
+        "values": {
+          "00": "Off",
+          "01": "Patch Volume",
+          "02": "Osc 1 Interpolation",
+          "03": "Panorama",
+          "04": "Transpose",
+          "05": "Portamento",
+          "06": "Osc 1 Shape/Index",
+          "07": "Osc 1 Pulse Width",
+          "08": "Osc 1 Wave Select",
+          "09": "Osc 1 Pitch",
+          "0A": "Slot 6 Amount 3",
+          "0B": "Osc 2 Shape/Index",
+          "0C": "Osc 2 Pulse Width",
+          "0D": "Osc 2 Wave Select",
+          "0E": "Osc 2 Pitch",
+          "0F": "Osc 2 Detune",
+          "10": "Osc 2 FM Amount",
+          "11": "Filter Env > Osc 2 Pitch",
+          "12": "Filter Env > FM/Sync",
+          "13": "Osc 2 Interpolation",
+          "14": "Oscillator Balance",
+          "15": "Sub Osc Volume",
+          "16": "Oscillator Volume",
+          "17": "Noise Volume",
+          "18": "Filter 1 Cutoff",
+          "19": "Filter 2 Cutoff",
+          "1A": "Filter 1 Resonance",
+          "1B": "Filter 2 Resonance",
+          "1C": "Filter 1 Env Amount",
+          "1D": "Filter 2 Env Amount",
+          "1E": "Slot 5 Amount 2",
+          "1F": "Slot 5 Amount 3",
+          "20": "Filter Balance",
+          "21": "Filter Env Attack",
+          "22": "Filter Env Decay",
+          "23": "Filter Env Sustain",
+          "24": "Filter Env Slope",
+          "25": "Filter Env Release",
+          "26": "Amp Env Attack",
+          "27": "Amp Env Decay",
+          "28": "Amp Env Sustain",
+          "29": "Amp Env Slope",
+          "2A": "Amp Env Release",
+          "2B": "LFO 1 Rate",
+          "2C": "LFO 1 Contour",
+          "2D": "LFO 1 > Osc 1 Pitch",
+          "2E": "LFO 1 > Osc 2 Pitch",
+          "2F": "LFO 1 > Pulse Width",
+          "30": "LFO 1 > Resonance",
+          "31": "LFO 1 > Filter Gain",
+          "32": "LFO 2 Rate",
+          "33": "LFO 2 Contour",
+          "34": "LFO 2 > Shape",
+          "35": "LFO 2 > FM Amount",
+          "36": "LFO 2 > Cutoff 1",
+          "37": "LFO 2 > Cutoff 2",
+          "38": "LFO 2 > Panorama",
+          "39": "LFO 3 Rate",
+          "3A": "LFO 3 > Assign Amount",
+          "3B": "Unison Detune",
+          "3C": "Pan Spread",
+          "3D": "Unison LFO Phase",
+          "3E": "Chorus Mix",
+          "3F": "Chorus Mod Rate",
+          "40": "Chorus Mod Depth",
+          "41": "Chorus Delay",
+          "42": "Chorus Feedback",
+          "43": "Delay Send",
+          "44": "Delay Time",
+          "45": "Delay Feedback",
+          "46": "Delay Mod Rate",
+          "47": "Delay Mod Depth",
+          "48": "Reverb Send",
+          "4B": "Slot 6 Amount 2",
+          "4C": "Slot 4 Amount 2",
+          "4D": "Slot 4 Amount 3",
+          "4E": "Filterbank Resonance",
+          "4F": "Filterbank Poles",
+          "50": "Slot 2 Amount 3",
+          "51": "Filterbank Slope",
+          "52": "Slot 1 Amount 1",
+          "53": "Slot 2 Amount 1",
+          "54": "Slot 2 Amount 2",
+          "55": "Slot 3 Amount 1",
+          "56": "Slot 3 Amount 2",
+          "57": "Slot 3 Amount 3",
+          "59": "Punch Intensity",
+          "5A": "Ring Modulator",
+          "5B": "Noise Color",
+          "5C": "Delay Coloration",
+          "5D": "Slot 1 Amount 2",
+          "5E": "Slot 1 Amount 3",
+          "5F": "Distortion Intensity",
+          "60": "Filterbank Frequency (LCD: FreqShifter Frequency)",
+          "61": "Osc 3 Volume",
+          "62": "Osc 3 Pitch",
+          "63": "Osc 3 Detune",
+          "64": "LFO 1 > Assign Amount",
+          "65": "LFO 2 > Assign Amount",
+          "66": "Phaser Mix",
+          "67": "Phaser Mod Rate",
+          "68": "Phaser Mod Depth",
+          "69": "Phaser Frequency",
+          "6A": "Phaser Feedback",
+          "6C": "Reverb Time",
+          "6D": "Reverb Dampening",
+          "6E": "Reverb Coloration",
+          "6F": "Reverb PreDelay",
+          "71": "Surround Balance",
+          "72": "Arp Note Length",
+          "73": "Arp Swing Factor",
+          "74": "Arp Pattern",
+          "75": "EQ Mid Gain",
+          "76": "EQ Mid Frequency",
+          "78": "Slot 4 Amount 1",
+          "79": "Slot 5 Amount 1",
+          "7A": "Slot 6 Amount 1",
+          "7B": "Osc 1 F-Shift",
+          "7C": "Osc 2 F-Shift",
+          "7D": "Osc 1 F-Spread",
+          "7E": "Osc 2 F-Spread",
+          "7F": "Distortion Mix"
+        }
+      },
+      "amount": {
+        "values": {
+          "00": "−100.0 %",
+          "40": "+0.0 %",
+          "7F": "+100.0 %"
+        }
+      }
+    }
+  },
+  "lfo-2-destination": {
+    "title": "LFO 2 Destination",
+    "values": {},
+    "subsections": {
+      "modulation-depth": {
+        "values": {}
+      },
+      "assign-target": {
+        "values": {}
+      },
+      "amount": {
+        "values": {
+          "00": "−100.0 %",
+          "40": "+0.0 %",
+          "7F": "+100.0 %"
+        }
+      }
+    }
+  },
+  "lfo-3-destination": {
+    "title": "LFO 3 Destination",
+    "values": {},
+    "subsections": {
+      "assign-target": {
+        "values": {
+          "00": "Osc 1 Pitch",
+          "01": "Osc 1+2 Pitch",
+          "02": "Osc 2 Pitch",
+          "03": "Osc 1 Pulse Width",
+          "04": "Osc 1+2 Pulse Width",
+          "05": "Osc 2 Pulse Width",
+          "06": "Sync Phase"
+        }
+      },
+      "amount": {
+        "values": {
+          "00": "0 %",
+          "7F": "100.0 %"
+        }
+      },
+      "fade-in": {
+        "values": {
+          "00": "0",
+          "7F": "127"
+        }
+      }
+    }
+  },
+  "delay-lfo": {
+    "title": "Delay LFO",
+    "values": {},
+    "subsections": {}
+  },
+  "delay-lfo-rate": {
+    "title": "Delay LFO Rate",
+    "values": {
+      "00": "0",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-lfo-depth": {
+    "title": "Delay LFO Depth",
+    "values": {
+      "00": "0.0 %",
+      "7F": "100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-lfo-wave": {
+    "title": "Delay LFO Wave",
+    "values": {
+      "00": "Sine",
+      "01": "Triangle",
+      "02": "Sawtooth",
+      "03": "Square",
+      "04": "S&H",
+      "05": "S&G"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "delay-send-lcd": {
+    "title": "Delay Send (LCD)",
+    "values": {
+      "00": "Off",
+      "01": "−46.2 dB",
+      "02": "−40.2 dB",
+      "03": "−36.6 dB",
+      "04": "−34.1 dB",
+      "05": "−32.2 dB",
+      "06": "−30.6 dB",
+      "07": "−29.3 dB",
+      "08": "−28.1 dB",
+      "09": "−27.1 dB",
+      "0A": "−26.2 dB",
+      "0B": "−25.4 dB",
+      "0C": "−24.6 dB",
+      "0D": "−23.9 dB",
+      "0E": "−23.3 dB",
+      "0F": "−22.7 dB",
+      "10": "−22.1 dB",
+      "11": "−21.6 dB",
+      "12": "−21.1 dB",
+      "13": "−20.6 dB",
+      "14": "−20.6 dB",
+      "15": "−19.7 dB",
+      "16": "−19.3 dB",
+      "17": "−18.9 dB",
+      "18": "−18.6 dB",
+      "19": "−18.2 dB",
+      "1A": "−17.8 dB",
+      "1B": "−17.5 dB",
+      "1C": "−17.2 dB",
+      "1D": "−16.9 dB",
+      "1E": "−16.6 dB",
+      "1F": "−16.3 dB",
+      "20": "−16.0 dB",
+      "21": "−15.7 dB",
+      "22": "−15.5 dB",
+      "23": "−15.2 dB",
+      "24": "−14.9 dB",
+      "25": "−14.7 dB",
+      "26": "−14.5 dB",
+      "27": "−14.2 dB",
+      "28": "−14.0 dB",
+      "29": "−13.75 dB",
+      "2A": "−13.5 dB",
+      "2B": "−13.25 dB",
+      "2C": "−13.0 dB",
+      "2D": "−12.75 dB",
+      "2E": "−12.5 dB",
+      "2F": "−12.25 dB",
+      "30": "−12.0 dB",
+      "31": "−11.75 dB",
+      "32": "−11.5 dB",
+      "33": "−11.25 dB",
+      "34": "−11.0 dB",
+      "35": "−10.75 dB",
+      "36": "−10.5 dB",
+      "37": "−10.25 dB",
+      "38": "−10.0 dB",
+      "39": "−9.75 dB",
+      "3A": "−9.5 dB",
+      "3B": "−9.25 dB",
+      "3C": "−9.0 dB",
+      "3D": "−8.75 dB",
+      "3E": "−8.5 dB",
+      "3F": "−8.25 dB",
+      "40": "−8.0 dB",
+      "41": "−7.75 dB",
+      "42": "−7.5 dB",
+      "43": "−7.25 dB",
+      "44": "−7.0 dB",
+      "45": "−6.75 dB",
+      "46": "−6.5 dB",
+      "47": "−6.25 dB",
+      "48": "−6.0 dB",
+      "49": "−5.75 dB",
+      "4A": "−5.5 dB",
+      "4B": "−5.25 dB",
+      "4C": "−5.0 dB",
+      "4D": "−4.75 dB",
+      "4E": "−4.5 dB",
+      "4F": "−4.25 dB",
+      "50": "−4.0 dB",
+      "51": "−3.75 dB",
+      "52": "−3.5 dB",
+      "53": "−3.25 dB",
+      "54": "−3.0 dB",
+      "55": "−2.75 dB",
+      "56": "−2.5 dB",
+      "57": "−2.25 dB",
+      "58": "−2.0 dB",
+      "59": "−1.75 dB",
+      "5A": "−1.5 dB",
+      "5B": "−1.25 dB",
+      "5C": "−1.0 dB",
+      "5D": "−0.75 dB",
+      "5E": "−0.5 dB",
+      "5F": "−0.25 dB",
+      "60": "0/0 dB",
+      "61": "0/−0.3 dB",
+      "62": "0/−0.6 dB",
+      "63": "0/−0.9 dB",
+      "64": "0/−1.2 dB",
+      "65": "0/−1.5 dB",
+      "66": "0/−1.8 dB",
+      "67": "0/−2.1 dB",
+      "68": "0/−2.5 dB",
+      "69": "0/−2.9 dB",
+      "6A": "0/−3.3 dB",
+      "6B": "0/−3.7 dB",
+      "6C": "0/−4.1 dB",
+      "6D": "0/−4.5 dB",
+      "6E": "0/−5.0 dB",
+      "6F": "0/−5.5 dB",
+      "70": "0/−6.0 dB",
+      "71": "0/−6.6 dB",
+      "72": "0/−7.2 dB",
+      "73": "0/−7.8 dB",
+      "74": "0/−8.5 dB",
+      "75": "0/−9.3 dB",
+      "76": "0/−10.1 dB",
+      "77": "0/−11.0 dB",
+      "78": "0/−12.0 dB",
+      "79": "0/−13.2 dB",
+      "7A": "0/−14.5 dB",
+      "7B": "0/−16.1 dB",
+      "7C": "0/−18.1 dB",
+      "7D": "0/−20.6 dB",
+      "7E": "0/−24.0 dB",
+      "7F": "Effect"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-mode": {
+    "title": "Reverb Mode",
+    "values": {
+      "00": "Off",
+      "01": "Reverb",
+      "02": "Feedback 1",
+      "03": "Feedback 2"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-type": {
+    "title": "Reverb Type",
+    "values": {
+      "00": "Ambience",
+      "01": "Small Room",
+      "02": "Large Room",
+      "03": "Hall"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-panel-visibility": {
+    "title": "Reverb panel visibility",
+    "values": {},
+    "subsections": {
+      "mode-off-00": {
+        "values": {}
+      },
+      "send-off-00-on-send-control": {
+        "values": {}
+      },
+      "mode-reverb-01-feedback-1-02-or-feedback-2-03": {
+        "values": {}
+      }
+    }
+  },
+  "reverb-clock": {
+    "title": "Reverb Clock",
+    "values": {
+      "00": "Off ✓ (capture)",
+      "01": "1/64 ✓ (capture)",
+      "02": "1/32",
+      "0B": "1/24",
+      "07": "3/64",
+      "03": "1/16",
+      "0C": "1/12",
+      "08": "3/32",
+      "04": "1/8",
+      "0D": "1/6",
+      "09": "3/16",
+      "05": "1/4",
+      "0E": "1/3",
+      "0A": "3/8",
+      "06": "1/2",
+      "0F": "2/3",
+      "10": "3/4 ✓ (capture)"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-time": {
+    "title": "Reverb Time",
+    "values": {
+      "00": "0",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-damping": {
+    "title": "Reverb Damping",
+    "values": {
+      "00": "0.0 %",
+      "14": "15.6 %",
+      "7F": "100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-coloration": {
+    "title": "Reverb Coloration",
+    "values": {
+      "00": "−64",
+      "40": "+0",
+      "7F": "+63"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-predelay": {
+    "title": "Reverb Predelay",
+    "values": {
+      "00": "0.0",
+      "20": "174.8",
+      "40": "349.5",
+      "5C": "500.0"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-feedback": {
+    "title": "Reverb Feedback",
+    "values": {
+      "00": "0",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "reverb-send-lcd": {
+    "title": "Reverb Send (LCD)",
+    "values": {
+      "00": "Off",
+      "01": "−46.2 dB",
+      "02": "−40.2 dB",
+      "03": "−36.6 dB",
+      "3A": "−9.5 dB",
+      "3D": "−8.75 dB",
+      "3E": "−8.5 dB",
+      "3F": "−8.25 dB",
+      "40": "−8.0 dB",
+      "41": "−7.75 dB",
+      "50": "−4.0 dB",
+      "5F": "−0.25 dB",
+      "60": "0/0 dB",
+      "61": "0/−0.3 dB",
+      "62": "0/−0.6 dB",
+      "63": "0/−0.9 dB",
+      "64": "0/−1.2 dB",
+      "70": "0/−6.0 dB",
+      "7A": "0/−14.5 dB",
+      "7E": "0/−24.0 dB",
+      "7F": "Effect"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "eq-low-frequency": {
+    "title": "EQ Low Frequency",
+    "values": {
+      "00": "32",
+      "02": "33",
+      "04": "35",
+      "06": "36",
+      "08": "38",
+      "0A": "40",
+      "0C": "41",
+      "0E": "43",
+      "10": "45",
+      "12": "47",
+      "14": "49",
+      "79": "404",
+      "7B": "421",
+      "7D": "439",
+      "7F": "458"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "eq-low-gain": {
+    "title": "EQ Low Gain",
+    "values": {
+      "00": "−16 dB",
+      "40": "Off",
+      "7F": "+16 dB"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "eq-mid-frequency": {
+    "title": "EQ Mid Frequency",
+    "values": {
+      "00": "19",
+      "01": "20",
+      "10": "48",
+      "20": "118",
+      "30": "288",
+      "40": "707",
+      "50": "1731",
+      "60": "4238",
+      "6F": "9810",
+      "70": "10.3",
+      "71": "11.6",
+      "72": "12.2",
+      "73": "12.9",
+      "74": "13.7",
+      "75": "14.5",
+      "76": "15.3",
+      "77": "16.2",
+      "78": "17.1",
+      "7C": "21.4",
+      "7F": "24.0"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "eq-mid-gain": {
+    "title": "EQ Mid Gain",
+    "values": {
+      "00": "−16 dB",
+      "40": "Off",
+      "7F": "+16 dB"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "eq-mid-q-factor": {
+    "title": "EQ Mid Q-Factor",
+    "values": {
+      "00": "0.28",
+      "10": "0.45",
+      "20": "0.71",
+      "40": "1.58",
+      "50": "2.82",
+      "60": "5.01",
+      "70": "8.91",
+      "7E": "14.9",
+      "7F": "15.4"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "eq-high-frequency": {
+    "title": "EQ High Frequency",
+    "values": {
+      "00": "1831",
+      "0D": "2355",
+      "1F": "3436",
+      "3C": "6448",
+      "3E": "6724",
+      "40": "7012"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "eq-high-gain": {
+    "title": "EQ High Gain",
+    "values": {
+      "00": "−16 dB",
+      "40": "Off",
+      "7F": "+16 dB"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "oscillators-select": {
+    "title": "Oscillators SELECT",
+    "values": {
+      "00": "Oscillator 1",
+      "01": "Oscillator 2",
+      "02": "Oscillator 3"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filters-select": {
+    "title": "Filters SELECT",
+    "values": {
+      "00": "Filter 1",
+      "01": "Filter 2",
+      "02": "Filter 1 + Filter 2"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "effects-select-group-1": {
+    "title": "EFFECTS SELECT group 1",
+    "values": {
+      "00": "Delay",
+      "01": "Reverb",
+      "02": "Low EQ",
+      "03": "Mid EQ",
+      "04": "High EQ"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "effects-select-group-2": {
+    "title": "EFFECTS SELECT group 2",
+    "values": {
+      "00": "Distortion",
+      "01": "Character",
+      "02": "Chorus",
+      "03": "Phaser",
+      "04": "Others"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "character-type": {
+    "title": "Character Type",
+    "values": {
+      "00": "Analog Boost",
+      "01": "Vintage 1",
+      "02": "Vintage 2",
+      "03": "Vintage 3",
+      "04": "Pad Opener",
+      "05": "Lead Enhancer",
+      "06": "Bass Enhancer",
+      "07": "Stereo Widener",
+      "08": "Speaker Cabinet"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "character-panel-visibility": {
+    "title": "Character panel visibility",
+    "values": {},
+    "subsections": {
+      "analog-boost-00": {
+        "values": {}
+      },
+      "preset-types-0106": {
+        "values": {}
+      },
+      "stereo-widener-07-speaker-cabinet-08": {
+        "values": {}
+      }
+    }
+  },
+  "character-intensity-lcd": {
+    "title": "Character Intensity (LCD)",
+    "values": {
+      "00": "Off",
+      "01": "0.8 %",
+      "02": "1.6 %",
+      "03": "2.3 %",
+      "40": "50.4 %",
+      "7F": "100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "chorus-type": {
+    "title": "Chorus Type",
+    "values": {
+      "01": "Classic",
+      "02": "Vintage",
+      "03": "Hyper Chorus",
+      "04": "Air Chorus",
+      "05": "Vibrato",
+      "06": "Rotary Speaker"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "chorus-panel-visibility": {
+    "title": "Chorus panel visibility",
+    "values": {},
+    "subsections": {
+      "classic-01": {
+        "values": {}
+      },
+      "vintage-02": {
+        "values": {}
+      },
+      "hyper-chorus-03": {
+        "values": {}
+      },
+      "air-chorus-04": {
+        "values": {}
+      },
+      "vibrato-05": {
+        "values": {}
+      },
+      "rotary-speaker-06": {
+        "values": {}
+      }
+    }
+  },
+  "chorus-rotary-speed": {
+    "title": "Chorus Rotary Speed",
+    "values": {
+      "00": "Slow",
+      "7F": "Fast"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "chorus-rotary-distance-lcd": {
+    "title": "Chorus Rotary Distance (LCD)",
+    "values": {
+      "00": "4.0 cm",
+      "10": "6.0 cm",
+      "29": "9.1 cm",
+      "40": "12.0 cm",
+      "5A": "17.5 cm",
+      "7F": "30.0 cm"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "chorus-rotary-mic-angle-lcd": {
+    "title": "Chorus Rotary Mic Angle (LCD)",
+    "values": {
+      "00": "−180°",
+      "40": "+0°",
+      "7F": "+180°"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "chorus-rotary-lowhigh-balance-lcd": {
+    "title": "Chorus Rotary Low/High Balance (LCD)",
+    "values": {
+      "00": "−100.0 %",
+      "40": "+0.0 %",
+      "7F": "+100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "chorus-amount-lcd": {
+    "title": "Chorus Amount (LCD)",
+    "values": {
+      "00": "1.00",
+      "40": "≈2.00",
+      "7F": "3.00"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "chorus-lfo-wave": {
+    "title": "Chorus LFO Wave",
+    "values": {
+      "00": "Sine",
+      "01": "Triangle",
+      "02": "Sawtooth",
+      "03": "Square",
+      "04": "S&H",
+      "05": "S&G"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "phaser-panel-visibility": {
+    "title": "Phaser panel visibility",
+    "values": {},
+    "subsections": {}
+  },
+  "phaser-mix-lcd": {
+    "title": "Phaser Mix (LCD)",
+    "values": {
+      "00": "Off",
+      "01": "1",
+      "40": "64",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "phaser-stages": {
+    "title": "Phaser Stages",
+    "values": {
+      "00": "1 Stage",
+      "01": "2 Stages",
+      "02": "3 Stages",
+      "03": "4 Stages",
+      "04": "5 Stages",
+      "05": "6 Stages"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "others-type": {
+    "title": "Others Type",
+    "values": {},
+    "subsections": {}
+  },
+  "others-panel-visibility": {
+    "title": "Others panel visibility",
+    "values": {},
+    "subsections": {}
+  },
+  "input-follower-input-select": {
+    "title": "Input Follower Input Select",
+    "values": {
+      "00": "Off",
+      "01": "In L",
+      "02": "In L+R",
+      "03": "In R"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "input-follower-panel-visibility": {
+    "title": "Input Follower panel visibility",
+    "values": {},
+    "subsections": {}
+  },
+  "input-follower-sensitivity-lcd": {
+    "title": "Input Follower Sensitivity (LCD)",
+    "values": {
+      "00": "0 %",
+      "7F": "100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-type": {
+    "title": "Filter Bank Type",
+    "values": {
+      "00": "Off",
+      "01": "Ring Modulator",
+      "02": "Frequency Shifter",
+      "03": "Vowel Filter",
+      "04": "Comb Filter",
+      "05": "1 Pole XFade",
+      "06": "2 Pole XFade",
+      "07": "4 Pole XFade",
+      "08": "6 Pole XFade",
+      "09": "LP VariSlope",
+      "0A": "HP VariSlope",
+      "0B": "BP VariSlope"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-panel-visibility": {
+    "title": "Filter Bank panel visibility",
+    "values": {},
+    "subsections": {
+      "ring-modulator-01": {
+        "values": {}
+      },
+      "frequency-shifter-02": {
+        "values": {}
+      },
+      "vowel-filter-03": {
+        "values": {}
+      },
+      "comb-filter-04": {
+        "values": {}
+      },
+      "pole-xfade-0508": {
+        "values": {}
+      },
+      "varislope-090b": {
+        "values": {}
+      }
+    }
+  },
+  "filter-bank-mix-lcd": {
+    "title": "Filter Bank Mix (LCD)",
+    "values": {
+      "00": "Off",
+      "01": "0.8 %",
+      "02": "1.6 %",
+      "7F": "100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-vowel-frequency": {
+    "title": "Filter Bank Vowel Frequency",
+    "values": {
+      "00": "`<u>`",
+      "0B": "`<o>`",
+      "15": "`<ā>`",
+      "7F": "`<u>`"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-resonance-lcd": {
+    "title": "Filter Bank Resonance (LCD)",
+    "values": {
+      "00": "0 %",
+      "40": "50.0 %",
+      "7F": "100.0 %"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-comb-frequency": {
+    "title": "Filter Bank Comb Frequency",
+    "values": {
+      "00": "C0",
+      "01": "C#0",
+      "02": "D0",
+      "5F": "B7",
+      "60": "C8"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-frequency-direct": {
+    "title": "Filter Bank Frequency (direct)",
+    "values": {
+      "00": "0",
+      "40": "64",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-xfade-filter-type": {
+    "title": "Filter Bank XFade Filter Type",
+    "values": {
+      "00": "Low Pass",
+      "40": "Band Pass",
+      "7F": "High Pass"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-varislope-poles-lcd": {
+    "title": "Filter Bank VariSlope Poles (LCD)",
+    "values": {
+      "00": "2.00",
+      "40": "4.00",
+      "7F": "6.00"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "filter-bank-varislope-slope": {
+    "title": "Filter Bank VariSlope Slope",
+    "values": {
+      "00": "0",
+      "40": "64",
+      "7F": "127"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "vocoder-mode": {
+    "title": "Vocoder Mode",
+    "values": {
+      "00": "Off",
+      "01": "Oscillator",
+      "02": "Osc Hold",
+      "03": "Noise",
+      "04": "In L",
+      "05": "In L+R",
+      "06": "In R"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "vocoder-panel-visibility": {
+    "title": "Vocoder panel visibility",
+    "values": {},
+    "subsections": {
+      "active-modes-0106": {
+        "values": {}
+      }
+    }
+  },
+  "vocoder-bands": {
+    "title": "Vocoder Bands",
+    "values": {
+      "00": "01",
+      "01": "02",
+      "1F": "32"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "distortion-type": {
+    "title": "Distortion Type",
+    "values": {
+      "00": "Off",
+      "0C": "Wide",
+      "01": "Light",
+      "02": "Soft",
+      "03": "Medium",
+      "04": "Hard",
+      "05": "Digital",
+      "06": "Wave Shaper",
+      "07": "Rectifier",
+      "13": "Bit Reducer",
+      "12": "Rate Reducer",
+      "0D": "Soft Bounce",
+      "0E": "Hard Bounce",
+      "0F": "Sine Fold",
+      "10": "Triangle Fold",
+      "11": "Sawtooth Fold",
+      "0A": "Low Pass",
+      "0B": "High Pass",
+      "08": "Bit Reducer Old",
+      "09": "Rate Reducer Old",
+      "14": "Mint Overdrive",
+      "15": "Curry Overdrive",
+      "16": "Saffron Overdrive",
+      "17": "Onion Overdrive",
+      "18": "Pepper Overdrive",
+      "19": "Chili Overdrive"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "distortion-panel-visibility": {
+    "title": "Distortion panel visibility",
+    "values": {},
+    "subsections": {
+      "type-off-00": {
+        "values": {}
+      },
+      "standard-types-same-four-percent-rows": {
+        "values": {
+          "0C": "Wide",
+          "01": "Light",
+          "02": "Soft",
+          "03": "Medium",
+          "04": "Hard",
+          "05": "Digital",
+          "06": "Wave Shaper",
+          "07": "Rectifier",
+          "0D": "Soft Bounce",
+          "0E": "Hard Bounce",
+          "0F": "Sine Fold",
+          "10": "Triangle Fold",
+          "11": "Sawtooth Fold",
+          "00": "Mix / Intensity / Treble / High Cut",
+          "48": "Mix (`6E`/`48`)",
+          "65": "Intensity (`71`/`65`)",
+          "40": "Treble Boost (`6E`/`46`), High Cut (`6E`/`47`), Quality (`6E`/`49`)",
+          "7F": "standard % rows + Quality"
+        }
+      },
+      "reducer-types-mix-intensity-quality": {
+        "values": {}
+      },
+      "minimal-types-mix-and-intensity-only": {
+        "values": {
+          "0A": "Low Pass",
+          "0B": "High Pass",
+          "08": "Bit Reducer Old",
+          "09": "Rate Reducer Old"
+        }
+      },
+      "overdrive-types-drive-mix-high-cut": {
+        "values": {
+          "15": "Curry Overdrive",
+          "19": "Chili Overdrive",
+          "14": "Mint Overdrive",
+          "16": "Saffron Overdrive",
+          "17": "Onion Overdrive",
+          "18": "Pepper Overdrive"
+        }
+      }
+    }
+  },
+  "patch-name-categories": {
+    "title": "Patch name categories",
+    "values": {
+      "00": "Off",
+      "01": "Acid",
+      "02": "Arpeggiator",
+      "03": "Atomizer",
+      "04": "Bass",
+      "05": "Classic",
+      "06": "Decay",
+      "07": "Digital",
+      "08": "Drums",
+      "09": "EFX",
+      "0A": "FM",
+      "0B": "Input",
+      "0C": "Lead",
+      "0D": "Organ",
+      "0E": "Pad",
+      "0F": "Percussion",
+      "10": "Piano",
+      "11": "Pluck",
+      "12": "String",
+      "13": "Vocoder",
+      "14": "Favourites 1",
+      "15": "Favourites 2",
+      "16": "Favourites 3"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "soft-knob-destinations": {
+    "title": "Soft Knob Destinations",
+    "values": {
+      "00": "Off",
+      "40": "Aftertouch",
+      "55": "Analog Boost Int",
+      "56": "Analog Boost Tune",
+      "6F": "Arp Hold",
+      "69": "Arp Mode",
+      "6C": "Arp Note Length",
+      "6E": "Arp Octaves",
+      "6A": "Arp Pattern",
+      "6B": "Arp Resolution",
+      "6D": "Arp Swing",
+      "48": "Assign 1 Amount 1",
+      "49": "Assign 2 Amount 1",
+      "4A": "Assign 2 Amount 2",
+      "4B": "Assign 3 Amount 1",
+      "4C": "Assign 3 Amount 2",
+      "4D": "Assign 3 Amount 3",
+      "73": "Assign 4 Amount 1",
+      "74": "Assign 5 Amount 1",
+      "75": "Assign 6 Amount 1",
+      "06": "Balance",
+      "3E": "Bend Up",
+      "3F": "Bend Down",
+      "02": "Breath",
+      "0F": "Channel Volume",
+      "19": "Chorus Delay",
+      "18": "Chorus Depth",
+      "1A": "Chorus Feedback",
+      "16": "Chorus Mix",
+      "17": "Chorus Rate",
+      "4E": "Clock Tempo",
+      "03": "Control 03",
+      "07": "Control 09",
+      "09": "Control 12",
+      "0A": "Control 13",
+      "0B": "Control 14",
+      "0C": "Control 15",
+      "0D": "Control 16",
+      "05": "Data Entry",
+      "54": "Delay Coloration",
+      "1F": "Delay Depth",
+      "1D": "Delay Feedback",
+      "1E": "Delay Rate",
+      "1C": "Delay Time",
+      "57": "Distortion Intensity",
+      "71": "EQ Mid Frequency",
+      "70": "EQ Mid Gain",
+      "72": "EQ Mid Q-Factor",
+      "1B": "Effect Send (Delay)",
+      "76": "Effect Send (Reverb)",
+      "08": "Expression",
+      "27": "Filter Env > FM Amount",
+      "26": "Filter Env > Osc 2 Pitch",
+      "2C": "Filter 1 Env Amount",
+      "2E": "Filter 1 Key Follow",
+      "2A": "Filter 1 Resonance",
+      "2D": "Filter 2 Env Amount",
+      "2F": "Filter 2 Key Follow",
+      "2B": "Filter 2 Resonance",
+      "7F": "Freq Shifter Mix (LCD name)",
+      "04": "Foot Pedal",
+      "58": "FreqShifter Frequency (LCD name)",
+      "4F": "Input Thru",
+      "30": "LFO 1 Contour",
+      "5C": "LFO 1 > Assign Amount",
+      "35": "LFO 1 > Filter Gain",
+      "31": "LFO 1 > Osc 1",
+      "32": "LFO 1 > Osc 2",
+      "33": "LFO 1 > Pulse Width",
+      "34": "LFO 1 > Resonance",
+      "36": "LFO 2 Contour",
+      "5D": "LFO 2 > Assign Amount",
+      "39": "LFO 2 > Cutoff 1",
+      "3A": "LFO 2 > Cutoff 2",
+      "38": "LFO 2 > FM Amount",
+      "3B": "LFO 2 > Panorama",
+      "37": "LFO 2 > Shape",
+      "3C": "LFO 3 Rate",
+      "3D": "LFO 3 > Assign Amount",
+      "01": "Modulation Wheel",
+      "53": "Noise Color",
+      "29": "Noise Volume",
+      "50": "Osc Initial Phase",
+      "79": "Osc 1 F-Shift",
+      "7B": "Osc 1 F-Spread",
+      "7D": "Osc 1 Interpolation",
+      "23": "Osc 1 Key Follow",
+      "77": "Osc 1 Local Detune",
+      "22": "Osc 1 Pitch",
+      "21": "Osc 1 Pulse Width",
+      "20": "Osc 1 Wave Select",
+      "7A": "Osc 2 F-Shift",
+      "7C": "Osc 2 F-Spread",
+      "7E": "Osc 2 Interpolation",
+      "28": "Osc 2 Key Follow",
+      "78": "Osc 2 Local Detune",
+      "25": "Osc 2 Pulse Width",
+      "24": "Osc 2 Wave Select",
+      "5B": "Osc 3 Detune",
+      "5A": "Osc 3 Pitch",
+      "59": "Osc 3 Volume",
+      "10": "Panorama",
+      "0E": "Patch Volume",
+      "60": "Phaser Depth",
+      "62": "Phaser Feedback",
+      "61": "Phaser Frequency",
+      "5E": "Phaser Mix",
+      "5F": "Phaser Rate",
+      "63": "Phaser Spread",
+      "12": "Portamento",
+      "51": "Punch Intensity",
+      "66": "Reverb Coloration",
+      "65": "Reverb Dampening",
+      "64": "Reverb Decay",
+      "67": "Reverb Feedback",
+      "52": "Ring Modulator",
+      "68": "Surround Balance",
+      "11": "Transpose",
+      "13": "Unison Detune",
+      "15": "Unison LFO Phase",
+      "14": "Unison Spread",
+      "41": "Velo > FM Amount",
+      "42": "Velo > Filt 1 Env Amount",
+      "43": "Velo > Filt 2 Env Amount",
+      "47": "Velo > Panorama",
+      "44": "Velo > Resonance 1",
+      "45": "Velo > Resonance 2",
+      "46": "Velo > Volume"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "soft-knob-names": {
+    "title": "Soft Knob Names",
+    "values": {
+      "00": ">Para",
+      "01": "+3rds",
+      "02": "+4ths",
+      "03": "+5ths",
+      "04": "+7ths",
+      "05": "+Octave",
+      "06": "Access",
+      "07": "ArpMode",
+      "08": "ArpOct",
+      "09": "Attack",
+      "0A": "Balance",
+      "0B": "Bite",
+      "0C": "Bush",
+      "0D": "Chorus",
+      "0E": "Comb",
+      "0F": "Cutoff",
+      "10": "Decay",
+      "11": "Delay",
+      "12": "Depth",
+      "13": "Destroy",
+      "14": "Detune",
+      "15": "Disolve",
+      "16": "Distort",
+      "17": "Dive",
+      "18": "Effects",
+      "19": "Elevate",
+      "1A": "Energy",
+      "1B": "EqHigh",
+      "1C": "EqLow",
+      "1D": "EqMid",
+      "1E": "FM",
+      "1F": "Fast",
+      "20": "Fear",
+      "21": "Filter",
+      "22": "Flanger",
+      "23": "Fuzz",
+      "24": "F-Shift",
+      "25": "F-Spread",
+      "26": "Glide",
+      "27": "Hold",
+      "28": "Hype",
+      "29": "Infect",
+      "2A": "Interpolation",
+      "2B": "Length",
+      "2C": "Mix",
+      "2D": "Modulate",
+      "2E": "Morph",
+      "2F": "Muscle",
+      "30": "Mutate",
+      "31": "Noise",
+      "32": "Open",
+      "33": "Orbit",
+      "34": "PWM",
+      "35": "Pan",
+      "36": "Party!",
+      "37": "Phaser",
+      "38": "Phatter",
+      "39": "Soften",
+      "3A": "Speed",
+      "3B": "Punch",
+      "3C": "Push",
+      "3D": "Rate",
+      "3E": "Release",
+      "3F": "Reso",
+      "40": "Reverb",
+      "41": "RingMod",
+      "42": "Sack",
+      "43": "Scream",
+      "44": "Shape",
+      "45": "Sharpen",
+      "46": "Slow",
+      "57": "Speaker",
+      "4A": "SubOsc",
+      "4B": "Sustain",
+      "4C": "Sweep",
+      "4D": "Swing",
+      "4E": "Tempo",
+      "4F": "Thinner",
+      "50": "Tone",
+      "51": "Tremolo",
+      "52": "Vibrato",
+      "53": "Vowel",
+      "54": "WahWah",
+      "55": "Warmth",
+      "56": "Warp",
+      "47": "Width"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "mod-matrix-sources": {
+    "title": "Mod Matrix Sources",
+    "values": {
+      "00": "Off",
+      "01": "Pitch Bend",
+      "02": "Channel Pressure",
+      "03": "Mod Wheel",
+      "04": "Breath",
+      "05": "Controller 3",
+      "06": "Foot Pedal",
+      "07": "Data Entry",
+      "08": "Balance",
+      "09": "Controller 9",
+      "0A": "Expression",
+      "0B": "Controller 12",
+      "0C": "Controller 13",
+      "0D": "Controller 14",
+      "0E": "Controller 15",
+      "0F": "Controller 16",
+      "10": "Hold Pedal",
+      "11": "Portamento Sw",
+      "12": "Sost Pedal",
+      "13": "Amp Envelope",
+      "14": "Filter Envelope",
+      "15": "LFO 1 bipolar",
+      "16": "LFO 2 bipolar",
+      "17": "LFO 3 bipolar",
+      "18": "Velocity On",
+      "19": "Velocity Off",
+      "1A": "Key Follow",
+      "1B": "Random",
+      "1C": "Arp Input",
+      "1D": "LFO 1 unipolar",
+      "1E": "LFO 2 unipolar",
+      "1F": "LFO 3 unipolar",
+      "20": "1% Constant",
+      "21": "10% Constant",
+      "22": "AnaKey1 Fine",
+      "23": "AnaKey 2 Fine",
+      "24": "AnaKey1 Coarse",
+      "25": "AnaKey2 Coarse",
+      "26": "Envelope 3",
+      "27": "Envelope 4"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "mod-matrix-amount": {
+    "title": "Mod Matrix Amount",
+    "values": {},
+    "subsections": {},
+    "encoding": "bipolar"
+  },
+  "mod-matrix-destinations": {
+    "title": "Mod Matrix Destinations",
+    "values": {
+      "00": "Off",
+      "01": "Patch Volume",
+      "02": "Osc 1 Interpolation",
+      "03": "Panorama",
+      "04": "Transpose",
+      "05": "Portamento",
+      "06": "Osc 1 Shape/Index",
+      "07": "Osc 1 Pulse Width",
+      "08": "Osc 1 Wave Select",
+      "09": "Osc 1 Pitch",
+      "0A": "Slot 6 Amount 3",
+      "0B": "Osc 2 Shape/Index",
+      "0C": "Osc 2 Pulse Width",
+      "0D": "Osc 2 Wave Select",
+      "0E": "Osc 2 Pitch",
+      "0F": "Osc 2 Detune",
+      "10": "Osc 2 FM Amount",
+      "11": "Filter Env > Osc 2 Pitch",
+      "12": "Filter Env > FM/Sync",
+      "13": "Osc 2 Interpolation",
+      "14": "Oscillator Balance",
+      "15": "Sub Osc Volume",
+      "16": "Oscillator Volume",
+      "17": "Noise Volume",
+      "18": "Filter 1 Cutoff",
+      "19": "Filter 2 Cutoff",
+      "1A": "Filter 1 Resonance",
+      "1B": "Filter 2 Resonance",
+      "1C": "Filter 1 Env Amount",
+      "1D": "Filter 2 Env Amount",
+      "1E": "Slot 5 Amount 2",
+      "1F": "Slot 5 Amount 3",
+      "20": "Filter Balance",
+      "21": "Filter Env Attack",
+      "22": "Filter Env Decay",
+      "23": "Filter Env Sustain",
+      "24": "Filter Env Slope",
+      "25": "Filter Env Release",
+      "26": "Amp Env Attack",
+      "27": "Amp Env Decay",
+      "28": "Amp Env Sustain",
+      "29": "Amp Env Slope",
+      "2A": "Amp Env Release",
+      "2B": "LFO 1 Rate",
+      "2C": "LFO 1 Contour",
+      "2D": "LFO 1 > Osc 1 Pitch",
+      "2E": "LFO 1 > Osc 2 Pitch",
+      "2F": "LFO 1 > Pulse Width",
+      "30": "LFO 1 > Resonance",
+      "31": "LFO 1 > Filter Gain",
+      "32": "LFO 2 Rate",
+      "33": "LFO 2 Contour",
+      "34": "LFO 2 > Shape",
+      "35": "LFO 2 > FM Amount",
+      "36": "LFO 2 > Cutoff 1",
+      "37": "LFO 2 > Cutoff 2",
+      "38": "LFO 2 > Panorama",
+      "39": "LFO 3 Rate",
+      "3A": "LFO 3 > Assign Amount",
+      "3B": "Unison Detune",
+      "3C": "Pan Spread",
+      "3D": "Unison LFO Phase",
+      "3E": "Chorus Mix",
+      "3F": "Chorus Mod Rate",
+      "40": "Chorus Mod Depth",
+      "41": "Chorus Delay",
+      "42": "Chorus Feedback",
+      "43": "Delay Send",
+      "44": "Delay Time",
+      "45": "Delay Feedback",
+      "46": "Delay Mod Rate",
+      "47": "Delay Mod Depth",
+      "48": "Reverb Send",
+      "4B": "Slot 6 Amount 2",
+      "4C": "Slot 4 Amount 2",
+      "4D": "Slot 4 Amount 3",
+      "4E": "Filterbank Resonance",
+      "4F": "Filterbank Poles",
+      "50": "Slot 2 Amount 3",
+      "51": "Filterbank Slope",
+      "52": "Slot 1 Amount 1",
+      "53": "Slot 2 Amount 1",
+      "54": "Slot 2 Amount 2",
+      "55": "Slot 3 Amount 1",
+      "56": "Slot 3 Amount 2",
+      "57": "Slot 3 Amount 3",
+      "59": "Punch Intensity",
+      "5A": "Ring Modulator",
+      "5B": "Noise Color",
+      "5C": "Delay Coloration",
+      "5D": "Slot 1 Amount 2",
+      "5E": "Slot 1 Amount 3",
+      "5F": "Distortion Intensity",
+      "60": "Filterbank Frequency (LCD: FreqShifter Frequency)",
+      "61": "Osc 3 Volume",
+      "62": "Osc 3 Pitch",
+      "63": "Osc 3 Detune",
+      "64": "LFO 1 > Assign Amount",
+      "65": "LFO 2 > Assign Amount",
+      "66": "Phaser Mix",
+      "67": "Phaser Mod Rate",
+      "68": "Phaser Mod Depth",
+      "69": "Phaser Frequency",
+      "6A": "Phaser Feedback",
+      "6C": "Reverb Time",
+      "6D": "Reverb Dampening",
+      "6E": "Reverb Coloration",
+      "6F": "Reverb PreDelay",
+      "71": "Surround Balance",
+      "72": "Arp Note Length",
+      "73": "Arp Swing Factor",
+      "74": "Arp Pattern",
+      "75": "EQ Mid Gain",
+      "76": "EQ Mid Frequency",
+      "78": "Slot 4 Amount 1",
+      "79": "Slot 5 Amount 1",
+      "7A": "Slot 6 Amount 1",
+      "7B": "Osc 1 F-Shift",
+      "7C": "Osc 2 F-Shift",
+      "7D": "Osc 1 F-Spread",
+      "7E": "Osc 2 F-Spread",
+      "7F": "Distortion Mix"
+    },
+    "subsections": {},
+    "encoding": "wire_enum",
+    "wire_map_ref": "lfo-1-destination/assign-target"
+  },
+  "wavetable-names": {
+    "title": "Wavetable Names",
+    "values": {},
+    "subsections": {}
+  },
+  "control-smooth-mode-clock-quantize": {
+    "title": "Control Smooth Mode / clock quantize",
+    "values": {
+      "00": "Off",
+      "01": "On",
+      "02": "Auto",
+      "03": "Note",
+      "04": "Quantise 1/64",
+      "05": "Quantise 1/32",
+      "06": "Quantise 1/16",
+      "07": "Quantise 1/8",
+      "08": "Quantise 1/4",
+      "09": "Quantise 1/2",
+      "0A": "Quantise 3/64",
+      "0B": "Quantise 3/32",
+      "0C": "Quantise 3/16",
+      "0D": "Quantise 3/8",
+      "0E": "Quantise 1/24",
+      "0F": "Quantise 1/12",
+      "10": "Quantise 1/6",
+      "11": "Quantise 1/3",
+      "12": "Quantise 2/3",
+      "13": "Quantise 3/4",
+      "14": "Quantise 1/1"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "edit-single-panorama-lcd": {
+    "title": "Edit Single — Panorama (LCD)",
+    "values": {
+      "00": "L< 100.0 %",
+      "02": "L< 96.9 %",
+      "04": "L< 93.8 %",
+      "06": "L< 90.6 %",
+      "08": "L< 87.5 %",
+      "0A": "L< 84.4 %",
+      "0C": "L< 81.3 %",
+      "0E": "L< 78.1 %",
+      "10": "L< 75.0 %",
+      "12": "L< 71.9 %",
+      "14": "L< 68.8 %",
+      "16": "L< 65.6 %",
+      "18": "L< 62.5 %",
+      "1A": "L< 59.4 %",
+      "1C": "L< 56.3 %",
+      "1E": "L< 53.1 %",
+      "20": "L< 50.0 %",
+      "22": "L< 46.9 %",
+      "24": "L< 43.8 %",
+      "26": "L< 40.6 %",
+      "28": "L< 37.5 %",
+      "2A": "L< 34.4 %",
+      "2C": "L< 31.3 %",
+      "2E": "L< 28.1 %",
+      "30": "L< 25.0 %",
+      "32": "L< 21.9 %",
+      "34": "L< 18.8 %",
+      "36": "L< 15.6 %",
+      "38": "L< 12.5 %",
+      "3A": "L< 9.4 %",
+      "3C": "L< 6.3 %",
+      "3E": "L< 3.1 %",
+      "40": "<0>",
+      "41": "1.6 % >R",
+      "43": "4.7 % >R",
+      "45": "7.8 % >R",
+      "47": "10.9 % >R",
+      "49": "14.1 % >R",
+      "4B": "17.2 % >R",
+      "4D": "20.3 % >R",
+      "4F": "23.4 % >R",
+      "51": "26.6 % >R",
+      "53": "29.7 % >R",
+      "55": "32.8 % >R",
+      "57": "35.9 % >R",
+      "59": "39.0 % >R",
+      "5B": "42.2 % >R",
+      "5D": "45.3 % >R",
+      "5F": "48.4 % >R",
+      "61": "51.6 % >R",
+      "63": "54.7 % >R",
+      "65": "57.8 % >R",
+      "67": "60.9 % >R",
+      "69": "64.1 % >R",
+      "6B": "67.2 % >R",
+      "6D": "70.3 % >R",
+      "6F": "73.4 % >R",
+      "71": "76.6 % >R",
+      "73": "79.7 % >R",
+      "75": "82.8 % >R",
+      "77": "85.9 % >R",
+      "79": "89.1 % >R",
+      "7B": "92.2 % >R",
+      "7D": "95.3 % >R",
+      "7F": "100.0 % >R"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "osc-1-classic-pulse-width-lcd": {
+    "title": "Osc 1 Classic — Pulse Width (LCD)",
+    "values": {
+      "00": "50.0",
+      "03": "51.2",
+      "06": "52.4",
+      "09": "53.5",
+      "0C": "54.7",
+      "0F": "55.9",
+      "12": "57.0",
+      "15": "58.7",
+      "18": "59.8",
+      "1B": "61.0",
+      "1E": "62.2",
+      "21": "63.8",
+      "24": "64.6",
+      "27": "65.7",
+      "2A": "66.9",
+      "2D": "68.1",
+      "30": "69.3",
+      "33": "70.5",
+      "36": "71.7",
+      "39": "72.8",
+      "3C": "74.0",
+      "3F": "75.2",
+      "42": "76.4",
+      "45": "77.6",
+      "48": "78.7",
+      "4B": "79.9",
+      "4E": "81.1",
+      "51": "82.3",
+      "65": "90.2",
+      "79": "98.0",
+      "7F": "100"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  },
+  "osc-1-hypersaw-density-lcd": {
+    "title": "Osc 1 Hypersaw — Density (LCD)",
+    "values": {
+      "00": "1.0",
+      "03": "1.1",
+      "06": "1.2",
+      "09": "1.3",
+      "0C": "1.4",
+      "0F": "1.5",
+      "12": "1.6",
+      "15": "1.7",
+      "18": "1.8",
+      "1B": "1.9",
+      "1E": "1.9",
+      "21": "2.1",
+      "24": "2.2",
+      "27": "2.3",
+      "2A": "2.4",
+      "2D": "2.5",
+      "30": "2.6",
+      "33": "2.7",
+      "34": "2.7",
+      "37": "2.8",
+      "3A": "2.8",
+      "3D": "2.9",
+      "40": "3.0",
+      "43": "3.3",
+      "46": "3.5",
+      "49": "3.7",
+      "4C": "3.8",
+      "4F": "4.0",
+      "52": "4.2",
+      "55": "4.5",
+      "58": "4.6",
+      "5B": "4.8",
+      "5E": "4.9",
+      "61": "5.1",
+      "64": "5.7",
+      "65": "5.8",
+      "68": "6.0",
+      "6B": "6.5",
+      "6E": "6.9",
+      "70": "7.0",
+      "73": "7.5",
+      "76": "7.9",
+      "79": "8.1",
+      "7C": "8.7",
+      "7F": "9.0"
+    },
+    "subsections": {},
+    "encoding": "enum"
+  }
+}

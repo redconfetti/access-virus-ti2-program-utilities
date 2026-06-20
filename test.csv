@@ -1,0 +1,374 @@
+category,panel,parameter,value,hex,decimal
+Osc/Mixer,Sub-Osc,Sub Oscillator Waveform Shape,Square,0x00,0
+Osc/Mixer,Oscillator 1,Oscillator 1 Model / Mode,0,0x00,0
+Osc/Mixer,Oscillator 1,Oscillator 1 Detune in Semitone,-64,0x00,0
+Osc/Mixer,Oscillator 1,Oscillator 1 Keyfollow,-7,0x39,57
+Osc/Mixer,Oscillator 1,Velocity --> Osc1 Waveform Shape,+32.8%,0x55,85
+Osc/Mixer,Oscillator 1 Classic,Oscillator 1 Waveform Shape,0,0x00,0
+Osc/Mixer,Oscillator 1 Classic,Oscillator 1 Wave Select,66,0x42,66
+Osc/Mixer,Oscillator 1 Classic,Oscillator 1 Pulsewidth,+100.0%,0x7F,127
+Osc/Mixer,Oscillator 1 Hypersaw,Oscillator 1 Density,1.0,0x00,0
+Osc/Mixer,Oscillator 1 Hypersaw,Oscillator 1 Local Detune,127,0x7F,127
+Osc/Mixer,Oscillator 1 Hypersaw,Oscillator 1+2 X-Sync Frequency,0,0x00,0
+Osc/Mixer,Oscillator 1 Wavetable,Oscillator 1 Wavetable / Waveform,42,0x42,66
+Osc/Mixer,Oscillator 1 Wavetable,Oscillator 1 Wavetable Index,0,0x00,0
+Osc/Mixer,Oscillator 1 Wavetable,Oscillator 1 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 1 Wavetable PWM,Oscillator 1 Wavetable / Waveform,66,0x42,66
+Osc/Mixer,Oscillator 1 Wavetable PWM,Oscillator 1 Wavetable Index,0,0x00,0
+Osc/Mixer,Oscillator 1 Wavetable PWM,Oscillator 1 Pulsewidth,127,0x7F,127
+Osc/Mixer,Oscillator 1 Wavetable PWM,Oscillator 1 Local Detune,64,0x40,64
+Osc/Mixer,Oscillator 1 Wavetable PWM,Oscillator 1 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 1 Grain Simple,Oscillator 1 Wavetable / Waveform,66,0x42,66
+Osc/Mixer,Oscillator 1 Grain Simple,Oscillator 1 Wavetable Index,0,0x00,0
+Osc/Mixer,Oscillator 1 Grain Simple,Oscillator 1 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 1 Grain Simple,Oscillator 1 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 1 Grain Complex,Oscillator 1 Wavetable / Waveform,66,0x42,66
+Osc/Mixer,Oscillator 1 Grain Complex,Oscillator 1 Wavetable Index,0,0x00,0
+Osc/Mixer,Oscillator 1 Grain Complex,Oscillator 1 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 1 Grain Complex,Oscillator 1 Formant Spread,0,0x00,0
+Osc/Mixer,Oscillator 1 Grain Complex,Oscillator 1 Local Detune,64,0x40,64
+Osc/Mixer,Oscillator 1 Grain Complex,Oscillator 1 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 1 Formant Simple,Oscillator 1 Wavetable / Waveform,66,0x42,66
+Osc/Mixer,Oscillator 1 Formant Simple,Oscillator 1 Wavetable Index,0,0x00,0
+Osc/Mixer,Oscillator 1 Formant Simple,Oscillator 1 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 1 Formant Simple,Oscillator 1 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 1 Formant Complex,Oscillator 1 Wavetable / Waveform,66,0x42,66
+Osc/Mixer,Oscillator 1 Formant Complex,Oscillator 1 Wavetable Index,0,0x00,0
+Osc/Mixer,Oscillator 1 Formant Complex,Oscillator 1 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 1 Formant Complex,Oscillator 1 Formant Spread,0,0x00,0
+Osc/Mixer,Oscillator 1 Formant Complex,Oscillator 1 Local Detune,64,0x40,64
+Osc/Mixer,Oscillator 1 Formant Complex,Oscillator 1 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 2,Oscillator 2 Model / Mode,0,0x00,0
+Osc/Mixer,Oscillator 2,Oscillator 2 Detune in Semitone,-64,0x00,0
+Osc/Mixer,Oscillator 2,Oscillator 2 Fine Detune,64,0x40,64
+Osc/Mixer,Oscillator 2,Oscillator 2 Keyfollow,+0,0x40,64
+Osc/Mixer,Oscillator 2,Velocity --> Osc2 Waveform Shape,+0.0%,0x40,64
+Osc/Mixer,Oscillator 2 Classic,Oscillator 2 Waveform Shape,96,0x60,96
+Osc/Mixer,Oscillator 2 Classic,Oscillator 2 Wave Select,116,0x74,116
+Osc/Mixer,Oscillator 2 Classic,Oscillator 2 Pulsewidth,+100.0%,0x7F,127
+Osc/Mixer,Oscillator 2 Hypersaw,Oscillator 2 Density,7.0,0x60,96
+Osc/Mixer,Oscillator 2 Hypersaw,Oscillator 2 Local Detune,127,0x7F,127
+Osc/Mixer,Oscillator 2 Hypersaw,Oscillator 1+2 X-Sync Frequency,0,0x00,0
+Osc/Mixer,Oscillator 2 Wavetable,Oscillator 2 Wavetable / Waveform,116,0x74,116
+Osc/Mixer,Oscillator 2 Wavetable,Oscillator 2 Wavetable Index,96,0x60,96
+Osc/Mixer,Oscillator 2 Wavetable,Oscillator 2 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 2 Wavetable PWM,Oscillator 2 Wavetable / Waveform,116,0x74,116
+Osc/Mixer,Oscillator 2 Wavetable PWM,Oscillator 2 Wavetable Index,96,0x60,96
+Osc/Mixer,Oscillator 2 Wavetable PWM,Oscillator 2 Pulsewidth,127,0x7F,127
+Osc/Mixer,Oscillator 2 Wavetable PWM,Oscillator 2 Local Detune,64,0x40,64
+Osc/Mixer,Oscillator 2 Wavetable PWM,Oscillator 2 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 2 Grain Simple,Oscillator 2 Wavetable / Waveform,116,0x74,116
+Osc/Mixer,Oscillator 2 Grain Simple,Oscillator 2 Wavetable Index,96,0x60,96
+Osc/Mixer,Oscillator 2 Grain Simple,Oscillator 2 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 2 Grain Simple,Oscillator 2 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 2 Grain Complex,Oscillator 2 Wavetable / Waveform,116,0x74,116
+Osc/Mixer,Oscillator 2 Grain Complex,Oscillator 2 Wavetable Index,96,0x60,96
+Osc/Mixer,Oscillator 2 Grain Complex,Oscillator 2 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 2 Grain Complex,Oscillator 2 Formant Spread,0,0x00,0
+Osc/Mixer,Oscillator 2 Grain Complex,Oscillator 2 Local Detune,64,0x40,64
+Osc/Mixer,Oscillator 2 Grain Complex,Oscillator 2 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 2 Formant Simple,Oscillator 2 Wavetable / Waveform,116,0x74,116
+Osc/Mixer,Oscillator 2 Formant Simple,Oscillator 2 Wavetable Index,96,0x60,96
+Osc/Mixer,Oscillator 2 Formant Simple,Oscillator 2 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 2 Formant Simple,Oscillator 2 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 2 Formant Complex,Oscillator 2 Wavetable / Waveform,116,0x74,116
+Osc/Mixer,Oscillator 2 Formant Complex,Oscillator 2 Wavetable Index,96,0x60,96
+Osc/Mixer,Oscillator 2 Formant Complex,Oscillator 2 Formant Shift,-64,0x00,0
+Osc/Mixer,Oscillator 2 Formant Complex,Oscillator 2 Formant Spread,0,0x00,0
+Osc/Mixer,Oscillator 2 Formant Complex,Oscillator 2 Local Detune,64,0x40,64
+Osc/Mixer,Oscillator 2 Formant Complex,Oscillator 2 Interpolation,0,0x00,0
+Osc/Mixer,Oscillator 3,Oscillator 3 Model,0,0x00,0
+Osc/Mixer,Oscillator 3,Oscillator 3 Detune in Semitone,64,0x40,64
+Osc/Mixer,Oscillator 3,Oscillator 3 Fine Detune,64,0x40,64
+Osc/Mixer,Osc 1 / Osc 2 sub-menus,Oscillator 1 Sync (2>1),0,0x00,0
+Osc/Mixer,Oscillator 2 Classic,Filter Envelope --> Oscillator 2 Pitch,0,0x00,0
+Osc/Mixer,EDIT OSC → Common,Oscillator Section Initial Phase,Off,0x00,0
+Osc/Mixer,Velocity Map,Velocity --> Pulsewidth,+0.0%,0x40,64
+Osc/Mixer,EDIT OSC → Common,Patch Common Portamento,Off,0x00,0
+Osc/Mixer,Oscillator 2 Classic,Oscillator 2 FM Amount,0,0x00,0
+Osc/Mixer,Osc 2 Classic / EDIT OSC Common,Filter Envelope --> FM / X-Sync,64,0x40,64
+Osc/Mixer,Velocity Map,Velocity --> FM Amount,+0.0%,0x40,64
+Osc/Mixer,Oscillator 2 Classic,Oscillator 2 FM Mode,36,0x24,36
+Osc/Mixer,Noise,Noise Oscillator Volume,64,0x40,64
+Osc/Mixer,Noise,Noise Color,-64,0x00,0
+Osc/Mixer,Oscillators → Punch,Oscillator Punch Intensity,0,0x00,0
+Osc/Mixer,Mixer,Oscillator 1/2 Balance,0,0x00,0
+Osc/Mixer,Mixer,Oscillator 3 Volume,0,0x00,0
+Osc/Mixer,Sub-Osc,Sub Oscillator Volume,77,0x4D,77
+Osc/Mixer,Mixer,Oscillator Section Volume / Saturation,-64,0x00,0
+Osc/Mixer,Mixer,Ring Modulator Volume,Off,0x00,0
+Filters,Filter 1,Filter 1 Mode,0,0x00,0
+Filters,Filter 1,Filter 1 Envelope Amount,0,0x00,0
+Filters,Filter 1,Filter 1 Envelope Polarity,0,0x00,0
+Filters,Filter 1,Filter 1 Cutoff,64,0x40,64
+Filters,Filter 1,Filter 1 Resonance,79,0x4F,79
+Filters,Filter 1,Filter 1 Keyfollow,65,0x41,65
+Filters,Filter 2,Filter 2 Mode,0,0x00,0
+Filters,Filter 2,Filter 2 Envelope Amount,65,0x41,65
+Filters,Filter 2,Filter 2 Envelope Polarity,1,0x01,1
+Filters,Filter 2,Filter 2 Offset,+17,0x51,81
+Filters,Filter 2,Filter 2 Resonance,0,0x00,0
+Filters,Filter 2,Filter 2 Keyfollow,+0,0x40,64
+Filters,Filter Common,Oscillator Section Volume,-64,0x00,0
+Filters,Filter Common,Filter Routing,0,0x00,0
+Filters,Filter Common,Filter knob target (Res / Env Amt),32,0x20,32
+Filters,Filter Common,Filter Keyfollow Base,1,0x01,1
+Filters,Filter Common,Filter Cutoff Link toggle,1,0x01,1
+Filters,Filter Common,Filter Balance,+0,0x40,64
+Filters,Filter Common,Pan Spread,0,0x00,0
+Filters,Filter / Aux Envelopes,Filter Envelope Attack,0,0x00,0
+Filters,Filter / Aux Envelopes,Filter Envelope Decay,0,0x00,0
+Filters,Filter / Aux Envelopes,Filter Envelope Sustain,28,0x1C,28
+Filters,Filter / Aux Envelopes,Filter Envelope Sustain Slope,-64,0x00,0
+Filters,Filter / Aux Envelopes,Filter Envelope Release,64,0x40,64
+Filters,Filter / Aux Envelopes,Envelope 3 Attack,0,0x00,0
+Filters,Filter / Aux Envelopes,Envelope 3 Decay,20,0x14,20
+Filters,Filter / Aux Envelopes,Envelope 3 Sustain,70,0x46,70
+Filters,Filter / Aux Envelopes,Envelope 3 Sustain Slope,-64,0x00,0
+Filters,Filter / Aux Envelopes,Envelope 3 Release,0,0x00,0
+Filters,Filter / Aux Envelopes,Envelope 4 Attack,70,0x46,70
+Filters,Filter / Aux Envelopes,Envelope 4 Decay,20,0x14,20
+Filters,Filter / Aux Envelopes,Envelope 4 Sustain,70,0x46,70
+Filters,Filter / Aux Envelopes,Envelope 4 Sustain Slope,-64,0x00,0
+Filters,Filter / Aux Envelopes,Envelope 4 Release,0,0x00,0
+Filters,Amplifier Envelope,Amplifier Envelope Attack,87,0x57,87
+Filters,Amplifier Envelope,Amplifier Envelope Decay,0,0x00,0
+Filters,Amplifier Envelope,Amplifier Envelope Sustain,91,0x5B,91
+Filters,Amplifier Envelope,Amplifier Envelope Sustain Slope,-64,0x00,0
+Filters,Amplifier Envelope,Amplifier Envelope Release,64,0x40,64
+Filters,Velocity / Filter Envelope,Velocity --> Filter 1 Envelope Amount,-100.0%,0x00,0
+Filters,Velocity / Filter Envelope,Velocity --> Filter 1 Resonance,+0.0%,0x40,64
+Filters,Velocity / Filter Envelope,Velocity --> Filter 2 Envelope Amount,+0.0%,0x40,64
+Filters,Velocity / Filter Envelope,Velocity --> Filter 2 Resonance,+0.0%,0x40,64
+Filters,Velocity / Amplifier,Velocity --> Volume,-100.0%,0x00,0
+Filters,Velocity / Amplifier,Velocity --> Panorama,+0.0%,0x40,64
+Modulators,LFO 1,LFO 1 Rate,Unknown (64),0x64,100
+Modulators,LFO 1,LFO 1 Clock Divider,1/8,0x04,4
+Modulators,LFO 1,LFO 1 Keyfollow,Unknown (40),0x40,64
+Modulators,LFO 1,LFO 1 Trigger Phase,Off,0x00,0
+Modulators,LFO 1,LFO 1 Waveform Shape,00,0x00,0
+Modulators,LFO 1,LFO 1 Waveform Contour,00,0x00,0
+Modulators,LFO 1,LFO 1 Mode,Unknown (40),0x40,64
+Modulators,LFO 1,LFO 1 Envelope Mode toggle,Off,0x00,0
+Modulators,LFO 1 Destination,LFO 1 --> Osc 1,-100.0%,0x00,0
+Modulators,LFO 1 Destination,LFO 1 --> Osc 2,+0.0%,0x40,64
+Modulators,LFO 1 Destination,LFO 1 --> Pulsewidth,+0.0%,0x40,64
+Modulators,LFO 1 Destination,LFO 1 --> Filter Resonance 1+2,+0.0%,0x40,64
+Modulators,LFO 1 Destination,LFO 1 --> Filter Envelope Gain / Filter Gain Depth,+0.0%,0x40,64
+Modulators,LFO 1 Destination,LFO 1 User Destination,Chorus Mod Depth,0x40,64
+Modulators,LFO 1 Destination,LFO 1 User Destination Amount,Oscillator Volume,0x16,22
+Modulators,LFO 2,LFO 2 Rate,Unknown (40),0x40,64
+Modulators,LFO 2,LFO 2 Clock Divider,Off,0x00,0
+Modulators,LFO 2,LFO 2 Keyfollow,Unknown (40),0x40,64
+Modulators,LFO 2,LFO 2 Trigger Phase,Off,0x00,0
+Modulators,LFO 2,LFO 2 Waveform Shape,30,0x30,48
+Modulators,LFO 2,LFO 2 Waveform Contour,00,0x00,0
+Modulators,LFO 2,LFO 2 Mode,Poly,0x00,0
+Modulators,LFO 2,LFO 2 Envelope Mode toggle,On,0x01,1
+Modulators,LFO 2 Destination,LFO 2 --> Filter Cutoff 1,+0.0%,0x40,64
+Modulators,LFO 2 Destination,LFO 2 --> Filter Cutoff 2,+0.0%,0x40,64
+Modulators,LFO 2 Destination,LFO 2 --> Shape 1+2 Depth,-100.0%,0x00,0
+Modulators,LFO 2 Destination,LFO 2 --> Panorama,+0.0%,0x40,64
+Modulators,LFO 2 Destination,LFO 2 --> FM Amount,+0.0%,0x40,64
+Modulators,LFO 2 Destination,LFO 2 User Destination,4E,0x4E,78
+Modulators,LFO 2 Destination,LFO 2 User Destination Amount,00,0x00,0
+Modulators,LFO 3,LFO 3 Rate,0,0x00,0
+Modulators,LFO 3,LFO 3 Clock Divider,Off,0x00,0
+Modulators,LFO 3,LFO 3 Keyfollow,Off,0x00,0
+Modulators,LFO 3,LFO 3 Waveform Shape,5E,0x5E,94
+Modulators,LFO 3,LFO 3 Mode,Mono,0x01,1
+Modulators,LFO 3 Destination,LFO 3 Fade In Time,0,0x00,0
+Modulators,LFO 3 Destination,LFO 3 User Destination,Off,0x00,0
+Modulators,LFO 3 Destination,LFO 3 User Destination Amount,Unknown (01),0x01,1
+Matrix,Slot 1,Mod Matrix Slot 1 Source,Off,0x00,0
+Matrix,Slot 1,Mod Matrix Slot 1 Destination 1,03,0x03,3
+Matrix,Slot 1,Mod Matrix Slot 1 Amount 1,3A,0x3A,58
+Matrix,Slot 1,Mod Matrix Slot 1 Destination 2,70,0x46,70
+Matrix,Slot 1,Mod Matrix Slot 1 Amount 2,0,0x00,0
+Matrix,Slot 1,Mod Matrix Slot 1 Destination 3,64,0x40,64
+Matrix,Slot 1,Mod Matrix Slot 1 Amount 3,0,0x00,0
+Matrix,Slot 2,Mod Matrix Slot 2 Source,100,0x64,100
+Matrix,Slot 2,Mod Matrix Slot 2 Destination 1,0,0x00,0
+Matrix,Slot 2,Mod Matrix Slot 2 Amount 1,0,0x00,0
+Matrix,Slot 2,Mod Matrix Slot 2 Destination 2,64,0x40,64
+Matrix,Slot 2,Mod Matrix Slot 2 Amount 2,0,0x00,0
+Matrix,Slot 2,Mod Matrix Slot 2 Destination 3,64,0x40,64
+Matrix,Slot 2,Mod Matrix Slot 2 Amount 3,0,0x00,0
+Matrix,Slot 3,Mod Matrix Slot 3 Source,64,0x40,64
+Matrix,Slot 3,Mod Matrix Slot 3 Destination 1,0,0x00,0
+Matrix,Slot 3,Mod Matrix Slot 3 Amount 1,0,0x00,0
+Matrix,Slot 3,Mod Matrix Slot 3 Destination 2,64,0x40,64
+Matrix,Slot 3,Mod Matrix Slot 3 Amount 2,0,0x00,0
+Matrix,Slot 3,Mod Matrix Slot 3 Destination 3,64,0x40,64
+Matrix,Slot 3,Mod Matrix Slot 3 Amount 3,0,0x00,0
+Matrix,Slot 4,Mod Matrix Slot 4 Source,0,0x00,0
+Matrix,Slot 4,Mod Matrix Slot 4 Destination 1,3,0x03,3
+Matrix,Slot 4,Mod Matrix Slot 4 Amount 1,0,0x00,0
+Matrix,Slot 4,Mod Matrix Slot 4 Destination 2,64,0x40,64
+Matrix,Slot 4,Mod Matrix Slot 4 Amount 2,0,0x00,0
+Matrix,Slot 4,Mod Matrix Slot 4 Destination 3,64,0x40,64
+Matrix,Slot 4,Mod Matrix Slot 4 Amount 3,0,0x00,0
+Matrix,Slot 5,Mod Matrix Slot 5 Source,64,0x40,64
+Matrix,Slot 5,Mod Matrix Slot 5 Destination 1,3,0x03,3
+Matrix,Slot 5,Mod Matrix Slot 5 Amount 1,0,0x00,0
+Matrix,Slot 5,Mod Matrix Slot 5 Destination 2,64,0x40,64
+Matrix,Slot 5,Mod Matrix Slot 5 Amount 2,0,0x00,0
+Matrix,Slot 5,Mod Matrix Slot 5 Destination 3,64,0x40,64
+Matrix,Slot 5,Mod Matrix Slot 5 Amount 3,0,0x00,0
+Matrix,Slot 6,Mod Matrix Slot 6 Source,64,0x40,64
+Matrix,Slot 6,Mod Matrix Slot 6 Destination 1,3,0x03,3
+Matrix,Slot 6,Mod Matrix Slot 6 Amount 1,0,0x00,0
+Matrix,Slot 6,Mod Matrix Slot 6 Destination 2,64,0x40,64
+Matrix,Slot 6,Mod Matrix Slot 6 Amount 2,0,0x00,0
+Matrix,Slot 6,Mod Matrix Slot 6 Destination 3,64,0x40,64
+Matrix,Slot 6,Mod Matrix Slot 6 Amount 3,0,0x00,0
+Arpeggiator,Settings,Arpeggiator Mode,Off,0x00,0
+Arpeggiator,Settings,Arpeggiator Pattern,User,0x00,0
+Arpeggiator,Settings,Arpeggiator Range In Octaves,1,0x00,0
+Arpeggiator,Settings,Arpeggiator Clock / Resolution,Unknown (39),0x39,57
+Arpeggiator,Settings,Arpeggiator Note Length,−100.0 %,0x00,0
+Arpeggiator,Settings,Arpeggiator Swing Factor,40,0x40,64
+Arpeggiator,Settings,Arpeggiator Hold Mode,Off,0x00,0
+Arpeggiator,Pattern Editor,Arpeggiator Loop Length,32,0x1F,31
+Effects,Characters,Character Type,64,0x40,64
+Effects,Chorus,Chorus Type,Unknown (00),0x00,0
+Effects,Chorus Classic,Chorus Mix,127,0x7F,127
+Effects,Chorus Classic,Chorus Delay,16,0x10,16
+Effects,Chorus Classic,Chorus Feedback,127,0x7F,127
+Effects,Chorus Classic,Chorus LFO Rate,0,0x00,0
+Effects,Chorus Classic,Chorus LFO Depth,69,0x45,69
+Effects,Chorus Classic,Chorus LFO Shape,64,0x40,64
+Effects,Chorus Vintage,Chorus Mix,1,0x01,1
+Effects,Chorus Vintage,Chorus X Over,1,0x01,1
+Effects,Chorus Vintage,Chorus LFO Rate,0,0x00,0
+Effects,Chorus Vintage,Chorus LFO Depth,69,0x45,69
+Effects,Chorus Hyper,Chorus Mix,1,0x01,1
+Effects,Chorus Hyper,Chorus X Over,1,0x01,1
+Effects,Chorus Hyper,Chorus Amount,-75.0%,0x10,16
+Effects,Chorus Hyper,Chorus LFO Depth,69,0x45,69
+Effects,Chorus Air,Chorus X Over,1,0x01,1
+Effects,Chorus Air,Chorus LFO Depth,69,0x45,69
+Effects,Chorus Vibrato,Chorus X Over,1,0x01,1
+Effects,Chorus Vibrato,Chorus LFO Rate,0,0x00,0
+Effects,Chorus Vibrato,Chorus LFO Depth,69,0x45,69
+Effects,Chorus Rotary Speaker,Chorus Mix,1,0x01,1
+Effects,Chorus Rotary Speaker,Chorus Speed,0,0x00,0
+Effects,Chorus Rotary Speaker,Chorus Low/High Balance,+100.0 %,0x7F,127
+Effects,Chorus Rotary Speaker,Chorus Mic Angle,Unknown (10),0x10,16
+Effects,Chorus Rotary Speaker,Chorus Distance,Unknown (45),0x45,69
+Effects,Distortion,Distortion Type,Off,0x00,0
+Effects,Distortion,Distortion Mix,00,0x00,0
+Effects,Distortion,Distortion Intensity,0,0x00,0
+Effects,Distortion,Distortion Treble Booster,0,0x00,0
+Effects,Distortion,Distortion High Cut,0,0x00,0
+Effects,Distortion,Distortion Quality,127,0x7F,127
+Effects,Distortion Overdrives,Distortion Tone,127,0x7F,127
+Effects,Phaser,Phaser Mix,Unknown (03),0x03,3
+Effects,Phaser,Phaser Stages,0,0x00,0
+Effects,Phaser,Phaser Frequency,112,0x70,112
+Effects,Phaser,Phaser Feedback (FB),48,0x30,48
+Effects,Phaser,Phaser Spread,64,0x40,64
+Effects,Phaser,Phaser LFO Rate,0,0x00,0
+Effects,Phaser,Phaser LFO Depth,36,0x24,36
+Effects,Filter Bank,Filter Bank Type,Off,0x00,0
+Effects,Filter Bank,Filter Bank Mix / Amount,-100.0%,0x00,0
+Effects,Filter Bank,Filter Bank Frequency,127,0x7F,127
+Effects,Filter Bank,Filter Bank Stereo Phase,0,0x00,0
+Effects,Filter Bank Frequency Shifter,Frequency Shifter Left Shape,64,0x40,64
+Effects,Filter Bank Frequency Shifter,Frequency Shifter Right Shape,0,0x00,0
+Effects,Filter Bank Vowel Filter,Filter Bank Frequency / Vowel,`<u>`,0x7F,127
+Effects,Filter Bank Vowel Filter,Filter Bank Resonance,0 %,0x00,0
+Effects,Filter Bank Vowel Filter,Filter Bank Stereo Phase,0,0x00,0
+Effects,Filter Bank Comb Filter,Filter Bank Frequency,Unknown (7F),0x7F,127
+Effects,Filter Bank Comb Filter,Filter Bank Resonance,0 %,0x00,0
+Effects,Filter Bank Comb Filter,Filter Bank Stereo Phase,0,0x00,0
+Effects,Filter Bank 1-6 Pole XFade,Filter Bank Frequency,127,0x7F,127
+Effects,Filter Bank 1-6 Pole XFade,Filter Bank Resonance,0,0x00,0
+Effects,Filter Bank 1-6 Pole XFade,Filter Type,Band Pass,0x40,64
+Effects,Filter Bank VariSlopes,Filter Bank Frequency,127,0x7F,127
+Effects,Filter Bank VariSlopes,Filter Bank Resonance,0,0x00,0
+Effects,Filter Bank VariSlopes,Filter Bank Filter Poles,4.00,0x40,64
+Effects,Filter Bank VariSlopes,Filter Bank Filter Slope,0,0x00,0
+Effects,Equalizer,EQ Low Gain (db),51,0x33,51
+Effects,Equalizer,EQ Low Frequency (Hz),40,0x28,40
+Effects,Equalizer,EQ Mid Gain (db),−16 dB,0x00,0
+Effects,Equalizer,EQ Mid Frequency (Hz),64,0x40,64
+Effects,Equalizer,EQ Mid Q-Factor,71,0x47,71
+Effects,Equalizer,EQ High Gain (db),Off,0x40,64
+Effects,Equalizer,EQ High Frequency (Hz),43,0x2B,43
+Effects,Envelope Follower,Input Follower Select,Off,0x00,0
+Effects,Envelope Follower,Input Follower Sensitivity,28,0x1C,28
+Effects,Envelope Follower,Input Follower Envelope Attack,0,0x00,0
+Effects,Envelope Follower,Input Follower Envelope Release,64,0x40,64
+Effects,Input,Input Mode,64,0x40,64
+Effects,Input,Input Select,0,0x00,0
+Effects,Input,Input Atomizer,1,0x01,1
+Effects,Delay,Delay Send,−46.2 dB,0x01,1
+Effects,Delay,Delay Type,Classic,0x00,0
+Effects,Delay,Delay Mode,00,0x00,0
+Effects,Delay,Delay Clock,Off,0x00,0
+Effects,Delay,Delay Time (ms),0,0x00,0
+Effects,Delay,Delay Feedback,0,0x00,0
+Effects,Delay,Delay Coloration,01,0x01,1
+Effects,Delay,Delay LFO Rate,0,0x00,0
+Effects,Delay,Delay LFO Depth,16,0x10,16
+Effects,Delay,Delay LFO Shape,12,0x0C,12
+Effects,Delay Tape Clocked,Delay Tape Delay Clock Left,3/16,0x03,3
+Effects,Delay Tape Clocked,Delay Tape Delay Clock Right,4/16,0x04,4
+Effects,Delay Tape Clocked,Delay Tape Delay Feedback,0,0x00,0
+Effects,Delay Tape Clocked,Delay Tape Delay Center Frequency,1,0x01,1
+Effects,Delay Tape Clocked,Delay Tape Delay Bandwidth,0,0x00,0
+Effects,Delay Tape Clocked,Delay Tape Delay Modulation,16,0x10,16
+Effects,Delay Tape Free,Delay Tape Delay Ratio,1/4,0x00,0
+Effects,Delay Tape Free,Delay Tape Delay Time (ms),0,0x00,0
+Effects,Delay Tape Free,Delay Tape Delay Feedback,0,0x00,0
+Effects,Delay Tape Free,Delay Tape Delay Center Frequency,1,0x01,1
+Effects,Delay Tape Free,Delay Tape Delay Bandwidth,0,0x00,0
+Effects,Delay Tape Free,Delay Tape Delay Modulation,16,0x10,16
+Effects,Delay Tape Doppler,Delay Tape Delay Ratio,0,0x00,0
+Effects,Delay Tape Doppler,Delay Tape Delay Time (ms),0,0x00,0
+Effects,Delay Tape Doppler,Delay Tape Delay Feedback,0,0x00,0
+Effects,Delay Tape Doppler,Delay Tape Delay Center Frequency,01,0x01,1
+Effects,Delay Tape Doppler,Delay Tape Delay Bandwidth,00,0x00,0
+Effects,Delay Tape Doppler,Delay Tape Delay Modulation,10,0x10,16
+Effects,Reverb,Reverb Send,−46.2 dB,0x01,1
+Effects,Reverb,Reverb Mode,0,0x00,0
+Effects,Reverb,Reverb Type,0,0x00,0
+Effects,Reverb,Reverb Time,2,0x02,2
+Effects,Reverb,Reverb Damping,68,0x44,68
+Effects,Reverb,Reverb Coloration,-44,0x14,20
+Effects,Reverb,Reverb Predelay,64,0x40,64
+Effects,Reverb,Reverb Feedback,0,0x00,0
+Effects,Reverb,Reverb Clock,1/64,0x01,1
+Effects,Vocoder,Vocoder Mode,Off,0x00,0
+Effects,Vocoder,Vocoder Amount of Synthesis Bands,+0.0%,0x40,64
+Effects,Vocoder,Vocoder Balance (Dry-Wet),64,0x40,64
+Effects,Vocoder,Vocoder Spectral Balance,0,0x00,0
+Effects,Vocoder,Vocoder Envelope Attack,0,0x00,0
+Effects,Vocoder,Vocoder Envelope Release,0,0x00,0
+Effects,Vocoder,Vocoder Carrier Center Frequency,64,0x40,64
+Effects,Vocoder,Vocoder Carrier Frequency Spread,64,0x40,64
+Effects,Vocoder,Vocoder Carrier Q-Factor,0,0x00,0
+Effects,Vocoder,Vocoder Modulator Frequency Offset,81,0x51,81
+Effects,Vocoder,Vocoder Modulator Input,Off,0x00,0
+Single,Edit Single → Unison,Unison Voices,0,0x00,0
+Single,Edit Single → Unison,Unison Detune,0,0x00,0
+Single,Edit Single → Unison,Unison Pan Spread,48,0x30,48
+Single,Edit Single → Unison,Unison LFO Phase Offset,+63,0x7F,127
+Single,Common Parameters,Transpose / Patch Transpose,-64,0x00,0
+Single,Common Parameters,Parameter Smooth Mode,00,0x00,0
+Single,Common Parameters,Oscillator Section Keyboard Mode,64,0x40,64
+Single,Common Parameters,Patch Volume,64,0x40,64
+Single,Common Parameters,Panorama,-64,0x00,0
+Single,Pitch Bender,Bend Down,+2,0x42,66
+Single,Pitch Bender,Bend Up,1,0x01,1
+Single,Pitch Bender,Bender Scale,Unknown (3E),0x3E,62
+Single,Category,Patch Category 1,Arpeggiator,0x02,2
+Single,Category,Patch Category 2,0,0x00,0
+Single,Output,Surround Channel Balance,+0,0x40,64
+Single,Soft Knobs,Soft Knob 1 Function As…,Aftertouch,0x40,64
+Single,Soft Knobs,Soft Knob 1 Name,Reverb,0x40,64
+Single,Soft Knobs,Soft Knob 2 Function As…,0,0x00,0
+Single,Soft Knobs,Soft Knob 2 Name,>Para,0x00,0
+Single,Soft Knobs,Soft Knob 3 Function As…,0,0x00,0
+Single,Soft Knobs,Soft Knob 3 Name,>Para,0x00,0

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "json"
+require_relative "value_decoder"
 
 module VirusTi
   module Parameters
@@ -34,12 +35,13 @@ module VirusTi
         all.each do |entry|
           offset = entry["offset"]
           raw = bytes.getbyte(offset)
+          encoding = entry["encoding"] || { "type" => "direct" }
           grouped[entry["category"]] << {
             name: entry["name"],
             panel: entry["panel"],
-            offset: offset,
             raw: raw,
-            hex: format("0x%02X", raw)
+            hex: format("0x%02X", raw),
+            value: ValueDecoder.decode(raw, encoding)
           }
         end
 

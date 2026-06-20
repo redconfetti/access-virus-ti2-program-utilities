@@ -44,7 +44,7 @@ RSpec.describe VirusTi::Show do
       groups = described_class.parameter_groups(selection)
 
       expect(groups.map(&:first)).to eq(VirusTi::Parameters::CATEGORY_ORDER)
-      expect(groups.flat_map { |_category, params| params }.size).to eq(379)
+      expect(groups.flat_map { |_category, params| params }.size).to eq(373)
     end
   end
 end
@@ -68,7 +68,7 @@ RSpec.describe VirusTi::Output::Formatter do
     it "renders csv output" do
       csv = described_class.render(selection, groups, format: :csv)
 
-      expect(csv).to include("category,panel,parameter,offset,hex,decimal")
+      expect(csv).to include("category,panel,parameter,value,hex,decimal")
       expect(csv).to include("Dulcimer").or include("Osc/Mixer")
     end
 
