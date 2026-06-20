@@ -414,14 +414,14 @@ separate dump bytes **`0x0A6`** / **`0x0A7`** — see
 
 | Control | SubCategory | Dump offset | Live edit |
 | ------------------------------------- | -------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Filter 1 Mode | Filter 1 | `0x03B` | `70` / `0x33` |
+| Filter 1 Mode | Filter 1 | `0x03B` | `70` / `0x33` — [Filter 1 Mode](../live-edit/single/filters.md#filter-1-mode) |
 | Filter 1 Envelope Amount | Filter 1 | `0x034` | `70` / `0x2C` |
 | Filter 1 Envelope Polarity | Filter 1 | `0x0A6` | `71`/`1E` `00`/`01`; [shared panel](../live-edit/single/filters.md#filter-envelope-polarity--shared-panel-menus) |
 | Filter 1 Cutoff | Filter 1 | `0x030` | `70` / `0x28` |
 | Filter 1 Resonance | Filter 1 | `0x032` | `70` / `0x2A` — also **Vocoder Q-Factor** when Vocoder active |
 | Filter 1 Keyfollow | Filter 1 | `0x036` | `70` / `0x2E` — also **Vocoder Spread** when Vocoder active |
 | ~~Analog Mode On/Off Toggle~~ | — | — | **N/A** — analog types are **Filter 1 Mode** values (`04`–`07` Analog * Pole) |
-| Filter 2 Mode | Filter 2 | `0x03C` | `70` / `0x34` (4 modes `00`–`03` only) |
+| Filter 2 Mode | Filter 2 | `0x03C` | `70` / `0x34` — [Filter 2 Mode](../live-edit/single/filters.md#filter-2-mode) |
 | Filter 2 Envelope Amount | Filter 2 | `0x035` | `70` / `0x2D` (linear %) |
 | Filter 2 Envelope Polarity | Filter 2 | `0x0A7` | `71`/`1F` `00`/`01`; [shared panel](../live-edit/single/filters.md#filter-envelope-polarity--shared-panel-menus) |
 | ~~Filter 2 Cutoff~~ | — | — | **N/A** on TI — no separate F2 cutoff; use **Offset** vs F1 |

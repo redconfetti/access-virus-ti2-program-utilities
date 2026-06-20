@@ -51,7 +51,29 @@ module VirusTi
         "edit-single-panorama-lcd" => { "type" => "percent_bipolar" },
         "bender-scale" => { "type" => "strict_enum", "ref" => "bender-scale" },
         "patch-name-categories" => { "type" => "enum", "ref" => "patch-name-categories" },
-        "wavetable-names" => { "type" => "enum", "ref" => "wavetable-names" }
+        "wavetable-names" => { "type" => "enum", "ref" => "wavetable-names" },
+        "filter-1-mode" => {
+          "type" => "enum",
+          "values" => {
+            "00" => "Low Pass",
+            "01" => "High Pass",
+            "02" => "Band Pass",
+            "03" => "Band Stop",
+            "04" => "Analog 1 Pole",
+            "05" => "Analog 2 Pole",
+            "06" => "Analog 3 Pole",
+            "07" => "Analog 4 Pole"
+          }
+        },
+        "filter-2-mode" => {
+          "type" => "enum",
+          "values" => {
+            "00" => "Low Pass",
+            "01" => "High Pass",
+            "02" => "Band Pass",
+            "03" => "Band Stop"
+          }
+        }
       }.freeze
 
       # Live-edit anchors from effects.md (not parameter-options.md).

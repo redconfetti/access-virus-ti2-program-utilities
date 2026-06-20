@@ -24,17 +24,15 @@ module VirusTi
         lines << ""
 
         groups.each do |category, params|
-          lines << category
-          lines << "-" * category.length
-          params.each do |param|
-            lines << format(
-              "  %-40s  %-24s  (%s)",
-              param[:name],
-              param[:value],
-              param[:panel]
-            )
+          panel_groups(params).each do |panel, panel_params|
+            heading = panel_heading(category, panel)
+            lines << heading
+            lines << "-" * heading.length
+            panel_params.each do |param|
+              lines << format("  %-40s  %s", param[:name], param[:value])
+            end
+            lines << ""
           end
-          lines << ""
         end
 
         lines.join("\n")
@@ -66,26 +64,51 @@ module VirusTi
           pdf.move_down 16
 
           groups.each do |category, params|
-            pdf.text pdf_safe(category), size: 12, style: :bold
-            pdf.move_down 6
+            panel_groups(params).each do |panel, panel_params|
+              heading = panel_heading(category, panel)
+              pdf.text pdf_safe(heading), size: 12, style: :bold
+              pdf.move_down 6
 
-            rows = params.map do |param|
-              [pdf_safe(param[:name]), pdf_safe(param[:panel]), pdf_safe(param[:value]), param[:hex], param[:raw].to_s]
+              rows = panel_params.map do |param|
+                [pdf_safe(param[:name]), pdf_safe(param[:value]), param[:hex], param[:raw].to_s]
+              end
+
+              pdf.table(
+                [["Parameter", "Value", "Hex", "Dec"], *rows],
+                width: pdf.bounds.width,
+                header: true,
+                cell_style: { size: 7, padding: [2, 3, 2, 3] }
+              ) do
+                row(0).font_style = :bold
+              end
+
+              pdf.move_down 12
             end
-
-            pdf.table(
-              [["Parameter", "Panel", "Value", "Hex", "Dec"], *rows],
-              width: pdf.bounds.width,
-              header: true,
-              cell_style: { size: 7, padding: [2, 3, 2, 3] }
-            ) do
-              row(0).font_style = :bold
-            end
-
-            pdf.move_down 12
           end
         end.render
       end
+
+      def panel_groups(params)
+        panels = []
+        grouped = {}
+
+        params.each do |param|
+          panel = param[:panel]
+          unless grouped.key?(panel)
+            panels << panel
+            grouped[panel] = []
+          end
+          grouped[panel] << param
+        end
+
+        panels.map { |panel| [panel, grouped[panel]] }
+      end
+      private_class_method :panel_groups
+
+      def panel_heading(category, panel)
+        panel.to_s.empty? ? category : "#{category} - #{panel}"
+      end
+      private_class_method :panel_heading
 
       def pdf_safe(text)
         text.to_s

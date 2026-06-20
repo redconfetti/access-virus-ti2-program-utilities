@@ -117,6 +117,18 @@ module BuildParameterData
     live = live_edit.to_s
     control = control.to_s
 
+    if (ref = live[/filters\.md#([^\)\s]+)/, 1])
+      mapped = VirusTi::Parameters::EncodingRefs.for_ref(ref)
+      return mapped.dup if mapped
+    end
+
+    case control
+    when "Filter 1 Mode"
+      return VirusTi::Parameters::EncodingRefs.for_ref("filter-1-mode")
+    when "Filter 2 Mode"
+      return VirusTi::Parameters::EncodingRefs.for_ref("filter-2-mode")
+    end
+
     if control.match?(/^Mod Matrix Slot \d+ Destination/)
       return assign_target_encoding
     end

@@ -892,7 +892,17 @@
     "offset": 59,
     "category": "Filters",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "values": {
+        "00": "Low Pass",
+        "01": "High Pass",
+        "02": "Band Pass",
+        "03": "Band Stop",
+        "04": "Analog 1 Pole",
+        "05": "Analog 2 Pole",
+        "06": "Analog 3 Pole",
+        "07": "Analog 4 Pole"
+      }
     }
   },
   {
@@ -946,7 +956,13 @@
     "offset": 60,
     "category": "Filters",
     "encoding": {
-      "type": "direct"
+      "type": "enum",
+      "values": {
+        "00": "Low Pass",
+        "01": "High Pass",
+        "02": "Band Pass",
+        "03": "Band Stop"
+      }
     }
   },
   {

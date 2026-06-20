@@ -60,9 +60,18 @@ RSpec.describe VirusTi::Output::Formatter do
       text = described_class.render(selection, groups, format: :text)
 
       expect(text).to include("Dulcimer")
-      expect(text).to include("Osc/Mixer")
-      expect(text).to include("Filters")
-      expect(text).to include("Single")
+      expect(text).to include("Osc/Mixer -")
+      expect(text).to include("Filters - Filter 1")
+      expect(text).to include("Single -")
+      expect(text).not_to include("(Filter 1)")
+    end
+
+    it "renders filter modes with interpreted labels" do
+      text = described_class.render(selection, groups, format: :text)
+
+      expect(text).to include("Filter 1 Mode")
+      expect(text).to match(/Filter 1 Mode\s+Low Pass/)
+      expect(text).to match(/Filter 2 Mode\s+Low Pass/)
     end
 
     it "renders csv output" do
