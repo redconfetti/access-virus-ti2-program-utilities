@@ -1,0 +1,8 @@
+*.gem
+*.rbc
+/.bundle/
+/.ruby-lsp/
+/vendor/bundle/
+/tmp/
+/.DS_Store
+/spec/examples.txt
