@@ -20,15 +20,15 @@ bundle install
 bundle exec rspec
 
 # Brief file summary (type, message counts)
-ruby bin/virus-scan spec/fixtures/ostirus/arrangements/arcadia-arrangement.syx
+ruby bin/virus-scan spec/fixtures/virus-ti2/arrangements/multi-arrangement.syx
 
 # List programs or arrangement parts
-ruby bin/virus-list spec/fixtures/ostirus/banks/redconfetti.syx
+ruby bin/virus-list spec/fixtures/virus-ti2/banks/full-bank.syx
 
 # Show all parameters for one program or part
-ruby bin/virus-show --slot 1 spec/fixtures/ostirus/programs/organ-stab.syx
-ruby bin/virus-show --slot 3 spec/fixtures/ostirus/arrangements/arcadia-arrangement.syx
-ruby bin/virus-show --slot 1 --output csv params.csv spec/fixtures/ostirus/programs/organ-stab.syx
+ruby bin/virus-show --slot 1 spec/fixtures/virus-ti2/programs/DulcimerJM.syx
+ruby bin/virus-show --slot 3 spec/fixtures/virus-ti2/arrangements/multi-arrangement.syx
+ruby bin/virus-show --slot 1 --output csv params.csv spec/fixtures/virus-ti2/programs/DulcimerJM.syx
 ```
 
 Or via Rake:

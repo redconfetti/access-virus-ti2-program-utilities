@@ -21,17 +21,29 @@ module VirusTi
     def summarize(path)
       messages = FileReader.read_messages(path)
       arrangement = arrangement?(messages)
+      singles = messages.count(&:single_dump?)
+      multis = messages.count(&:multi_dump?)
 
       {
         path: path,
         message_count: messages.size,
-        singles: messages.count(&:single_dump?),
-        multis: messages.count(&:multi_dump?),
+        singles: singles,
+        multis: multis,
         arrangements: arrangement ? 1 : 0,
         virus_ti: messages.count(&:virus_ti?),
         commands: messages.group_by(&:command).transform_values(&:size),
-        arrangement: arrangement
+        arrangement: arrangement,
+        file_type: classify_file_type(arrangement: arrangement, singles: singles, multis: multis)
       }
+    end
+
+    def classify_file_type(arrangement:, singles:, multis:)
+      return :arrangement if arrangement
+      return :multis_bank if multis.positive? && singles > 1
+      return :bank if singles > 1
+      return :single if singles == 1
+
+      :other
     end
 
     def arrangement?(messages)

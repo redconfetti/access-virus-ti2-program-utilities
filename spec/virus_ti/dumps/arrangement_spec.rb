@@ -33,6 +33,23 @@ RSpec.describe VirusTi::Dumps::Arrangement do
       end
     end
 
+    context "with the multi-arrangement .syx fixture" do
+      subject(:arrangement) { described_class.from_file(fixture_path("virus-ti2/arrangements/multi-arrangement.syx")) }
+
+      it "parses one multi and sixteen parts" do
+        expect(arrangement.multi).to be_a(VirusTi::Dumps::Multi)
+        expect(arrangement.parts.size).to eq(16)
+      end
+
+      it "reads the multi name" do
+        expect(arrangement.name).to eq("Init Multi")
+      end
+
+      it "reads embedded single names per part" do
+        expect(arrangement.parts.map(&:name)).to eq(Fixtures::VIRUS_TI2_ARRANGEMENT_PART_NAMES)
+      end
+    end
+
     context "with the arcadia-arrangement .mid fixture" do
       it "matches the .syx export" do
         syx = described_class.from_file(fixture_path("ostirus/arrangements/arcadia-arrangement.syx"))
@@ -62,6 +79,12 @@ RSpec.describe VirusTi::Dumps::Arrangement do
   describe "WIRE_SIZE" do
     it "matches the arcadia-arrangement .syx fixture size" do
       size = File.size(fixture_path("ostirus/arrangements/arcadia-arrangement.syx"))
+
+      expect(size).to eq(described_class::WIRE_SIZE)
+    end
+
+    it "matches the multi-arrangement .syx fixture size" do
+      size = File.size(fixture_path("virus-ti2/arrangements/multi-arrangement.syx"))
 
       expect(size).to eq(described_class::WIRE_SIZE)
     end

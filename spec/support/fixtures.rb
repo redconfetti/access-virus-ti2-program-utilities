@@ -22,6 +22,25 @@ module Fixtures
     "Init -"
   ].freeze
 
+  VIRUS_TI2_ARRANGEMENT_PART_NAMES = [
+    "Cello",
+    "Acoustic",
+    "Banjo",
+    "Steel Drum",
+    "Arkadia4",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-",
+    "INIT-"
+  ].freeze
+
   ENTRIES = {
     "ostirus/banks/redconfetti.syx" => {
       source: :ostirus,
@@ -83,6 +102,51 @@ module Fixtures
       singles: 1,
       multis: 0,
       first: { bank: 1, slot: 0, name: "arkadia1" }
+    },
+    "virus-ti2/programs/DulcimerJM.syx" => {
+      source: :virus_ti2,
+      format: :syx,
+      kind: :single,
+      singles: 1,
+      multis: 0,
+      first: { bank: 0, slot: 0x7F, name: "Dulcimer" },
+      checksum_valid: true
+    },
+    "virus-ti2/programs/SteelDrumJM.syx" => {
+      source: :virus_ti2,
+      format: :syx,
+      kind: :single,
+      singles: 1,
+      multis: 0,
+      first: { bank: 0, slot: 0x7F, name: "Steel Drum" },
+      checksum_valid: true
+    },
+    "virus-ti2/banks/full-bank.syx" => {
+      source: :virus_ti2,
+      format: :syx,
+      kind: :bank,
+      singles: 128,
+      multis: 0,
+      first: { bank: 1, slot: 0, name: "arkadia1" },
+      last: { bank: 1, slot: 0x7F, name: "" }
+    },
+    "virus-ti2/multis-bank/multis-dump.syx" => {
+      source: :virus_ti2,
+      format: :syx,
+      kind: :multis_bank,
+      singles: 256,
+      multis: 128,
+      first_single: { bank: 0x20, slot: 0, name: "DarkliteSV" },
+      first_multi: { bank: 0x32, slot: 0, name: "Redcon1" }
+    },
+    "virus-ti2/arrangements/multi-arrangement.syx" => {
+      source: :virus_ti2,
+      format: :syx,
+      kind: :arrangement,
+      singles: 16,
+      multis: 1,
+      multi_name: "Init Multi",
+      part_names: VIRUS_TI2_ARRANGEMENT_PART_NAMES
     }
   }.freeze
 
@@ -112,6 +176,10 @@ module Fixtures
 
   def bank_entries
     ENTRIES.select { |_relative, metadata| metadata[:kind] == :bank }
+  end
+
+  def multis_bank_entries
+    ENTRIES.select { |_relative, metadata| metadata[:kind] == :multis_bank }
   end
 
   def arrangement_entries

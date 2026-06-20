@@ -6,8 +6,10 @@ module VirusTi
 
     RAM_BANKS = ("A".."D").each_with_index.to_h { |letter, index| [index + 1, "RAM #{letter}"] }.freeze
     ROM_BANKS = ("A".."Z").each_with_index.to_h { |letter, index| [index + 5, "ROM #{letter}"] }.freeze
+    SINGLE_EXPORT_BANKS = (0x20..0x2F).each_with_index.to_h { |byte, index| [byte, "Singles bank #{index + 1}"] }.freeze
+    MULTI_RAM_BANKS = { 0x32 => "Multi RAM A" }.freeze
 
-    STORED_BANKS = RAM_BANKS.merge(ROM_BANKS).freeze
+    STORED_BANKS = RAM_BANKS.merge(ROM_BANKS).merge(SINGLE_EXPORT_BANKS).merge(MULTI_RAM_BANKS).freeze
 
     module_function
 
@@ -27,7 +29,7 @@ module VirusTi
       elsif bank_byte.zero? && slot_byte <= 0x0F
         "Multi part #{slot_byte + 1}"
       elsif bank_byte.zero? && slot_byte == 0x7F
-        "Edit buffer"
+        "Single edit buffer"
       else
         "Program #{slot_number(slot_byte)}"
       end

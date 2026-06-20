@@ -34,6 +34,18 @@ RSpec.describe "fixtures" do
 
         expect(arrangement.name).to eq(metadata[:multi_name]), "#{relative} multi name"
         expect(arrangement.parts.map(&:name)).to eq(metadata[:part_names]), "#{relative} part names"
+      when :multis_bank
+        singles = VirusTi::List.singles(full_path)
+        multis = VirusTi::List.multis(full_path)
+        expected_single = metadata[:first_single]
+        expected_multi = metadata[:first_multi]
+
+        expect(singles.first.bank_byte).to eq(expected_single[:bank]), "#{relative} first single bank"
+        expect(singles.first.slot_byte).to eq(expected_single[:slot]), "#{relative} first single slot"
+        expect(singles.first.name).to eq(expected_single[:name]), "#{relative} first single name"
+        expect(multis.first.bank_byte).to eq(expected_multi[:bank]), "#{relative} first multi bank"
+        expect(multis.first.slot_byte).to eq(expected_multi[:slot]), "#{relative} first multi slot"
+        expect(multis.first.name).to eq(expected_multi[:name]), "#{relative} first multi name"
       else
         singles = VirusTi::List.singles(full_path)
         first = singles.first
@@ -42,6 +54,15 @@ RSpec.describe "fixtures" do
         expect(first.bank_byte).to eq(expected[:bank]), "#{relative} bank"
         expect(first.slot_byte).to eq(expected[:slot]), "#{relative} slot"
         expect(first.name).to eq(expected[:name]), "#{relative} name"
+
+        next unless metadata[:last]
+
+        last = singles.last
+        expected_last = metadata[:last]
+
+        expect(last.bank_byte).to eq(expected_last[:bank]), "#{relative} last bank"
+        expect(last.slot_byte).to eq(expected_last[:slot]), "#{relative} last slot"
+        expect(last.name).to eq(expected_last[:name]), "#{relative} last name"
       end
     end
   end
@@ -88,6 +109,23 @@ RSpec.describe "fixtures" do
       expect(singles.size).to eq(metadata[:singles]), relative
       expect(singles.map(&:slot_byte).uniq.size).to eq(metadata[:singles]), "#{relative} unique slots"
     end
+  end
+
+  it "multis bank fixtures contain the expected singles and multis" do
+    Fixtures.multis_bank_entries.each do |relative, metadata|
+      singles = VirusTi::List.singles(fixture_path(relative))
+      multis = VirusTi::List.multis(fixture_path(relative))
+
+      expect(singles.size).to eq(metadata[:singles]), "#{relative} singles"
+      expect(multis.size).to eq(metadata[:multis]), "#{relative} multis"
+    end
+  end
+
+  it "Virus TI2 fixtures are classified with the expected file types" do
+    expect(VirusTi::Scan.summarize(fixture_path("virus-ti2/programs/DulcimerJM.syx"))[:file_type]).to eq(:single)
+    expect(VirusTi::Scan.summarize(fixture_path("virus-ti2/banks/full-bank.syx"))[:file_type]).to eq(:bank)
+    expect(VirusTi::Scan.summarize(fixture_path("virus-ti2/multis-bank/multis-dump.syx"))[:file_type]).to eq(:multis_bank)
+    expect(VirusTi::Scan.summarize(fixture_path("virus-ti2/arrangements/multi-arrangement.syx"))[:file_type]).to eq(:arrangement)
   end
 
   it "checksum expectations when specified" do

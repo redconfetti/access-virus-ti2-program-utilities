@@ -18,6 +18,21 @@ RSpec.describe VirusTi::Banks do
     it "labels the edit buffer" do
       expect(described_class.label(0)).to eq("Edit buffer")
     end
+
+    it "maps singles export bank bytes from hardware dumps" do
+      expect(described_class.label(0x20)).to eq("Singles bank 1")
+      expect(described_class.label(0x2F)).to eq("Singles bank 16")
+    end
+
+    it "maps multi RAM bank bytes from hardware dumps" do
+      expect(described_class.label(0x32)).to eq("Multi RAM A")
+    end
+  end
+
+  describe ".slot_label" do
+    it "labels the single edit buffer slot" do
+      expect(described_class.slot_label(0, 0x7F)).to eq("Single edit buffer")
+    end
   end
 
   describe ".slot_number" do

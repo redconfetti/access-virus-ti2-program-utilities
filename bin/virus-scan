@@ -14,6 +14,10 @@ lines << "Virus TI: #{summary[:virus_ti]}"
 if summary[:arrangement]
   lines << "Type: Arrangement"
   lines << "Parts: #{summary[:singles]}"
+elsif summary[:file_type] == :multis_bank
+  lines << "Type: Singles + Multis bank"
+  lines << "Programs: #{summary[:singles]}"
+  lines << "Multis: #{summary[:multis]}"
 elsif summary[:singles] > 1
   lines << "Type: Bank"
   lines << "Programs: #{summary[:singles]}"
